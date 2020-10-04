@@ -1,5 +1,5 @@
 item,trial type,max time,text,Shuffle 1,correct_feedback,incorrect_feedback,
-0,instruct,user,"Please complete this task on a laptop or desktop computer, NOT a mobile phone.",off,,,
+0,instruct,user,You will be given some arithmetic to do. Please complete in your own time,off,,,
 2,arithmetic,user,,neutral,Correct,Incorrect,
 3,arithmetic,user,,neutral,Correct,Incorrect,
 4,arithmetic,user,,neutral,Correct,Incorrect,
