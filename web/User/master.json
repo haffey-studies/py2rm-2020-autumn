@@ -7496,6 +7496,17 @@
               ""
             ],
             [
+              "",
+              "",
+              "",
+              "10",
+              "8",
+              "7",
+              "5",
+              "x",
+              ""
+            ],
+            [
               null,
               null,
               null,
@@ -7530,7 +7541,7 @@
           "procedure_1.csv": "item,trial type,max time,text,Shuffle 1,\r\n2,arithmetic,user,,off,\r\n,,,,,"
         },
         "stims_csv": {
-          "arithmetic_questions.csv": "cue,answer,time_limit,row_1_tens,row_1_units,row_2_tens,row_2_units,add_sub_mult,\r\nA,Apple,10000,2,3,4,5,x,\r\nB,Banana,10000,2,3,4,5,x,\r\n,,,2,3,4,5,x,\r\n,,,3,4,5,6,x,\r\n,,,6,7,8,9,x,\r\n,,,9,8,6,4,x,\r\n,,,,,,,,"
+          "arithmetic_questions.csv": "cue,answer,time_limit,row_1_tens,row_1_units,row_2_tens,row_2_units,add_sub_mult,\r\nA,Apple,10000,2,3,4,5,x,\r\nB,Banana,10000,2,3,4,5,x,\r\n,,,2,3,4,5,x,\r\n,,,3,4,5,6,x,\r\n,,,6,7,8,9,x,\r\n,,,9,8,6,4,x,\r\n,,,10,8,7,5,x,\r\n,,,,,,,,"
         },
         "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,arithmetic_questions.csv,procedure_1.csv,off,,on,,,5,,\r\ngrowth_first_2,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,\r\ngrowth_first_3,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,\r\n,,,,,,,,,,,",
         "conditions": [
