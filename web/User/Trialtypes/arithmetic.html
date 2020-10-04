@@ -13,6 +13,9 @@
   width:600;
   height:600;
 }
+#proceed_btn{
+  display:none;
+}
 td {
   padding:10px;
   margin:5px;
@@ -104,7 +107,7 @@ input{
     </tr>
   </table>
   <button class="btn btn-large btn-primary" id="check_answers_btn">Check Answers</button>
-  
+  <button class="btn btn-large btn-primary" onclick="Trial.submit()" id="proceed_btn">Proceed</button>
 </div>
 <script>
 var answer_array = [
@@ -125,5 +128,6 @@ $("#check_answers_btn").on("click",function(){
       $("#feedback_" + i).html("<span class='text-danger'>{{incorrect_feedback}}</span>");
     }
   }
+  $("#proceed_btn").show();
 });
 </script>

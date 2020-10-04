@@ -409,6 +409,35 @@ Study = {
 			})[0];
 			this_post_iframe.style["visibility"] = "visible";
 
+      /*
+      * apply zoom
+      */
+      var these_iframes = document
+                          .getElementById("trial" + exp_json.trial_no)
+                          .contentWindow
+                          .document
+                          .getElementsByClassName("post_iframe");
+      console.dir("these_iframes");
+      console.dir(these_iframes);
+      for(var i = 0; i < these_iframes.length; i++){
+        var this_iframe = these_iframes[i];
+        this_iframe_style = this_iframe
+          .contentWindow
+          .document
+          .body
+          .style;
+        this_iframe_style.zoom = parent.parent.current_zoom;
+        this_iframe_style.MozTransform = "scale(" +
+          parent.parent.current_zoom +
+        ")";
+      }
+
+
+
+
+
+
+
 			$("#trial"+exp_json.trial_no).css("display","inline-block");
 			$("#trial"+exp_json.trial_no).css("width", "100%");
 			$("#trial"+exp_json.trial_no).css("height", "100%");
