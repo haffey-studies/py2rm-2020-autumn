@@ -1,0 +1,219 @@
+{
+  "all_procs": {
+    "procedure_1.csv": [
+      [
+        "item",
+        "trial type",
+        "max time",
+        "text",
+        "Shuffle 1",
+        ""
+      ],
+      [
+        "2",
+        "arithmetic",
+        "user",
+        "",
+        "off",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  "cond_array": [
+    [
+      "name",
+      "notes",
+      "stimuli",
+      "procedure",
+      "fullscreen",
+      "welcome",
+      "participant_id",
+      "end_message",
+      "start_message",
+      "buffer",
+      "scripts",
+      ""
+    ],
+    [
+      "condition_1",
+      "You can put more detailed notes in this field",
+      "arithmetic_questions.csv",
+      "procedure_1.csv",
+      "off",
+      "",
+      "on",
+      "",
+      "",
+      "5",
+      "",
+      ""
+    ],
+    [
+      "growth_first_2",
+      "You can put more detailed notes in this field",
+      "stimuli_1.csv",
+      "procedure_1.csv",
+      "off",
+      "",
+      "on",
+      "",
+      "",
+      "5",
+      "",
+      ""
+    ],
+    [
+      "growth_first_3",
+      "You can put more detailed notes in this field",
+      "stimuli_1.csv",
+      "procedure_1.csv",
+      "off",
+      "",
+      "on",
+      "",
+      "",
+      "5",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "all_stims": {
+    "arithmetic_questions.csv": [
+      [
+        "cue",
+        "answer",
+        "time_limit",
+        "row_1_tens",
+        "row_1_units",
+        "row_2_tens",
+        "row_2_units",
+        "add_sub_mult",
+        ""
+      ],
+      [
+        "A",
+        "Apple",
+        "10000",
+        "2",
+        "3",
+        "4",
+        "5",
+        "x",
+        ""
+      ],
+      [
+        "B",
+        "Banana",
+        "10000",
+        "2",
+        "3",
+        "4",
+        "5",
+        "x",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  "public_key": "o1MdjqkGllwCzH2nivg4Rnts94GQSmQRkHZc+7P4fi4=",
+  "parsed_procs": {
+    "procedure_1.csv": [
+      {
+        "item": "2",
+        "trial type": "arithmetic",
+        "max time": "user",
+        "text": "",
+        "": "",
+        "shuffle 1": "off"
+      }
+    ]
+  },
+  "surveys": {},
+  "trialtypes": {
+    "instruct": "<!--\n/*  Collector (Garcia, Kornell, Kerr, Blake & Haffey)\n    A program for running experiments on the web\n    Copyright 2012-2016 Mikey Garcia & Nate Kornell\n\n\n    This program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License version 3 as published by\n    the Free Software Foundation.\n\n    This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n\n    You should have received a copy of the GNU General Public License\n    along with this program.  If not, see <http://www.gnu.org/licenses/>\n \t\t\n\t\tKitten release (2019) author: Dr. Anthony Haffey (a.haffey@reading.ac.uk)\t\t\n*/\n-->\n<style>\n#instruct_text{\n  margin:auto;\n  width:500px;\n  padding:50px;\n  max-height:600px;\n  text-align: center;  \n}\n#proceed_button{\n  position:absolute;\n  right: 20px;\n}\n#trial_contents{\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:600;\n  height:600;\n}\n</style>\n<div id=\"trial_contents\">\n  <div id=\"instruct_text\">{{text}}</div>\n  <div>\n    <button class=\"btn btn-primary\" id=\"proceed_button\" onclick=\"Trial.submit()\">Proceed</button>\n  </div>\n</div>",
+    "arithmetic": "<style>\n.trial_no{\n  width:50px;\n  height:50px;\n}\n#everything{\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:600;\n  height:600;\n}\ntd {\n  padding:10px;\n  margin:5px;\n}\n</style>\n\n<div id=\"everything\">\n  <h2 class=\"text-primary\">{{row_1_tens}}{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}{{row_2_units}}</h2>\n\n  <table>\n    <tr>\n      <td>\n        <h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>:</h5>\n      </td>\n      <td>\n        <h5>{{row_1_units}} {{add_sub_mult}} {{row_2_units}}</h5>\n      </td>\n      <td>=</td>\n      <td>\n        <input type=\"text\" id=\"row_1_thousands\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <input type=\"text\" id=\"row_1_hundreds\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <input type=\"text\" id=\"row_1_tens\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <input type=\"text\" id=\"row_1_units\" class=\"trial_no\"/>\n      </td>\n    </tr>\n    <tr>\n      <td><h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\n      <td><h5>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}0</h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"text\" id=\"row_2_thousands\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <input type=\"text\" id=\"row_2_hundreds\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <input type=\"text\" id=\"row_2_tens\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <input type=\"text\" id=\"row_2_units\" class=\"trial_no\"/>\n      </td>\n    </tr>\n    \n    <tr>\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>: </h5></td>\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_units}}</h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"text\" id=\"row_3_thousands\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <input type=\"text\" id=\"row_3_hundreds\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <input type=\"text\" id=\"row_3_tens\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <input type=\"text\" id=\"row_3_units\" class=\"trial_no\"/>\n      </td>\n    </tr>\n    \n    <tr>\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_tens}}0 </h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"text\" id=\"row_3_thousands\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <input type=\"text\" id=\"row_3_hundreds\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <input type=\"text\" id=\"row_3_tens\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <input type=\"text\" id=\"row_3_units\" class=\"trial_no\"/>\n      </td>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td colspan = \"4\"><hr></rd>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td></rd>\n      <td></rd>\n      <td></rd>\n      <td></rd>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td colspan = \"4\"><hr></rd>\n    </tr>\n    \n    \n  </table>\n  \n</div>"
+  },
+  "procs_csv": {
+    "procedure_1.csv": "item,trial type,max time,text,Shuffle 1,\r\n2,arithmetic,user,,off,\r\n,,,,,"
+  },
+  "stims_csv": {
+    "arithmetic_questions.csv": "cue,answer,time_limit,row_1_tens,row_1_units,row_2_tens,row_2_units,add_sub_mult,\r\nA,Apple,10000,2,3,4,5,x,\r\nB,Banana,10000,2,3,4,5,x,\r\n,,,,,,,,"
+  },
+  "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,arithmetic_questions.csv,procedure_1.csv,off,,on,,,5,,\r\ngrowth_first_2,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,\r\ngrowth_first_3,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,\r\n,,,,,,,,,,,",
+  "conditions": [
+    {
+      "name": "condition_1",
+      "notes": "You can put more detailed notes in this field",
+      "stimuli": "arithmetic_questions.csv",
+      "procedure": "procedure_1.csv",
+      "fullscreen": "off",
+      "welcome": "",
+      "participant_id": "on",
+      "end_message": "",
+      "start_message": "",
+      "buffer": "5",
+      "scripts": "",
+      "": ""
+    },
+    {
+      "name": "growth_first_2",
+      "notes": "You can put more detailed notes in this field",
+      "stimuli": "stimuli_1.csv",
+      "procedure": "procedure_1.csv",
+      "fullscreen": "off",
+      "welcome": "",
+      "participant_id": "on",
+      "end_message": "",
+      "start_message": "",
+      "buffer": "5",
+      "scripts": "",
+      "": ""
+    },
+    {
+      "name": "growth_first_3",
+      "notes": "You can put more detailed notes in this field",
+      "stimuli": "stimuli_1.csv",
+      "procedure": "procedure_1.csv",
+      "fullscreen": "off",
+      "welcome": "",
+      "participant_id": "on",
+      "end_message": "",
+      "start_message": "",
+      "buffer": "5",
+      "scripts": "",
+      "": ""
+    }
+  ]
+}

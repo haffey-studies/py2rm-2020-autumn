@@ -1,0 +1,119 @@
+<style>
+.trial_no{
+  width:50px;
+  height:50px;
+}
+#everything{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin:auto;
+  width:600;
+  height:600;
+}
+td {
+  padding:10px;
+  margin:5px;
+}
+</style>
+
+<div id="everything">
+  <h2 class="text-primary">{{row_1_tens}}{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}{{row_2_units}}</h2>
+
+  <table>
+    <tr>
+      <td>
+        <h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>:</h5>
+      </td>
+      <td>
+        <h5>{{row_1_units}} {{add_sub_mult}} {{row_2_units}}</h5>
+      </td>
+      <td>=</td>
+      <td>
+        <input type="text" id="row_1_thousands" class="trial_no"/>
+      </td>
+      <td>
+        <input type="text" id="row_1_hundreds" class="trial_no"/>
+      </td>
+      <td>
+        <input type="text" id="row_1_tens" class="trial_no"/>
+      </td>
+      <td>
+        <input type="text" id="row_1_units" class="trial_no"/>
+      </td>
+    </tr>
+    <tr>
+      <td><h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>
+      <td><h5>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}0</h5></td>
+      <td>=</td>
+      <td>
+        <input type="text" id="row_2_thousands" class="trial_no"/>
+      </td>
+      <td>
+        <input type="text" id="row_2_hundreds" class="trial_no"/>
+      </td>
+      <td>
+        <input type="text" id="row_2_tens" class="trial_no"/>
+      </td>
+      <td>
+        <input type="text" id="row_2_units" class="trial_no"/>
+      </td>
+    </tr>
+    
+    <tr>
+      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>: </h5></td>
+      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_units}}</h5></td>
+      <td>=</td>
+      <td>
+        <input type="text" id="row_3_thousands" class="trial_no"/>
+      </td>
+      <td>
+        <input type="text" id="row_3_hundreds" class="trial_no"/>
+      </td>
+      <td>
+        <input type="text" id="row_3_tens" class="trial_no"/>
+      </td>
+      <td>
+        <input type="text" id="row_3_units" class="trial_no"/>
+      </td>
+    </tr>
+    
+    <tr>
+      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>
+      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_tens}}0 </h5></td>
+      <td>=</td>
+      <td>
+        <input type="text" id="row_3_thousands" class="trial_no"/>
+      </td>
+      <td>
+        <input type="text" id="row_3_hundreds" class="trial_no"/>
+      </td>
+      <td>
+        <input type="text" id="row_3_tens" class="trial_no"/>
+      </td>
+      <td>
+        <input type="text" id="row_3_units" class="trial_no"/>
+      </td>
+    </tr>
+    <tr>
+      <td colspan = "3"></td>
+      <td colspan = "4"><hr></rd>
+    </tr>
+    <tr>
+      <td colspan = "3"></td>
+      <td></rd>
+      <td></rd>
+      <td></rd>
+      <td></rd>
+    </tr>
+    <tr>
+      <td colspan = "3"></td>
+      <td colspan = "4"><hr></rd>
+    </tr>
+    
+    
+  </table>
+  
+</div>
