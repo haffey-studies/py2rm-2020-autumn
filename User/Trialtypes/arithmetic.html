@@ -1,6 +1,6 @@
 <style>
 .trial_no{
-  width:50px;
+  width:150px;
   height:50px;
 }
 #everything{
@@ -17,6 +17,15 @@ td {
   padding:10px;
   margin:5px;
 }
+input{
+  float: right;
+  clear: both;
+  text-align: right;
+  letter-spacing: 1em;
+}
+.form-control {
+  display: inline-block;
+}
 </style>
 
 <div id="everything">
@@ -32,16 +41,10 @@ td {
       </td>
       <td>=</td>
       <td>
-        <input type="text" id="row_1_thousands" class="trial_no"/>
+        <input type="number" id="row_1_answer" class="trial_no form-control pull-right"/>
       </td>
       <td>
-        <input type="text" id="row_1_hundreds" class="trial_no"/>
-      </td>
-      <td>
-        <input type="text" id="row_1_tens" class="trial_no"/>
-      </td>
-      <td>
-        <input type="text" id="row_1_units" class="trial_no"/>
+        <h3 id="feedback_1"></h3>
       </td>
     </tr>
     <tr>
@@ -49,16 +52,10 @@ td {
       <td><h5>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}0</h5></td>
       <td>=</td>
       <td>
-        <input type="text" id="row_2_thousands" class="trial_no"/>
+        <input type="number" id="row_2_answer" class="trial_no"/>
       </td>
       <td>
-        <input type="text" id="row_2_hundreds" class="trial_no"/>
-      </td>
-      <td>
-        <input type="text" id="row_2_tens" class="trial_no"/>
-      </td>
-      <td>
-        <input type="text" id="row_2_units" class="trial_no"/>
+        <h3 id="feedback_2"></h3>
       </td>
     </tr>
     
@@ -67,16 +64,10 @@ td {
       <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_units}}</h5></td>
       <td>=</td>
       <td>
-        <input type="text" id="row_3_thousands" class="trial_no"/>
+        <input type="number" id="row_3_answer" class="trial_no"/>
       </td>
       <td>
-        <input type="text" id="row_3_hundreds" class="trial_no"/>
-      </td>
-      <td>
-        <input type="text" id="row_3_tens" class="trial_no"/>
-      </td>
-      <td>
-        <input type="text" id="row_3_units" class="trial_no"/>
+        <h3 id="feedback_3"></h3>
       </td>
     </tr>
     
@@ -85,35 +76,54 @@ td {
       <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_tens}}0 </h5></td>
       <td>=</td>
       <td>
-        <input type="text" id="row_3_thousands" class="trial_no"/>
+        <input type="number" id="row_4_answer" class="trial_no"/>
       </td>
       <td>
-        <input type="text" id="row_3_hundreds" class="trial_no"/>
-      </td>
-      <td>
-        <input type="text" id="row_3_tens" class="trial_no"/>
-      </td>
-      <td>
-        <input type="text" id="row_3_units" class="trial_no"/>
+        <h3 id="feedback_4"></h3>
       </td>
     </tr>
     <tr>
       <td colspan = "3"></td>
-      <td colspan = "4"><hr></rd>
+      <td><hr></rd>
     </tr>
     <tr>
       <td colspan = "3"></td>
-      <td></rd>
-      <td></rd>
-      <td></rd>
-      <td></rd>
+      <td>
+        <input type="number" id="row_5_answer" class="trial_no"/>
+      </td>
+      <td>
+        <h3 id="feedback_5"></h3>
+      </td>
     </tr>
     <tr>
       <td colspan = "3"></td>
-      <td colspan = "4"><hr></rd>
     </tr>
-    
-    
+    <tr>
+      <td colspan = "3"></td>
+      <td><hr></rd>
+    </tr>
   </table>
+  <button class="btn btn-large btn-primary" id="check_answers_btn">Check Answers</button>
   
 </div>
+<script>
+var answer_array = [
+  null,
+  "{{answer_1}}",
+  "{{answer_2}}",
+  "{{answer_3}}",
+  "{{answer_4}}",
+  "{{answer_5}}"
+];
+$("#check_answers_btn").on("click",function(){
+  for(var i=1; i<6; i++){
+    console.dir(i);
+    console.dir($('#row_' + i + '_answer').val());
+    if($("#row_" + i + "_answer").val() == answer_array[i]){
+      $("#feedback_" + i).html("<span class='text-success'>{{correct_feedback}}</span>");
+    } else {
+      $("#feedback_" + i).html("<span class='text-danger'>{{incorrect_feedback}}</span>");
+    }
+  }
+});
+</script>
