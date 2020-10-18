@@ -7330,6 +7330,16 @@
             ],
             [
               "0",
+              "create_feedback",
+              "user",
+              null,
+              "off",
+              null,
+              null,
+              null
+            ],
+            [
+              "0",
               "instruct",
               "user",
               "You will be given some arithmetic to do. Please complete in your own time",
@@ -8235,6 +8245,16 @@
           "procedure_1.csv": [
             {
               "item": "0",
+              "trial type": "create_feedback",
+              "max time": "user",
+              "text": "",
+              "correct_feedback": "",
+              "incorrect_feedback": "",
+              "": "",
+              "shuffle 1": "off"
+            },
+            {
+              "item": "0",
               "trial type": "instruct",
               "max time": "user",
               "text": "You will be given some arithmetic to do. Please complete in your own time",
@@ -8518,10 +8538,11 @@
         "surveys": {},
         "trialtypes": {
           "instruct": "<!--\n/*  Collector (Garcia, Kornell, Kerr, Blake & Haffey)\n    A program for running experiments on the web\n    Copyright 2012-2016 Mikey Garcia & Nate Kornell\n\n\n    This program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License version 3 as published by\n    the Free Software Foundation.\n\n    This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n\n    You should have received a copy of the GNU General Public License\n    along with this program.  If not, see <http://www.gnu.org/licenses/>\n \t\t\n\t\tKitten release (2019) author: Dr. Anthony Haffey (team@someopen.solutions)\t\t\n*/\n-->\n<style>\n#instruct_text{\n  margin:auto;\n  width:500px;\n  padding:50px;\n  max-height:600px;\n  text-align: center;  \n}\n#proceed_button{\n  position:absolute;\n  right: 20px;\n}\n#trial_contents{\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:600;\n  height:600;\n}\n</style>\n<div id=\"trial_contents\">\n  <div id=\"instruct_text\">{{text}}</div>\n  <div>\n    <button class=\"btn btn-primary\" id=\"proceed_button\" onclick=\"Trial.submit()\">Proceed</button>\n  </div>\n</div>",
-          "arithmetic": "<style>\n.trial_no{\n  width:150px;\n  height:50px;\n}\n#everything{\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:600;\n  height:600;\n}\n#proceed_btn{\n  display:none;\n}\ntd {\n  padding:10px;\n  margin:5px;\n}\ninput{\n  float: right;\n  clear: both;\n  text-align: right;\n  letter-spacing: 1em;\n}\n.form-control {\n  display: inline-block;\n}\n</style>\n\n<div id=\"everything\">\n  <h2 class=\"text-primary\">{{row_1_tens}}{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}{{row_2_units}}</h2>\n\n  <table>\n    <tr>\n      <td>\n        <h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>:</h5>\n      </td>\n      <td>\n        <h5>{{row_1_units}} {{add_sub_mult}} {{row_2_units}}</h5>\n      </td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_1_answer\" class=\"trial_no form-control pull-right\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_1\"></h3>\n      </td>\n    </tr>\n    <tr>\n      <td><h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\n      <td><h5>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}0</h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_2_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_2\"></h3>\n      </td>\n    </tr>\n    \n    <tr>\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>: </h5></td>\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_units}}</h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_3_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_3\"></h3>\n      </td>\n    </tr>\n    \n    <tr>\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_tens}}0 </h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_4_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_4\"></h3>\n      </td>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td><hr></rd>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td>\n        <input type=\"number\" id=\"row_5_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_5\"></h3>\n      </td>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td><hr></rd>\n    </tr>\n  </table>\n  <button class=\"btn btn-large btn-primary\" id=\"check_answers_btn\">Check Answers</button>\n  <button class=\"btn btn-large btn-primary\" onclick=\"Trial.submit()\" id=\"proceed_btn\">Proceed</button>\n</div>\n<script>\n\nvar answer_array = [\n  null,\n  \"{{answer_1}}\",\n  \"{{answer_2}}\",\n  \"{{answer_3}}\",\n  \"{{answer_4}}\",\n  \"{{answer_5}}\"\n];\n$(\"#check_answers_btn\").on(\"click\",function(){\n  for(var i=1; i<5; i++){\n    console.dir(i);\n    console.dir($('#row_' + i + '_answer').val());\n    if($(\"#row_\" + i + \"_answer\").val() == answer_array[i]){\n      $(\"#feedback_\" + i).html(\"<span class='text-success'>Correct</span>\");\n    } else {\n      $(\"#feedback_\" + i).html(\"<span class='text-danger'>Incorrect</span>\");\n    }\n  }\n  if($(\"#row_\" + i + \"_answer\").val() == answer_array[i]){\n    $(\"#feedback_5\").html(\"<span class='text-success'>{{correct_feedback}}</span>\");\n  } else {\n    $(\"#feedback_5\").html(\"<span class='text-danger'>{{incorrect_feedback}}</span>\");\n  }\n  $(\"#proceed_btn\").show();\n});\n</script>"
+          "arithmetic": "<style>\n.trial_no{\n  width:150px;\n  height:50px;\n}\n#everything{\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:600;\n  height:600;\n}\n#proceed_btn{\n  display:none;\n}\ntd {\n  padding:10px;\n  margin:5px;\n}\ninput{\n  float: right;\n  clear: both;\n  text-align: right;\n  letter-spacing: 1em;\n}\n.form-control {\n  display: inline-block;\n}\n</style>\n\n<div id=\"everything\">\n  <h2 class=\"text-primary\">{{row_1_tens}}{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}{{row_2_units}}</h2>\n\n  <table>\n    <tr>\n      <td>\n        <h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>:</h5>\n      </td>\n      <td>\n        <h5>{{row_1_units}} {{add_sub_mult}} {{row_2_units}}</h5>\n      </td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_1_answer\" class=\"trial_no form-control pull-right\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_1\"></h3>\n      </td>\n    </tr>\n    <tr>\n      <td><h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\n      <td><h5>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}0</h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_2_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_2\"></h3>\n      </td>\n    </tr>\n    \n    <tr>\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>: </h5></td>\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_units}}</h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_3_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_3\"></h3>\n      </td>\n    </tr>\n    \n    <tr>\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_tens}}0 </h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_4_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_4\"></h3>\n      </td>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td><hr></rd>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td>\n        <input type=\"number\" id=\"row_5_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_5\"></h3>\n      </td>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td><hr></rd>\n    </tr>\n  </table>\n  <button class=\"btn btn-large btn-primary\" id=\"check_answers_btn\">Check Answers</button>\n  <button class=\"btn btn-large btn-primary\" onclick=\"Trial.submit()\" id=\"proceed_btn\">Proceed</button>\n</div>\n<script>\n\nvar answer_array = [\n  null,\n  \"{{answer_1}}\",\n  \"{{answer_2}}\",\n  \"{{answer_3}}\",\n  \"{{answer_4}}\",\n  \"{{answer_5}}\"\n];\n$(\"#check_answers_btn\").on(\"click\",function(){\n  for(var i=1; i<5; i++){\n    console.dir(i);\n    console.dir($('#row_' + i + '_answer').val());\n    if($(\"#row_\" + i + \"_answer\").val() == answer_array[i]){\n      $(\"#feedback_\" + i).html(\"<span class='text-success'>Correct</span>\");\n    } else {\n      $(\"#feedback_\" + i).html(\"<span class='text-danger'>Incorrect</span>\");\n    }\n  }\n  if($(\"#row_\" + i + \"_answer\").val() == answer_array[i]){\n    $(\"#feedback_5\").html(\"<span class='text-success'>{{correct_feedback}}</span>\");\n  } else {\n    $(\"#feedback_5\").html(\"<span class='text-danger'>{{incorrect_feedback}}</span>\");\n  }\n  $(\"#proceed_btn\").show();\n});\n</script>",
+          "create_feedback": "<script>\r\nTrial.set(\"growth_feedback\",[{\r\n  \"correct\":   \"Correct: Apply that effort to the next one too\",\r\n  \"incorrect\": \"Incorrect: You need to apply more effort to the next one\"\r\n},{\r\n  \"correct\": \"Correct: Your work paid off\",\r\n  \"incorrect\": \"Incorrect: If you work harder it'll pay off\"\r\n},{\r\n  \"correct\": \"Correct: You must have tried hard on that one\",\r\n  \"incorrect\": \"Incorrect: You must try harder next time\"\r\n},{\r\n  \"correct\": \"Correct: I can see you have put in effort to get that right\",\r\n  \"incorrect\": \"Incorrect: You didn't put in enough effort\"\r\n},{\r\n  \"correct\": \"Correct: If you keep this up you'll be able to do even harder ones\",\r\n  \"incorrect\": \"Incorrect: Keep trying and you'll get there\" \r\n},{\r\n  \"correct\": \"Correct: The more you do the better you'll get\",\r\n  \"incorrect\": \"Incorrect: But you'll get better the more you do\"\r\n},{\r\n  \"correct\": \"Correct: Hard work is needed to do well on this\",\r\n  \"incorrect\": \"Incorrect: Hard work is needed to do well on this\"\r\n},{\r\n  \"correct\": \"Correct: You clearly worked hard\",\r\n  \"incorrect\": \"Incorrect: You needed to work harder\"\r\n},{\r\n  \"correct\": \"Correct: Practice makes perfect\",\r\n  \"incorrect\": \"Incorrect: But practice makes perfect\"\r\n},{\r\n  \"correct\": \"Correct: Keep up the good work\",\r\n  \"incorrect\": \"Incorrect: With a bit more work you'll get the next one\"\r\n}]);\r\n\r\nTrial.set(\"fixed_feedback\",[{\r\n  \"correct\": \"Correct: You must be really smart\",\r\n  \"incorrect\": \"Incorrect: That was probably too difficult\"\r\n},{\r\n  \"correct\": \"Correct: You're really good at this\",\r\n  \"incorrect\": \"Incorrect: Hopefully the next one will be easier\"\r\n},{\r\n  \"correct\": \"Correct: You're a natural at this\",\r\n  \"incorrect\": \"Incorrect: This seems beyond your ability\"\r\n},{\r\n  \"correct\": \"Correct: You must be good at maths\",\r\n  \"incorrect\": \"Incorrect: It is hard for some people to grasp this\"\r\n},{\r\n  \"correct\": \"Correct: This must be your strength\",\r\n  \"incorrect\": \"Incorrect: Maths might not be one of your strengths\"\r\n},{\r\n  \"correct\": \"Correct: Well done, you made that look easy\",\r\n  \"incorrect\": \"Incorrect: That wasn't an easy one\"\r\n},{\r\n  \"correct\": \"Correct: You are clearly very gifted at this\",\r\n  \"incorrect\": \"Incorrect: You might be gifted at something else\"\r\n},{\r\n  \"correct\": \"Correct: Intelligent people find these easy\",\r\n  \"incorrect\": \"Incorrect: Intelligent people find these easy\"\r\n},{\r\n  \"correct\": \"Correct: You're an arithmetic genius\",\r\n  \"incorrect\": \"Incorrect: Arithmetic isn't for everyone\"\r\n},{\r\n  \"correct\": \"Correct: Some people are talented at this\",\r\n  \"incorrect\": \"Incorrect: Some people are talented at this\"\r\n}]);\r\nTrial.submit();\r\n</script>"
         },
         "procs_csv": {
-          "procedure_1.csv": "item,trial type,max time,text,Shuffle 1,correct_feedback,incorrect_feedback,\r\n0,instruct,user,You will be given some arithmetic to do. Please complete in your own time,off,,,\r\n2,arithmetic,user,,neutral,Correct,Incorrect,\r\n3,arithmetic,user,,neutral,Correct,Incorrect,\r\n4,arithmetic,user,,neutral,Correct,Incorrect,\r\n5,arithmetic,user,,neutral,Correct,Incorrect,\r\n6,arithmetic,user,,neutral,Correct,Incorrect,\r\n0,instruct,user,Please take a break and start the next block when you're ready,,,,\r\n12,arithmetic,user,,growth,Correct: Apply that effort to the next one too,Incorrect: You need to apply more effort to the next one,\r\n13,arithmetic,user,,growth,Correct: Your work paid off,Incorrect: If you work harder it'll pay off,\r\n14,arithmetic,user,,growth,Correct: You must have tried hard on that one,Incorrect: You must try harder next time,\r\n15,arithmetic,user,,growth,Correct: I can see you have put in effort to get that right,Incorrect: You didn't put in enough effort,\r\n16,arithmetic,user,,growth,Correct: If you keep this up you'll be able to do even harder ones,Incorrect: Keep trying and you'll get there,\r\n17,arithmetic,user,,growth,Correct: The more you do the better you'll get,Incorrect: But you'll get better the more you do,\r\n18,arithmetic,user,,growth,Correct: Hard work is needed to do well on this,Incorrect: Hard work is needed to do well on this,\r\n19,arithmetic,user,,growth,Correct: You clearly worked hard,Incorrect: You needed to work harder,\r\n20,arithmetic,user,,growth,Correct: Practice makes perfect,Incorrect: But practice makes perfect,\r\n21,arithmetic,user,,growth,Correct: Keep up the good work,Incorrect: With a bit more work you'll get the next one,\r\n0,instruct,user,Please take a break and start the next block when you're ready,,,,\r\n22,arithmetic,user,,fixed,Correct: You must be really smart,Incorrect: That was probably too difficult,\r\n23,arithmetic,user,,fixed,Correct: You're really good at this,Incorrect: Hopefully the next one will be easier,\r\n24,arithmetic,user,,fixed,Correct: You're a natural at this,Incorrect: This seems beyond your ability,\r\n25,arithmetic,user,,fixed,Correct: You must be good at maths,Incorrect: It is hard for some people to grasp this,\r\n26,arithmetic,user,,fixed,Correct: This must be your strength,Incorrect: Maths might not be one of your strengths,\r\n27,arithmetic,user,,fixed,\"Correct: Well done, you made that look easy\",Incorrect: That wasn't an easy one,\r\n28,arithmetic,user,,fixed,Correct: You are clearly very gifted at this,Incorrect: You might be gifted at something else,\r\n30,arithmetic,user,,fixed,Correct: Intelligent people find these easy,Incorrect: Intelligent people find these easy,\r\n31,arithmetic,user,,fixed,Correct: You're an arithmetic genius,\"Incorrect: Arithmetic isn't for everyone \",\r\n32,arithmetic,user,,fixed,Correct: Some people are talented at this,Incorrect: Some people are talented at this,\r\n,,,,,,,"
+          "procedure_1.csv": "item,trial type,max time,text,Shuffle 1,correct_feedback,incorrect_feedback,\r\n0,create_feedback,user,,off,,,\r\n0,instruct,user,You will be given some arithmetic to do. Please complete in your own time,off,,,\r\n2,arithmetic,user,,neutral,Correct,Incorrect,\r\n3,arithmetic,user,,neutral,Correct,Incorrect,\r\n4,arithmetic,user,,neutral,Correct,Incorrect,\r\n5,arithmetic,user,,neutral,Correct,Incorrect,\r\n6,arithmetic,user,,neutral,Correct,Incorrect,\r\n0,instruct,user,Please take a break and start the next block when you're ready,,,,\r\n12,arithmetic,user,,growth,Correct: Apply that effort to the next one too,Incorrect: You need to apply more effort to the next one,\r\n13,arithmetic,user,,growth,Correct: Your work paid off,Incorrect: If you work harder it'll pay off,\r\n14,arithmetic,user,,growth,Correct: You must have tried hard on that one,Incorrect: You must try harder next time,\r\n15,arithmetic,user,,growth,Correct: I can see you have put in effort to get that right,Incorrect: You didn't put in enough effort,\r\n16,arithmetic,user,,growth,Correct: If you keep this up you'll be able to do even harder ones,Incorrect: Keep trying and you'll get there,\r\n17,arithmetic,user,,growth,Correct: The more you do the better you'll get,Incorrect: But you'll get better the more you do,\r\n18,arithmetic,user,,growth,Correct: Hard work is needed to do well on this,Incorrect: Hard work is needed to do well on this,\r\n19,arithmetic,user,,growth,Correct: You clearly worked hard,Incorrect: You needed to work harder,\r\n20,arithmetic,user,,growth,Correct: Practice makes perfect,Incorrect: But practice makes perfect,\r\n21,arithmetic,user,,growth,Correct: Keep up the good work,Incorrect: With a bit more work you'll get the next one,\r\n0,instruct,user,Please take a break and start the next block when you're ready,,,,\r\n22,arithmetic,user,,fixed,Correct: You must be really smart,Incorrect: That was probably too difficult,\r\n23,arithmetic,user,,fixed,Correct: You're really good at this,Incorrect: Hopefully the next one will be easier,\r\n24,arithmetic,user,,fixed,Correct: You're a natural at this,Incorrect: This seems beyond your ability,\r\n25,arithmetic,user,,fixed,Correct: You must be good at maths,Incorrect: It is hard for some people to grasp this,\r\n26,arithmetic,user,,fixed,Correct: This must be your strength,Incorrect: Maths might not be one of your strengths,\r\n27,arithmetic,user,,fixed,\"Correct: Well done, you made that look easy\",Incorrect: That wasn't an easy one,\r\n28,arithmetic,user,,fixed,Correct: You are clearly very gifted at this,Incorrect: You might be gifted at something else,\r\n30,arithmetic,user,,fixed,Correct: Intelligent people find these easy,Incorrect: Intelligent people find these easy,\r\n31,arithmetic,user,,fixed,Correct: You're an arithmetic genius,\"Incorrect: Arithmetic isn't for everyone \",\r\n32,arithmetic,user,,fixed,Correct: Some people are talented at this,Incorrect: Some people are talented at this,\r\n,,,,,,,"
         },
         "stims_csv": {
           "arithmetic_questions.csv": "cue,answer,time_limit,row_1_tens,row_1_units,row_2_tens,row_2_units,add_sub_mult,answer_1,answer_2,answer_3,answer_4,answer_5,\r\nA,Apple,10000,8,8,2,5,x,40,160,400,1600,2200,\r\nB,Banana,10000,3,8,5,8,x,64,400,240,1500,2204,\r\n,,,5,8,2,8,x,64,160,400,1000,1624,\r\n,,,3,3,6,7,x,21,180,210,1800,2211,\r\n,,,3,1,6,3,x,3,60,90,1800,1953,\r\n,,,8,2,2,3,x,6,40,240,1600,1886,\r\n,,,4,9,7,2,x,18,630,80,2800,3528,\r\n,,,7,9,5,2,x,18,450,140,3500,4108,\r\n,,,4,8,8,5,x,40,640,200,3200,4080,\r\n,,,8,3,5,1,x,3,150,80,4000,4233,\r\n,,,6,9,3,1,x,9,270,60,1800,2139,\r\n,,,9,8,6,1,x,8,480,90,5400,5978,\r\n,,,1,2,8,4,x,8,160,40,800,1008,\r\n,,,4,9,7,4,x,36,630,160,2800,3626,\r\n,,,7,4,8,5,x,20,320,350,5600,6290,\r\n,,,4,7,8,6,x,42,560,240,3200,4042,\r\n,,,7,2,5,1,x,2,100,70,3500,3672,\r\n,,,6,9,1,7,x,63,90,420,600,1173,\r\n,,,5,7,3,2,x,14,210,100,1500,1824,\r\n,,,3,8,6,8,x,64,480,240,1800,2584,\r\n,,,6,3,3,3,x,9,90,180,1800,2079,\r\n,,,5,2,2,9,x,18,40,450,1000,1508,\r\n,,,4,8,5,5,x,40,400,200,2000,2640,\r\n,,,1,1,5,5,x,5,50,50,500,605,\r\n,,,7,3,8,3,x,9,240,210,5600,6059,\r\n,,,3,2,1,7,x,14,20,210,300,544,\r\n,,,5,2,3,6,x,12,60,300,1500,1872,\r\n,,,6,3,6,1,x,3,180,60,3600,3843,\r\n,,,3,8,6,9,x,72,480,270,1800,2622,\r\n,,,5,3,7,7,x,21,210,350,3500,4081,\r\n,,,,,,,,,,,,,",
@@ -37352,7 +37373,8 @@
           "Score: Imagination",
           "Score: Attention_to_detail",
           "Optional",
-          "btn_width"
+          "btn_width",
+          null
         ],
         [
           "Instructions1",
@@ -37367,7 +37389,8 @@
           "",
           "",
           "",
-          ""
+          "",
+          null
         ],
         [
           "AQ1",
@@ -37382,7 +37405,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ2",
@@ -37397,7 +37421,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ3",
@@ -37412,7 +37437,8 @@
           "r1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ4",
@@ -37427,7 +37453,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ5",
@@ -37442,7 +37469,8 @@
           "",
           "1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ6",
@@ -37457,7 +37485,8 @@
           "",
           "1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ7",
@@ -37472,7 +37501,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ8",
@@ -37487,7 +37517,8 @@
           "r1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ9",
@@ -37502,7 +37533,8 @@
           "",
           "1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ10",
@@ -37517,7 +37549,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ11",
@@ -37532,7 +37565,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ12",
@@ -37547,7 +37581,8 @@
           "",
           "1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ13",
@@ -37562,7 +37597,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ14",
@@ -37577,7 +37613,8 @@
           "r1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ15",
@@ -37592,7 +37629,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ16",
@@ -37607,7 +37645,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ17",
@@ -37622,7 +37661,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ18",
@@ -37637,7 +37677,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ19",
@@ -37652,7 +37693,8 @@
           "",
           "1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ20",
@@ -37667,7 +37709,8 @@
           "1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ21",
@@ -37682,7 +37725,8 @@
           "1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ22",
@@ -37697,7 +37741,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ23",
@@ -37712,7 +37757,8 @@
           "",
           "1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ24",
@@ -37727,7 +37773,8 @@
           "r1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ25",
@@ -37742,7 +37789,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ26",
@@ -37757,7 +37805,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ27",
@@ -37772,7 +37821,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ28",
@@ -37787,7 +37837,8 @@
           "",
           "r1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ29",
@@ -37802,7 +37853,8 @@
           "",
           "r1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ30",
@@ -37817,7 +37869,8 @@
           "",
           "r1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ31",
@@ -37832,7 +37885,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ32",
@@ -37847,7 +37901,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ33",
@@ -37862,7 +37917,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ34",
@@ -37877,7 +37933,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ35",
@@ -37892,7 +37949,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ36",
@@ -37907,7 +37965,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ37",
@@ -37922,7 +37981,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ38",
@@ -37937,7 +37997,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ39",
@@ -37952,7 +38013,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ40",
@@ -37967,7 +38029,8 @@
           "r1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ41",
@@ -37982,7 +38045,8 @@
           "1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ42",
@@ -37997,7 +38061,8 @@
           "1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ43",
@@ -38012,7 +38077,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ44",
@@ -38027,7 +38093,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ45",
@@ -38042,7 +38109,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ46",
@@ -38057,7 +38125,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ47",
@@ -38072,7 +38141,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ48",
@@ -38087,7 +38157,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ49",
@@ -38102,7 +38173,8 @@
           "",
           "r1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ50",
@@ -38117,10 +38189,12 @@
           "r1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
-          ""
+          "",
+          null
         ]
       ],
       "demographics.csv": [
@@ -38768,7 +38842,7 @@
       "instruct_keyboard": "<!DOCTYPE html>\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\" />\r\n  <meta http-equiv=\"Pragma\" content=\"no-cache\" />\r\n  <meta http-equiv=\"Expires\" content=\"0\" />\r\n  <script src=\"libraries/jquery-3.3.1.min.js\"></script>\r\n</head>\r\n<div id=\"index_div\" style=\"width:100%;height:100%\"></div>\r\n\r\n\r\n<script>\r\ndropbox_developer = false;\r\n$(\"#index_div\").load(\"index.html\");\r\n</script>\r\n",
       "instruct": "<!DOCTYPE html>\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\" />\r\n  <meta http-equiv=\"Pragma\" content=\"no-cache\" />\r\n  <meta http-equiv=\"Expires\" content=\"0\" />\r\n  <script src=\"libraries/jquery-3.3.1.min.js\"></script>\r\n</head>\r\n<div id=\"index_div\" style=\"width:100%;height:100%\"></div>\r\n\r\n\r\n<script>\r\ndropbox_developer = false;\r\n$(\"#index_div\").load(\"index.html\");\r\n</script>\r\n"
     },
-    "trialtype": "arithmetic",
+    "trialtype": "create_feedback",
     "filetype": "",
     "version": 0,
     "user_trialtypes": {
@@ -38790,7 +38864,8 @@
       "cam_3": "\n<style>\n#everything_div{\n  margin:auto;\n  width:725px;\n  /* padding:50px; */\n  height:400px;\n  text-align: center;\n  position:absolute;\n  top:0;\n\tbottom: 0;\n\tleft: 0;\n\tright: 0;\n}\n\n#left_img{\n  position:absolute;\n  left:0px;\n  top:0px;\n}\n#right_img{\n  position:absolute;\n  left:400px;\n  top:0px;\n}\n\n#block_left_lock_1{\n  left:125px;\n}\n#block_left_lock_2{\n  left:0px;\n}\n#block_left_lock_3{\n  left:250px;\n}\n#block_right_lock_1{\n  left:525px;\n}\n#block_right_lock_2{\n  left:400px;\n}\n#block_right_lock_3{\n  left:650px;\n}\n#left_lock_1{\n  left:125px;\n}\n#left_lock_2{\n  left:0px;\n}\n#left_lock_3{\n  left:250px;\n}\n#right_lock_1{\n  left:525px;\n}\n#right_lock_2{\n  left:400px;\n}\n#right_lock_3{\n  left:650px;\n}\n.block_lock{\n  position:absolute;\n  width:50px;\n  height:50px;\n  z-index:2;\n  display:none;\n  top:0px;\n}\n.lock_img{\n  position:absolute;\n  width:50px;\n  height:50px;\n  z-index:2;\n  display:none;\n  top:0px;\n}\n.stim_style{\n  height:325px;\n  width:325px;\n  z-index:1;\n}\n.video_stim{\n  margin:auto;\n  display:none;\n  height:400px;\n  width:600px;\n  text-align: center;\n  position:absolute;\n  top:0;\n\tbottom: 0;\n\tleft: 0;\n\tright: 0;\n\tz-index:5;\n}\n</style>\n<div id=\"everything_div\">\n  <img id='left_img' src=\"{{left_back}}\" class=\"stim_style\" />\n  <video id=\"left_video\" class=\"stim_style video_stim\" muted>\n    <source src=\"{{left_video}}\" type=\"video/mp4\">\n  Your browser does not support the video tag.\n  </video>\n  <img id='right_img' src=\"{{right_back}}\" class=\"stim_style\" />\n  <video id=\"right_video\"  class=\"stim_style video_stim\" muted>\n    <source src=\"{{right_video}}\" type=\"video/mp4\">\n  Your browser does not support the video tag.\n  </video>\n  <img id=\"left_lock_1\"        class=\"lock_img left_lock\"  src=\"{{lock_img}}\"/>\n  <img id=\"left_lock_2\"        class=\"lock_img left_lock\"  src=\"{{lock_img}}\"/>\n  <img id=\"left_lock_3\"        class=\"lock_img left_lock\"  src=\"{{lock_img}}\"/>\n  <img id=\"right_lock_1\"       class=\"lock_img right_lock\" src=\"{{lock_img}}\"/>\n  <img id=\"right_lock_2\"       class=\"lock_img right_lock\" src=\"{{lock_img}}\"/>\n  <img id=\"right_lock_3\"       class=\"lock_img right_lock\" src=\"{{lock_img}}\"/>\n  <img id=\"block_left_lock_1\"  class=\"block_lock\"          src=\"{{block_lock_img}}\"/>\n  <img id=\"block_left_lock_2\"  class=\"block_lock\"          src=\"{{block_lock_img}}\"/>\n  <img id=\"block_left_lock_3\"  class=\"block_lock\"          src=\"{{block_lock_img}}\"/>\n  <img id=\"block_right_lock_1\" class=\"block_lock\"          src=\"{{block_lock_img}}\"/>\n  <img id=\"block_right_lock_2\" class=\"block_lock\"          src=\"{{block_lock_img}}\"/>\n  <img id=\"block_right_lock_3\" class=\"block_lock\"          src=\"{{block_lock_img}}\"/>\n</div>\n<input type=\"hidden\" id=\"left_right_chosen\" name=\"left_right_chosen\">\n<input type=\"hidden\" id=\"type_chosen\"       name=\"type_chosen\">\n<input type=\"hidden\" id=\"lock_1_rt\"         name=\"lock_1_rt\">\n<input type=\"hidden\" id=\"lock_2_rt\"         name=\"lock_2_rt\">\n<input type=\"hidden\" id=\"lock_3_rt\"         name=\"lock_3_rt\">\n<input type=\"hidden\" id=\"vid_rt\"            name=\"vid_rt\">\n\n<script>\nlocks_obj = {\n  left_locks:   \"{{left_locks}}\",\n  right_locks:  \"{{right_locks}}\",\n  left_type:  \"{{left_type}}\",\n  right_type: \"{{right_type}}\",\n  locks_clicked: 0\n}\n$(\"#left_lock_1\").show();                                                       // always show at least 1 left lock\n$(\"#right_lock_1\").show();                                                      // always show at least 1 right lock\n\nif(locks_obj.left_locks > 1){                                                   // show a second left lock if there are at least 2 locks on the left\n  $(\"#left_lock_2\").show();\n}\nif(locks_obj.right_locks > 1){                                                  // show a second right lock if there are at least 2 locks on the right\n  $(\"#right_lock_2\").show();\n}\n\nif(locks_obj.left_locks == 3){                                                  // show the third left lock if there are 3 left locks\n  $(\"#left_lock_3\").show();\n}\nif(locks_obj.right_locks == 3){                                                 // show the third right lock if there are 3 right locks\n  $(\"#right_lock_3\").show();\n}\n\nfunction lock_click(this_id){\n  $(\".lock_img\").unbind();                                                      // nothing should now happen if you click on the locks\n  var left_right_lock = this_id.split(\"_\")[0];                                  // identifying whether this is the left or right lock that has just been clicked\n  var opposite_lock = left_right_lock == \"left\" ? \"right\" : \"left\";             // identifying what the opposite side to the clicked lock is\n  $(\".\" + opposite_lock + \"_lock\").hide();                                      // hide the opposite lock(s)\n  \n  \n  var locks_loop = parseFloat(locks_obj[opposite_lock + \"_locks\"]) + 1;         // count how many opposite locks there are\n  for(var i = 1; i < locks_loop; i++){                                          //////////////////////////////\n    $(\"#block_\" + opposite_lock + \"_lock_\" + i).show();                         // block the opposite locks //\n  }                                                                             //////////////////////////////\n  \n  locks_obj.locks_clicked++;                                                    // identify which lock has just been clicked          \n  $(\"#lock_\" + locks_obj.locks_clicked + \"_rt\").val(Trial.elapsed());           // store the time since the trial started as a response time in relation to this lock number (1 or 2 or 3)\n  $(\"#\" + this_id).fadeOut({{lock_time}}, function(){                           // hide the current lock; lock_time is how long the user needs to wait before doing the following:\n    bind_lock();                                                                // allow users to click the locks again\n    if($(\".\" + left_right_lock + \"_lock:visible\").length == 0){                 // if there are now no visible locks, it's time to show the video:\n      $(\"#left_right_chosen\").val(left_right_lock);                             // storing which side the user chose\n      $(\"#type_chosen\").val(locks_obj[left_right_lock + \"_type\"]);              // storing what type of stimuli the user chose (e.g. social vs. nonsocial)\n      $(\".block_lock\").hide();                                                  // hide all the block locks\n      $(\"#\" + left_right_lock + \"_img\").css(\"z-index\",3);                       // give the background pattern for the chosen side priority\n      $(\"#\" + left_right_lock + \"_img\").animate({                               // enlarge the backgrounf pattern to cover the whole of the div\n        left :  \"0px\",\n        top  :  \"0px\",\n        width:  \"100%\",\n        height: \"100%\"\n      },function(){                                                             // once the animation of the background pattern is complete:\n        $(\"#\" + left_right_lock + \"_video\").show();                             // show the chosen video\n        $(\"#\" + left_right_lock + \"_video\")[0].play();                          // play the chosen video\n        $(\"#\" + left_right_lock  +\"_video\").on('ended',function(){              // when the video finishes:\n          $(\"#vid_rt\").val(Trial.elapsed());                                    // store the time it took to get to this point\n          Trial.submit();                                                       // move on to the next trial\n        });    \n      });\n    }\n  });\n}\n\nfunction bind_lock(){                                                           ////////////////////////////////////////////////////////\n  $(\".lock_img\").on(\"click\",function(){                                         // make the locks responsive when they are clicked on //\n    this_id = $(this)[0].id;                                                    ////////////////////////////////////////////////////////\n    lock_click(this_id);\n  });\n}\nbind_lock()\n</script>",
       "approach": "<style>\n#show_image_btn{\n  display:none;\n  position: absolute;\n  top:500;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:150px;\n  height:50px;\n  display:none;\n}\n#trial_image{\n  display:none;\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:400px;\n  height:400px;\n}\n</style>\n\n<img src=\"{{image}}\" id=\"trial_image\"/>\n<button class=\"btn btn-primary\" id=\"show_image_btn\">Show Image</button>\n<input type=\"hidden\" id=\"approach_clicks\" name=\"approach_clicks\"/>\n<script>\ntotal_approach_clicks = 0;\n\nTrial.set_timer(function(){\n  $(\"#trial_image\").show();\n  setTimeout(function(){\n    $(\"#trial_image\").hide();\n    $(\"#show_image_btn\").show();\n    setTimeout(function(){\n      Trial.submit();\n    },5200);\n  },800);\n},1000);\n\n$(\"#show_image_btn\").on(\"click\",function(){\n  $(\"#trial_image\").show();\n  if(typeof(hide_timer) == \"undefined\"){\n    hide_timer = new Trial.timer(function(){\n      $(\"#trial_image\").hide();\n      delete(hide_timer);\n    },{{hide_show_duration}});\n  } else {\n    hide_timer.add({{hide_show_duration}});\n  }\n});\n  \n\n/* in case I've misunderstood\nfunction bind_show_button(){\n  $(\"#show_image_btn\").on(\"click\",function(){\n    $(\"#trial_image\").show();\n    setTimeout(function(){\n      $(\"#trial_image\").hide();\n      $(\"#show_image_btn\").unbind();\n      total_approach_clicks++;\n      $(\"#approach_clicks\").val(total_approach_clicks)\n      setTimeout(function(){\n        bind_show_button();\n      },33);\n    },33);\n  });\n}\nbind_show_button();\n*/\n\n  \n  \n</script>",
       "avoidance": "<style>\n#hide_image_btn{\n  display:none;\n  position: absolute;\n  top:500;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:150px;\n  height:50px;\n  display:none;\n}\n#trial_image{\n  display:none;\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:400px;\n  height:400px;\n}\nbody{\n  background-color: black;\n}\n</style>\n\n<img src=\"{{image}}\" id=\"trial_image\"/>\n<button class=\"btn btn-primary\" id=\"hide_image_btn\">Hide Image</button>\n<input type=\"hidden\" id=\"approach_clicks\" name=\"approach_clicks\"/>\n<script>\ntotal_approach_clicks = 0;\n\nTrial.set_timer(function(){\n  $(\"#trial_image\").show();\n  setTimeout(function(){\n    $(\"#hide_image_btn\").show();\n    setTimeout(function(){\n      Trial.submit();\n    },5200);\n  },800);\n},1000)\n\n\n$(\"#hide_image_btn\").on(\"click\",function(){\n  $(\"#trial_image\").hide();\n  if(typeof(hide_timer) == \"undefined\"){\n    hide_timer = new Trial.timer(function(){\n      $(\"#trial_image\").show();\n      delete(hide_timer);\n    },{{hide_show_duration}});\n  } else {\n    hide_timer.add({{hide_show_duration}});\n  }\n});\n  \n\n/*\nfunction bind_hide_button(){\n  $(\"#hide_image_btn\").on(\"click\",function(){\n    $(\"#trial_image\").hide();\n    setTimeout(function(){\n      $(\"#trial_image\").show();\n      $(\"#hide_image_btn\").unbind();\n      total_approach_clicks++;\n      $(\"#approach_clicks\").val(total_approach_clicks)\n      setTimeout(function(){\n        bind_hide_button();\n      },33);\n    },33);\n  });\n}\nbind_hide_button();\n*/\n  \n  \n</script>",
-      "asdf": "a = 5\n"
+      "asdf": "a = 5\n",
+      "create_feedback": "<script>\r\nTrial.set(\"growth_feedback\",[{\r\n  \"correct\":   \"Correct: Apply that effort to the next one too\",\r\n  \"incorrect\": \"Incorrect: You need to apply more effort to the next one\"\r\n},{\r\n  \"correct\": \"Correct: Your work paid off\",\r\n  \"incorrect\": \"Incorrect: If you work harder it'll pay off\"\r\n},{\r\n  \"correct\": \"Correct: You must have tried hard on that one\",\r\n  \"incorrect\": \"Incorrect: You must try harder next time\"\r\n},{\r\n  \"correct\": \"Correct: I can see you have put in effort to get that right\",\r\n  \"incorrect\": \"Incorrect: You didn't put in enough effort\"\r\n},{\r\n  \"correct\": \"Correct: If you keep this up you'll be able to do even harder ones\",\r\n  \"incorrect\": \"Incorrect: Keep trying and you'll get there\" \r\n},{\r\n  \"correct\": \"Correct: The more you do the better you'll get\",\r\n  \"incorrect\": \"Incorrect: But you'll get better the more you do\"\r\n},{\r\n  \"correct\": \"Correct: Hard work is needed to do well on this\",\r\n  \"incorrect\": \"Incorrect: Hard work is needed to do well on this\"\r\n},{\r\n  \"correct\": \"Correct: You clearly worked hard\",\r\n  \"incorrect\": \"Incorrect: You needed to work harder\"\r\n},{\r\n  \"correct\": \"Correct: Practice makes perfect\",\r\n  \"incorrect\": \"Incorrect: But practice makes perfect\"\r\n},{\r\n  \"correct\": \"Correct: Keep up the good work\",\r\n  \"incorrect\": \"Incorrect: With a bit more work you'll get the next one\"\r\n}]);\r\n\r\nTrial.set(\"fixed_feedback\",[{\r\n  \"correct\": \"Correct: You must be really smart\",\r\n  \"incorrect\": \"Incorrect: That was probably too difficult\"\r\n},{\r\n  \"correct\": \"Correct: You're really good at this\",\r\n  \"incorrect\": \"Incorrect: Hopefully the next one will be easier\"\r\n},{\r\n  \"correct\": \"Correct: You're a natural at this\",\r\n  \"incorrect\": \"Incorrect: This seems beyond your ability\"\r\n},{\r\n  \"correct\": \"Correct: You must be good at maths\",\r\n  \"incorrect\": \"Incorrect: It is hard for some people to grasp this\"\r\n},{\r\n  \"correct\": \"Correct: This must be your strength\",\r\n  \"incorrect\": \"Incorrect: Maths might not be one of your strengths\"\r\n},{\r\n  \"correct\": \"Correct: Well done, you made that look easy\",\r\n  \"incorrect\": \"Incorrect: That wasn't an easy one\"\r\n},{\r\n  \"correct\": \"Correct: You are clearly very gifted at this\",\r\n  \"incorrect\": \"Incorrect: You might be gifted at something else\"\r\n},{\r\n  \"correct\": \"Correct: Intelligent people find these easy\",\r\n  \"incorrect\": \"Incorrect: Intelligent people find these easy\"\r\n},{\r\n  \"correct\": \"Correct: You're an arithmetic genius\",\r\n  \"incorrect\": \"Incorrect: Arithmetic isn't for everyone\"\r\n},{\r\n  \"correct\": \"Correct: Some people are talented at this\",\r\n  \"incorrect\": \"Incorrect: Some people are talented at this\"\r\n}]);\r\nTrial.submit();\r\n</script>"
     },
     "graphic": {
       "trialtype": "",
