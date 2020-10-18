@@ -1,5 +1,26 @@
 <script>
-Trial.set("growth_feedback",[{
+
+// based on https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+
+var growth_feedback = [{
   "correct":   "Correct: Apply that effort to the next one too",
   "incorrect": "Incorrect: You need to apply more effort to the next one"
 },{
@@ -29,9 +50,9 @@ Trial.set("growth_feedback",[{
 },{
   "correct": "Correct: Keep up the good work",
   "incorrect": "Incorrect: With a bit more work you'll get the next one"
-}]);
+}];
 
-Trial.set("fixed_feedback",[{
+var fixed_feedback = [{
   "correct": "Correct: You must be really smart",
   "incorrect": "Incorrect: That was probably too difficult"
 },{
@@ -61,6 +82,27 @@ Trial.set("fixed_feedback",[{
 },{
   "correct": "Correct: Some people are talented at this",
   "incorrect": "Incorrect: Some people are talented at this"
-}]);
-Trial.submit();
+}];
+
+var feedback_blocks = ["fixed", "growth"];
+
+/*
+* Shuffle the above arrays
+*/
+
+shuffle(feedback_blocks);
+shuffle(fixed_feedback);
+shuffle(growth_feedback);
+Trial.set("feedback_blocks", feedback_blocks);
+Trial.set("fixed_feedback",  fixed_feedback);
+Trial.set("growth_feedback", growth_feedback);
+
+Trial.set_timer(function(){
+  Trial.submit();
+},100);
+
+
+
+
+
 </script>

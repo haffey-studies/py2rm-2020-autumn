@@ -7324,8 +7324,6 @@
               "max time",
               "text",
               "Shuffle 1",
-              "correct_feedback",
-              "incorrect_feedback",
               ""
             ],
             [
@@ -7334,8 +7332,6 @@
               "user",
               null,
               "off",
-              null,
-              null,
               null
             ],
             [
@@ -7344,58 +7340,14 @@
               "user",
               "You will be given some arithmetic to do. Please complete in your own time",
               "off",
-              "",
-              "",
               ""
             ],
             [
-              "2",
+              "2 to 6",
               "arithmetic",
               "user",
               "",
-              "neutral",
-              "Correct",
-              "Incorrect",
-              ""
-            ],
-            [
-              "3",
-              "arithmetic",
-              "user",
-              "",
-              "neutral",
-              "Correct",
-              "Incorrect",
-              ""
-            ],
-            [
-              "4",
-              "arithmetic",
-              "user",
-              "",
-              "neutral",
-              "Correct",
-              "Incorrect",
-              ""
-            ],
-            [
-              "5",
-              "arithmetic",
-              "user",
-              "",
-              "neutral",
-              "Correct",
-              "Incorrect",
-              ""
-            ],
-            [
-              "6",
-              "arithmetic",
-              "user",
-              "",
-              "neutral",
-              "Correct",
-              "Incorrect",
+              "practice",
               ""
             ],
             [
@@ -7404,108 +7356,14 @@
               "user",
               "Please take a break and start the next block when you're ready",
               "",
-              "",
-              "",
               ""
             ],
             [
-              "12",
-              "arithmetic",
+              "12 to 21",
+              "arithmetic_feedback",
               "user",
               "",
-              "growth",
-              "Correct: Apply that effort to the next one too",
-              "Incorrect: You need to apply more effort to the next one",
-              ""
-            ],
-            [
-              "13",
-              "arithmetic",
-              "user",
-              "",
-              "growth",
-              "Correct: Your work paid off",
-              "Incorrect: If you work harder it'll pay off",
-              ""
-            ],
-            [
-              "14",
-              "arithmetic",
-              "user",
-              "",
-              "growth",
-              "Correct: You must have tried hard on that one",
-              "Incorrect: You must try harder next time",
-              ""
-            ],
-            [
-              "15",
-              "arithmetic",
-              "user",
-              "",
-              "growth",
-              "Correct: I can see you have put in effort to get that right",
-              "Incorrect: You didn't put in enough effort",
-              ""
-            ],
-            [
-              "16",
-              "arithmetic",
-              "user",
-              "",
-              "growth",
-              "Correct: If you keep this up you'll be able to do even harder ones",
-              "Incorrect: Keep trying and you'll get there",
-              ""
-            ],
-            [
-              "17",
-              "arithmetic",
-              "user",
-              "",
-              "growth",
-              "Correct: The more you do the better you'll get",
-              "Incorrect: But you'll get better the more you do",
-              ""
-            ],
-            [
-              "18",
-              "arithmetic",
-              "user",
-              "",
-              "growth",
-              "Correct: Hard work is needed to do well on this",
-              "Incorrect: Hard work is needed to do well on this",
-              ""
-            ],
-            [
-              "19",
-              "arithmetic",
-              "user",
-              "",
-              "growth",
-              "Correct: You clearly worked hard",
-              "Incorrect: You needed to work harder",
-              ""
-            ],
-            [
-              "20",
-              "arithmetic",
-              "user",
-              "",
-              "growth",
-              "Correct: Practice makes perfect",
-              "Incorrect: But practice makes perfect",
-              ""
-            ],
-            [
-              "21",
-              "arithmetic",
-              "user",
-              "",
-              "growth",
-              "Correct: Keep up the good work",
-              "Incorrect: With a bit more work you'll get the next one",
+              "trials",
               ""
             ],
             [
@@ -7514,113 +7372,17 @@
               "user",
               "Please take a break and start the next block when you're ready",
               "",
-              "",
-              "",
               ""
             ],
             [
-              "22",
-              "arithmetic",
+              "22 to 32",
+              "arithmetic_feedback",
               "user",
               "",
-              "fixed",
-              "Correct: You must be really smart",
-              "Incorrect: That was probably too difficult",
+              "trials",
               ""
             ],
             [
-              "23",
-              "arithmetic",
-              "user",
-              "",
-              "fixed",
-              "Correct: You're really good at this",
-              "Incorrect: Hopefully the next one will be easier",
-              ""
-            ],
-            [
-              "24",
-              "arithmetic",
-              "user",
-              "",
-              "fixed",
-              "Correct: You're a natural at this",
-              "Incorrect: This seems beyond your ability",
-              ""
-            ],
-            [
-              "25",
-              "arithmetic",
-              "user",
-              "",
-              "fixed",
-              "Correct: You must be good at maths",
-              "Incorrect: It is hard for some people to grasp this",
-              ""
-            ],
-            [
-              "26",
-              "arithmetic",
-              "user",
-              "",
-              "fixed",
-              "Correct: This must be your strength",
-              "Incorrect: Maths might not be one of your strengths",
-              ""
-            ],
-            [
-              "27",
-              "arithmetic",
-              "user",
-              "",
-              "fixed",
-              "Correct: Well done, you made that look easy",
-              "Incorrect: That wasn't an easy one",
-              ""
-            ],
-            [
-              "28",
-              "arithmetic",
-              "user",
-              "",
-              "fixed",
-              "Correct: You are clearly very gifted at this",
-              "Incorrect: You might be gifted at something else",
-              ""
-            ],
-            [
-              "30",
-              "arithmetic",
-              "user",
-              "",
-              "fixed",
-              "Correct: Intelligent people find these easy",
-              "Incorrect: Intelligent people find these easy",
-              ""
-            ],
-            [
-              "31",
-              "arithmetic",
-              "user",
-              "",
-              "fixed",
-              "Correct: You're an arithmetic genius",
-              "Incorrect: Arithmetic isn't for everyone ",
-              ""
-            ],
-            [
-              "32",
-              "arithmetic",
-              "user",
-              "",
-              "fixed",
-              "Correct: Some people are talented at this",
-              "Incorrect: Some people are talented at this",
-              ""
-            ],
-            [
-              "",
-              "",
               "",
               "",
               "",
@@ -8248,8 +8010,6 @@
               "trial type": "create_feedback",
               "max time": "user",
               "text": "",
-              "correct_feedback": "",
-              "incorrect_feedback": "",
               "": "",
               "shuffle 1": "off"
             },
@@ -8258,291 +8018,60 @@
               "trial type": "instruct",
               "max time": "user",
               "text": "You will be given some arithmetic to do. Please complete in your own time",
-              "correct_feedback": "",
-              "incorrect_feedback": "",
               "": "",
               "shuffle 1": "off"
             },
             {
-              "item": "2",
+              "item": "2 to 6",
               "trial type": "arithmetic",
               "max time": "user",
               "text": "",
-              "correct_feedback": "Correct",
-              "incorrect_feedback": "Incorrect",
               "": "",
-              "shuffle 1": "neutral"
-            },
-            {
-              "item": "3",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct",
-              "incorrect_feedback": "Incorrect",
-              "": "",
-              "shuffle 1": "neutral"
-            },
-            {
-              "item": "4",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct",
-              "incorrect_feedback": "Incorrect",
-              "": "",
-              "shuffle 1": "neutral"
-            },
-            {
-              "item": "5",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct",
-              "incorrect_feedback": "Incorrect",
-              "": "",
-              "shuffle 1": "neutral"
-            },
-            {
-              "item": "6",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct",
-              "incorrect_feedback": "Incorrect",
-              "": "",
-              "shuffle 1": "neutral"
+              "shuffle 1": "practice"
             },
             {
               "item": "0",
               "trial type": "instruct",
               "max time": "user",
               "text": "Please take a break and start the next block when you're ready",
-              "correct_feedback": "",
-              "incorrect_feedback": "",
               "": "",
               "shuffle 1": ""
             },
             {
-              "item": "12",
-              "trial type": "arithmetic",
+              "item": "12 to 21",
+              "trial type": "arithmetic_feedback",
               "max time": "user",
               "text": "",
-              "correct_feedback": "Correct: Apply that effort to the next one too",
-              "incorrect_feedback": "Incorrect: You need to apply more effort to the next one",
               "": "",
-              "shuffle 1": "growth"
-            },
-            {
-              "item": "13",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct: Your work paid off",
-              "incorrect_feedback": "Incorrect: If you work harder it'll pay off",
-              "": "",
-              "shuffle 1": "growth"
-            },
-            {
-              "item": "14",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct: You must have tried hard on that one",
-              "incorrect_feedback": "Incorrect: You must try harder next time",
-              "": "",
-              "shuffle 1": "growth"
-            },
-            {
-              "item": "15",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct: I can see you have put in effort to get that right",
-              "incorrect_feedback": "Incorrect: You didn't put in enough effort",
-              "": "",
-              "shuffle 1": "growth"
-            },
-            {
-              "item": "16",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct: If you keep this up you'll be able to do even harder ones",
-              "incorrect_feedback": "Incorrect: Keep trying and you'll get there",
-              "": "",
-              "shuffle 1": "growth"
-            },
-            {
-              "item": "17",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct: The more you do the better you'll get",
-              "incorrect_feedback": "Incorrect: But you'll get better the more you do",
-              "": "",
-              "shuffle 1": "growth"
-            },
-            {
-              "item": "18",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct: Hard work is needed to do well on this",
-              "incorrect_feedback": "Incorrect: Hard work is needed to do well on this",
-              "": "",
-              "shuffle 1": "growth"
-            },
-            {
-              "item": "19",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct: You clearly worked hard",
-              "incorrect_feedback": "Incorrect: You needed to work harder",
-              "": "",
-              "shuffle 1": "growth"
-            },
-            {
-              "item": "20",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct: Practice makes perfect",
-              "incorrect_feedback": "Incorrect: But practice makes perfect",
-              "": "",
-              "shuffle 1": "growth"
-            },
-            {
-              "item": "21",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct: Keep up the good work",
-              "incorrect_feedback": "Incorrect: With a bit more work you'll get the next one",
-              "": "",
-              "shuffle 1": "growth"
+              "shuffle 1": "trials"
             },
             {
               "item": "0",
               "trial type": "instruct",
               "max time": "user",
               "text": "Please take a break and start the next block when you're ready",
-              "correct_feedback": "",
-              "incorrect_feedback": "",
               "": "",
               "shuffle 1": ""
             },
             {
-              "item": "22",
-              "trial type": "arithmetic",
+              "item": "22 to 32",
+              "trial type": "arithmetic_feedback",
               "max time": "user",
               "text": "",
-              "correct_feedback": "Correct: You must be really smart",
-              "incorrect_feedback": "Incorrect: That was probably too difficult",
               "": "",
-              "shuffle 1": "fixed"
-            },
-            {
-              "item": "23",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct: You're really good at this",
-              "incorrect_feedback": "Incorrect: Hopefully the next one will be easier",
-              "": "",
-              "shuffle 1": "fixed"
-            },
-            {
-              "item": "24",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct: You're a natural at this",
-              "incorrect_feedback": "Incorrect: This seems beyond your ability",
-              "": "",
-              "shuffle 1": "fixed"
-            },
-            {
-              "item": "25",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct: You must be good at maths",
-              "incorrect_feedback": "Incorrect: It is hard for some people to grasp this",
-              "": "",
-              "shuffle 1": "fixed"
-            },
-            {
-              "item": "26",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct: This must be your strength",
-              "incorrect_feedback": "Incorrect: Maths might not be one of your strengths",
-              "": "",
-              "shuffle 1": "fixed"
-            },
-            {
-              "item": "27",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct: Well done, you made that look easy",
-              "incorrect_feedback": "Incorrect: That wasn't an easy one",
-              "": "",
-              "shuffle 1": "fixed"
-            },
-            {
-              "item": "28",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct: You are clearly very gifted at this",
-              "incorrect_feedback": "Incorrect: You might be gifted at something else",
-              "": "",
-              "shuffle 1": "fixed"
-            },
-            {
-              "item": "30",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct: Intelligent people find these easy",
-              "incorrect_feedback": "Incorrect: Intelligent people find these easy",
-              "": "",
-              "shuffle 1": "fixed"
-            },
-            {
-              "item": "31",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct: You're an arithmetic genius",
-              "incorrect_feedback": "Incorrect: Arithmetic isn't for everyone ",
-              "": "",
-              "shuffle 1": "fixed"
-            },
-            {
-              "item": "32",
-              "trial type": "arithmetic",
-              "max time": "user",
-              "text": "",
-              "correct_feedback": "Correct: Some people are talented at this",
-              "incorrect_feedback": "Incorrect: Some people are talented at this",
-              "": "",
-              "shuffle 1": "fixed"
+              "shuffle 1": "trials"
             }
           ]
         },
         "surveys": {},
         "trialtypes": {
           "instruct": "<!--\n/*  Collector (Garcia, Kornell, Kerr, Blake & Haffey)\n    A program for running experiments on the web\n    Copyright 2012-2016 Mikey Garcia & Nate Kornell\n\n\n    This program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License version 3 as published by\n    the Free Software Foundation.\n\n    This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n\n    You should have received a copy of the GNU General Public License\n    along with this program.  If not, see <http://www.gnu.org/licenses/>\n \t\t\n\t\tKitten release (2019) author: Dr. Anthony Haffey (team@someopen.solutions)\t\t\n*/\n-->\n<style>\n#instruct_text{\n  margin:auto;\n  width:500px;\n  padding:50px;\n  max-height:600px;\n  text-align: center;  \n}\n#proceed_button{\n  position:absolute;\n  right: 20px;\n}\n#trial_contents{\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:600;\n  height:600;\n}\n</style>\n<div id=\"trial_contents\">\n  <div id=\"instruct_text\">{{text}}</div>\n  <div>\n    <button class=\"btn btn-primary\" id=\"proceed_button\" onclick=\"Trial.submit()\">Proceed</button>\n  </div>\n</div>",
-          "arithmetic": "<style>\n.trial_no{\n  width:150px;\n  height:50px;\n}\n#everything{\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:600;\n  height:600;\n}\n#proceed_btn{\n  display:none;\n}\ntd {\n  padding:10px;\n  margin:5px;\n}\ninput{\n  float: right;\n  clear: both;\n  text-align: right;\n  letter-spacing: 1em;\n}\n.form-control {\n  display: inline-block;\n}\n</style>\n\n<div id=\"everything\">\n  <h2 class=\"text-primary\">{{row_1_tens}}{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}{{row_2_units}}</h2>\n\n  <table>\n    <tr>\n      <td>\n        <h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>:</h5>\n      </td>\n      <td>\n        <h5>{{row_1_units}} {{add_sub_mult}} {{row_2_units}}</h5>\n      </td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_1_answer\" class=\"trial_no form-control pull-right\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_1\"></h3>\n      </td>\n    </tr>\n    <tr>\n      <td><h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\n      <td><h5>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}0</h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_2_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_2\"></h3>\n      </td>\n    </tr>\n    \n    <tr>\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>: </h5></td>\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_units}}</h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_3_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_3\"></h3>\n      </td>\n    </tr>\n    \n    <tr>\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_tens}}0 </h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_4_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_4\"></h3>\n      </td>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td><hr></rd>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td>\n        <input type=\"number\" id=\"row_5_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_5\"></h3>\n      </td>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td><hr></rd>\n    </tr>\n  </table>\n  <button class=\"btn btn-large btn-primary\" id=\"check_answers_btn\">Check Answers</button>\n  <button class=\"btn btn-large btn-primary\" onclick=\"Trial.submit()\" id=\"proceed_btn\">Proceed</button>\n</div>\n<script>\n\nvar answer_array = [\n  null,\n  \"{{answer_1}}\",\n  \"{{answer_2}}\",\n  \"{{answer_3}}\",\n  \"{{answer_4}}\",\n  \"{{answer_5}}\"\n];\n$(\"#check_answers_btn\").on(\"click\",function(){\n  for(var i=1; i<5; i++){\n    console.dir(i);\n    console.dir($('#row_' + i + '_answer').val());\n    if($(\"#row_\" + i + \"_answer\").val() == answer_array[i]){\n      $(\"#feedback_\" + i).html(\"<span class='text-success'>Correct</span>\");\n    } else {\n      $(\"#feedback_\" + i).html(\"<span class='text-danger'>Incorrect</span>\");\n    }\n  }\n  if($(\"#row_\" + i + \"_answer\").val() == answer_array[i]){\n    $(\"#feedback_5\").html(\"<span class='text-success'>{{correct_feedback}}</span>\");\n  } else {\n    $(\"#feedback_5\").html(\"<span class='text-danger'>{{incorrect_feedback}}</span>\");\n  }\n  $(\"#proceed_btn\").show();\n});\n</script>",
-          "create_feedback": "<script>\r\nTrial.set(\"growth_feedback\",[{\r\n  \"correct\":   \"Correct: Apply that effort to the next one too\",\r\n  \"incorrect\": \"Incorrect: You need to apply more effort to the next one\"\r\n},{\r\n  \"correct\": \"Correct: Your work paid off\",\r\n  \"incorrect\": \"Incorrect: If you work harder it'll pay off\"\r\n},{\r\n  \"correct\": \"Correct: You must have tried hard on that one\",\r\n  \"incorrect\": \"Incorrect: You must try harder next time\"\r\n},{\r\n  \"correct\": \"Correct: I can see you have put in effort to get that right\",\r\n  \"incorrect\": \"Incorrect: You didn't put in enough effort\"\r\n},{\r\n  \"correct\": \"Correct: If you keep this up you'll be able to do even harder ones\",\r\n  \"incorrect\": \"Incorrect: Keep trying and you'll get there\" \r\n},{\r\n  \"correct\": \"Correct: The more you do the better you'll get\",\r\n  \"incorrect\": \"Incorrect: But you'll get better the more you do\"\r\n},{\r\n  \"correct\": \"Correct: Hard work is needed to do well on this\",\r\n  \"incorrect\": \"Incorrect: Hard work is needed to do well on this\"\r\n},{\r\n  \"correct\": \"Correct: You clearly worked hard\",\r\n  \"incorrect\": \"Incorrect: You needed to work harder\"\r\n},{\r\n  \"correct\": \"Correct: Practice makes perfect\",\r\n  \"incorrect\": \"Incorrect: But practice makes perfect\"\r\n},{\r\n  \"correct\": \"Correct: Keep up the good work\",\r\n  \"incorrect\": \"Incorrect: With a bit more work you'll get the next one\"\r\n}]);\r\n\r\nTrial.set(\"fixed_feedback\",[{\r\n  \"correct\": \"Correct: You must be really smart\",\r\n  \"incorrect\": \"Incorrect: That was probably too difficult\"\r\n},{\r\n  \"correct\": \"Correct: You're really good at this\",\r\n  \"incorrect\": \"Incorrect: Hopefully the next one will be easier\"\r\n},{\r\n  \"correct\": \"Correct: You're a natural at this\",\r\n  \"incorrect\": \"Incorrect: This seems beyond your ability\"\r\n},{\r\n  \"correct\": \"Correct: You must be good at maths\",\r\n  \"incorrect\": \"Incorrect: It is hard for some people to grasp this\"\r\n},{\r\n  \"correct\": \"Correct: This must be your strength\",\r\n  \"incorrect\": \"Incorrect: Maths might not be one of your strengths\"\r\n},{\r\n  \"correct\": \"Correct: Well done, you made that look easy\",\r\n  \"incorrect\": \"Incorrect: That wasn't an easy one\"\r\n},{\r\n  \"correct\": \"Correct: You are clearly very gifted at this\",\r\n  \"incorrect\": \"Incorrect: You might be gifted at something else\"\r\n},{\r\n  \"correct\": \"Correct: Intelligent people find these easy\",\r\n  \"incorrect\": \"Incorrect: Intelligent people find these easy\"\r\n},{\r\n  \"correct\": \"Correct: You're an arithmetic genius\",\r\n  \"incorrect\": \"Incorrect: Arithmetic isn't for everyone\"\r\n},{\r\n  \"correct\": \"Correct: Some people are talented at this\",\r\n  \"incorrect\": \"Incorrect: Some people are talented at this\"\r\n}]);\r\nTrial.submit();\r\n</script>"
+          "arithmetic": "<style>\r\n.trial_no{\r\n  width:150px;\r\n  height:50px;\r\n}\r\n#everything{\r\n  position: absolute;\r\n  top:0;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin:auto;\r\n  width:600;\r\n  height:600;\r\n}\r\n#proceed_btn{\r\n  display:none;\r\n}\r\ntd {\r\n  padding:10px;\r\n  margin:5px;\r\n}\r\ninput{\r\n  float: right;\r\n  clear: both;\r\n  text-align: right;\r\n  letter-spacing: 1em;\r\n}\r\n.form-control {\r\n  display: inline-block;\r\n}\r\n</style>\r\n\r\n<div id=\"everything\">\r\n  <h2 class=\"text-primary\">{{row_1_tens}}{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}{{row_2_units}}</h2>\r\n\r\n  <table>\r\n    <tr>\r\n      <td>\r\n        <h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>:</h5>\r\n      </td>\r\n      <td>\r\n        <h5>{{row_1_units}} {{add_sub_mult}} {{row_2_units}}</h5>\r\n      </td>\r\n      <td>=</td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_1_answer\" class=\"trial_no form-control pull-right\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_1\"></h3>\r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td><h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\r\n      <td><h5>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}0</h5></td>\r\n      <td>=</td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_2_answer\" class=\"trial_no\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_2\"></h3>\r\n      </td>\r\n    </tr>\r\n    \r\n    <tr>\r\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>: </h5></td>\r\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_units}}</h5></td>\r\n      <td>=</td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_3_answer\" class=\"trial_no\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_3\"></h3>\r\n      </td>\r\n    </tr>\r\n    \r\n    <tr>\r\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\r\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_tens}}0 </h5></td>\r\n      <td>=</td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_4_answer\" class=\"trial_no\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_4\"></h3>\r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td colspan = \"3\"></td>\r\n      <td><hr></rd>\r\n    </tr>\r\n    <tr>\r\n      <td colspan = \"3\"></td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_5_answer\" class=\"trial_no\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_5\"></h3>\r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td colspan = \"3\"></td>\r\n    </tr>\r\n    <tr>\r\n      <td colspan = \"3\"></td>\r\n      <td><hr></rd>\r\n    </tr>\r\n  </table>\r\n  <button class=\"btn btn-large btn-primary\" id=\"check_answers_btn\">Check Answers</button>\r\n  <button class=\"btn btn-large btn-primary\" onclick=\"Trial.submit()\" id=\"proceed_btn\">Proceed</button>\r\n</div>\r\n<script>\r\n\r\n\r\n/*\r\n* Work out what is going on with your blocks etc.\r\n*/\r\nTrial.set_timer(function(){\r\n  var block_types    = Trial.get(\"feedback_blocks\");\r\n  var block_type     = block_types[0];\r\n  var block_feedback = Trial.get(block_type + \"_feedback\");\r\n  \r\n  if(block_feedback.length == 0){\r\n    block_type = block_types[1];\r\n    block_feedback = Trial.get(block_type + \"_feedback\");\r\n  }\r\n  \r\n  var trial_feedback = block_feedback.pop();\r\n  \r\n  Trial.set(block_type + \"_feedback\", block_feedback);\r\n  \r\n  var answer_array = [\r\n    null,\r\n    \"{{answer_1}}\",\r\n    \"{{answer_2}}\",\r\n    \"{{answer_3}}\",\r\n    \"{{answer_4}}\",\r\n    \"{{answer_5}}\"\r\n  ];\r\n  \r\n  \r\n  $(\"#check_answers_btn\").on(\"click\",function(){\r\n    for(var i=1; i<6; i++){\r\n      console.dir(i);\r\n      console.dir($('#row_' + i + '_answer').val());\r\n      if($(\"#row_\" + i + \"_answer\").val() == answer_array[i]){\r\n        $(\"#feedback_\" + i).html(\"<span class='text-success'>Correct</span>\");\r\n      } else {\r\n        $(\"#feedback_\" + i).html(\"<span class='text-danger'>Incorrect</span>\");\r\n      }\r\n    }\r\n    $(\"#proceed_btn\").show();\r\n  });\r\n},100);\r\n</script>",
+          "create_feedback": "<script>\r\n\r\n// based on https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array\r\nfunction shuffle(array) {\r\n  var currentIndex = array.length, temporaryValue, randomIndex;\r\n\r\n  // While there remain elements to shuffle...\r\n  while (0 !== currentIndex) {\r\n\r\n    // Pick a remaining element...\r\n    randomIndex = Math.floor(Math.random() * currentIndex);\r\n    currentIndex -= 1;\r\n\r\n    // And swap it with the current element.\r\n    temporaryValue = array[currentIndex];\r\n    array[currentIndex] = array[randomIndex];\r\n    array[randomIndex] = temporaryValue;\r\n  }\r\n\r\n  return array;\r\n}\r\n\r\nvar growth_feedback = [{\r\n  \"correct\":   \"Correct: Apply that effort to the next one too\",\r\n  \"incorrect\": \"Incorrect: You need to apply more effort to the next one\"\r\n},{\r\n  \"correct\": \"Correct: Your work paid off\",\r\n  \"incorrect\": \"Incorrect: If you work harder it'll pay off\"\r\n},{\r\n  \"correct\": \"Correct: You must have tried hard on that one\",\r\n  \"incorrect\": \"Incorrect: You must try harder next time\"\r\n},{\r\n  \"correct\": \"Correct: I can see you have put in effort to get that right\",\r\n  \"incorrect\": \"Incorrect: You didn't put in enough effort\"\r\n},{\r\n  \"correct\": \"Correct: If you keep this up you'll be able to do even harder ones\",\r\n  \"incorrect\": \"Incorrect: Keep trying and you'll get there\" \r\n},{\r\n  \"correct\": \"Correct: The more you do the better you'll get\",\r\n  \"incorrect\": \"Incorrect: But you'll get better the more you do\"\r\n},{\r\n  \"correct\": \"Correct: Hard work is needed to do well on this\",\r\n  \"incorrect\": \"Incorrect: Hard work is needed to do well on this\"\r\n},{\r\n  \"correct\": \"Correct: You clearly worked hard\",\r\n  \"incorrect\": \"Incorrect: You needed to work harder\"\r\n},{\r\n  \"correct\": \"Correct: Practice makes perfect\",\r\n  \"incorrect\": \"Incorrect: But practice makes perfect\"\r\n},{\r\n  \"correct\": \"Correct: Keep up the good work\",\r\n  \"incorrect\": \"Incorrect: With a bit more work you'll get the next one\"\r\n}];\r\n\r\nvar fixed_feedback = [{\r\n  \"correct\": \"Correct: You must be really smart\",\r\n  \"incorrect\": \"Incorrect: That was probably too difficult\"\r\n},{\r\n  \"correct\": \"Correct: You're really good at this\",\r\n  \"incorrect\": \"Incorrect: Hopefully the next one will be easier\"\r\n},{\r\n  \"correct\": \"Correct: You're a natural at this\",\r\n  \"incorrect\": \"Incorrect: This seems beyond your ability\"\r\n},{\r\n  \"correct\": \"Correct: You must be good at maths\",\r\n  \"incorrect\": \"Incorrect: It is hard for some people to grasp this\"\r\n},{\r\n  \"correct\": \"Correct: This must be your strength\",\r\n  \"incorrect\": \"Incorrect: Maths might not be one of your strengths\"\r\n},{\r\n  \"correct\": \"Correct: Well done, you made that look easy\",\r\n  \"incorrect\": \"Incorrect: That wasn't an easy one\"\r\n},{\r\n  \"correct\": \"Correct: You are clearly very gifted at this\",\r\n  \"incorrect\": \"Incorrect: You might be gifted at something else\"\r\n},{\r\n  \"correct\": \"Correct: Intelligent people find these easy\",\r\n  \"incorrect\": \"Incorrect: Intelligent people find these easy\"\r\n},{\r\n  \"correct\": \"Correct: You're an arithmetic genius\",\r\n  \"incorrect\": \"Incorrect: Arithmetic isn't for everyone\"\r\n},{\r\n  \"correct\": \"Correct: Some people are talented at this\",\r\n  \"incorrect\": \"Incorrect: Some people are talented at this\"\r\n}];\r\n\r\nvar feedback_blocks = [\"fixed\", \"growth\"];\r\n\r\n/*\r\n* Shuffle the above arrays\r\n*/\r\n\r\nshuffle(feedback_blocks);\r\nshuffle(fixed_feedback);\r\nshuffle(growth_feedback);\r\nTrial.set(\"feedback_blocks\", feedback_blocks);\r\nTrial.set(\"fixed_feedback\",  fixed_feedback);\r\nTrial.set(\"growth_feedback\", growth_feedback);\r\n\r\nTrial.set_timer(function(){\r\n  Trial.submit();\r\n},100);\r\n\r\n\r\n\r\n\r\n\r\n</script>",
+          "arithmetic_feedback": "<style>\r\n.trial_no{\r\n  width:150px;\r\n  height:50px;\r\n}\r\n#everything{\r\n  position: absolute;\r\n  top:0;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin:auto;\r\n  width:600;\r\n  height:600;\r\n}\r\n#proceed_btn{\r\n  display:none;\r\n}\r\ntd {\r\n  padding:10px;\r\n  margin:5px;\r\n}\r\ninput{\r\n  float: right;\r\n  clear: both;\r\n  text-align: right;\r\n  letter-spacing: 1em;\r\n}\r\n.form-control {\r\n  display: inline-block;\r\n}\r\n</style>\r\n\r\n<div id=\"everything\">\r\n  <h2 class=\"text-primary\">{{row_1_tens}}{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}{{row_2_units}}</h2>\r\n\r\n  <table>\r\n    <tr>\r\n      <td>\r\n        <h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>:</h5>\r\n      </td>\r\n      <td>\r\n        <h5>{{row_1_units}} {{add_sub_mult}} {{row_2_units}}</h5>\r\n      </td>\r\n      <td>=</td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_1_answer\" class=\"trial_no form-control pull-right\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_1\"></h3>\r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td><h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\r\n      <td><h5>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}0</h5></td>\r\n      <td>=</td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_2_answer\" class=\"trial_no\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_2\"></h3>\r\n      </td>\r\n    </tr>\r\n    \r\n    <tr>\r\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>: </h5></td>\r\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_units}}</h5></td>\r\n      <td>=</td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_3_answer\" class=\"trial_no\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_3\"></h3>\r\n      </td>\r\n    </tr>\r\n    \r\n    <tr>\r\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\r\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_tens}}0 </h5></td>\r\n      <td>=</td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_4_answer\" class=\"trial_no\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_4\"></h3>\r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td colspan = \"3\"></td>\r\n      <td><hr></rd>\r\n    </tr>\r\n    <tr>\r\n      <td colspan = \"3\"></td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_5_answer\" class=\"trial_no\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_5\"></h3>\r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td colspan = \"3\"></td>\r\n    </tr>\r\n    <tr>\r\n      <td colspan = \"3\"></td>\r\n      <td><hr></rd>\r\n    </tr>\r\n  </table>\r\n  <button class=\"btn btn-large btn-primary\" id=\"check_answers_btn\">Check Answers</button>\r\n  <button class=\"btn btn-large btn-primary\" onclick=\"Trial.submit()\" id=\"proceed_btn\">Proceed</button>\r\n</div>\r\n<script>\r\n\r\n\r\n/*\r\n* Work out what is going on with your blocks etc.\r\n*/\r\nTrial.set_timer(function(){\r\n  var block_types    = Trial.get(\"feedback_blocks\");\r\n  var block_type     = block_types[0];\r\n  var block_feedback = Trial.get(block_type + \"_feedback\");\r\n  \r\n  if(block_feedback.length == 0){\r\n    block_type = block_types[1];\r\n    block_feedback = Trial.get(block_type + \"_feedback\");\r\n  }\r\n  \r\n  var trial_feedback = block_feedback.pop();\r\n  \r\n  Trial.set(block_type + \"_feedback\", block_feedback);\r\n  \r\n  var answer_array = [\r\n    null,\r\n    \"{{answer_1}}\",\r\n    \"{{answer_2}}\",\r\n    \"{{answer_3}}\",\r\n    \"{{answer_4}}\",\r\n    \"{{answer_5}}\"\r\n  ];\r\n  \r\n  \r\n  $(\"#check_answers_btn\").on(\"click\",function(){\r\n    for(var i=1; i<5; i++){\r\n      console.dir(i);\r\n      console.dir($('#row_' + i + '_answer').val());\r\n      if($(\"#row_\" + i + \"_answer\").val() == answer_array[i]){\r\n        $(\"#feedback_\" + i).html(\"<span class='text-success'>Correct</span>\");\r\n      } else {\r\n        $(\"#feedback_\" + i).html(\"<span class='text-danger'>Incorrect</span>\");\r\n      }\r\n    }\r\n    if($(\"#row_\" + i + \"_answer\").val() == answer_array[i]){\r\n      $(\"#feedback_5\").html(\"<span class='text-success'>\" + trial_feedback.correct + \"</span>\");\r\n    } else {\r\n      $(\"#feedback_5\").html(\"<span class='text-danger'>\" + trial_feedback.incorrect + \"</span>\");\r\n    }\r\n    $(\"#proceed_btn\").show();\r\n  });\r\n},100);\r\n</script>"
         },
         "procs_csv": {
-          "procedure_1.csv": "item,trial type,max time,text,Shuffle 1,correct_feedback,incorrect_feedback,\r\n0,create_feedback,user,,off,,,\r\n0,instruct,user,You will be given some arithmetic to do. Please complete in your own time,off,,,\r\n2,arithmetic,user,,neutral,Correct,Incorrect,\r\n3,arithmetic,user,,neutral,Correct,Incorrect,\r\n4,arithmetic,user,,neutral,Correct,Incorrect,\r\n5,arithmetic,user,,neutral,Correct,Incorrect,\r\n6,arithmetic,user,,neutral,Correct,Incorrect,\r\n0,instruct,user,Please take a break and start the next block when you're ready,,,,\r\n12,arithmetic,user,,growth,Correct: Apply that effort to the next one too,Incorrect: You need to apply more effort to the next one,\r\n13,arithmetic,user,,growth,Correct: Your work paid off,Incorrect: If you work harder it'll pay off,\r\n14,arithmetic,user,,growth,Correct: You must have tried hard on that one,Incorrect: You must try harder next time,\r\n15,arithmetic,user,,growth,Correct: I can see you have put in effort to get that right,Incorrect: You didn't put in enough effort,\r\n16,arithmetic,user,,growth,Correct: If you keep this up you'll be able to do even harder ones,Incorrect: Keep trying and you'll get there,\r\n17,arithmetic,user,,growth,Correct: The more you do the better you'll get,Incorrect: But you'll get better the more you do,\r\n18,arithmetic,user,,growth,Correct: Hard work is needed to do well on this,Incorrect: Hard work is needed to do well on this,\r\n19,arithmetic,user,,growth,Correct: You clearly worked hard,Incorrect: You needed to work harder,\r\n20,arithmetic,user,,growth,Correct: Practice makes perfect,Incorrect: But practice makes perfect,\r\n21,arithmetic,user,,growth,Correct: Keep up the good work,Incorrect: With a bit more work you'll get the next one,\r\n0,instruct,user,Please take a break and start the next block when you're ready,,,,\r\n22,arithmetic,user,,fixed,Correct: You must be really smart,Incorrect: That was probably too difficult,\r\n23,arithmetic,user,,fixed,Correct: You're really good at this,Incorrect: Hopefully the next one will be easier,\r\n24,arithmetic,user,,fixed,Correct: You're a natural at this,Incorrect: This seems beyond your ability,\r\n25,arithmetic,user,,fixed,Correct: You must be good at maths,Incorrect: It is hard for some people to grasp this,\r\n26,arithmetic,user,,fixed,Correct: This must be your strength,Incorrect: Maths might not be one of your strengths,\r\n27,arithmetic,user,,fixed,\"Correct: Well done, you made that look easy\",Incorrect: That wasn't an easy one,\r\n28,arithmetic,user,,fixed,Correct: You are clearly very gifted at this,Incorrect: You might be gifted at something else,\r\n30,arithmetic,user,,fixed,Correct: Intelligent people find these easy,Incorrect: Intelligent people find these easy,\r\n31,arithmetic,user,,fixed,Correct: You're an arithmetic genius,\"Incorrect: Arithmetic isn't for everyone \",\r\n32,arithmetic,user,,fixed,Correct: Some people are talented at this,Incorrect: Some people are talented at this,\r\n,,,,,,,"
+          "procedure_1.csv": "item,trial type,max time,text,Shuffle 1,\r\n0,create_feedback,user,,off,\r\n0,instruct,user,You will be given some arithmetic to do. Please complete in your own time,off,\r\n2 to 6,arithmetic,user,,practice,\r\n0,instruct,user,Please take a break and start the next block when you're ready,,\r\n12 to 21,arithmetic_feedback,user,,trials,\r\n0,instruct,user,Please take a break and start the next block when you're ready,,\r\n22 to 32,arithmetic_feedback,user,,trials,\r\n,,,,,"
         },
         "stims_csv": {
           "arithmetic_questions.csv": "cue,answer,time_limit,row_1_tens,row_1_units,row_2_tens,row_2_units,add_sub_mult,answer_1,answer_2,answer_3,answer_4,answer_5,\r\nA,Apple,10000,8,8,2,5,x,40,160,400,1600,2200,\r\nB,Banana,10000,3,8,5,8,x,64,400,240,1500,2204,\r\n,,,5,8,2,8,x,64,160,400,1000,1624,\r\n,,,3,3,6,7,x,21,180,210,1800,2211,\r\n,,,3,1,6,3,x,3,60,90,1800,1953,\r\n,,,8,2,2,3,x,6,40,240,1600,1886,\r\n,,,4,9,7,2,x,18,630,80,2800,3528,\r\n,,,7,9,5,2,x,18,450,140,3500,4108,\r\n,,,4,8,8,5,x,40,640,200,3200,4080,\r\n,,,8,3,5,1,x,3,150,80,4000,4233,\r\n,,,6,9,3,1,x,9,270,60,1800,2139,\r\n,,,9,8,6,1,x,8,480,90,5400,5978,\r\n,,,1,2,8,4,x,8,160,40,800,1008,\r\n,,,4,9,7,4,x,36,630,160,2800,3626,\r\n,,,7,4,8,5,x,20,320,350,5600,6290,\r\n,,,4,7,8,6,x,42,560,240,3200,4042,\r\n,,,7,2,5,1,x,2,100,70,3500,3672,\r\n,,,6,9,1,7,x,63,90,420,600,1173,\r\n,,,5,7,3,2,x,14,210,100,1500,1824,\r\n,,,3,8,6,8,x,64,480,240,1800,2584,\r\n,,,6,3,3,3,x,9,90,180,1800,2079,\r\n,,,5,2,2,9,x,18,40,450,1000,1508,\r\n,,,4,8,5,5,x,40,400,200,2000,2640,\r\n,,,1,1,5,5,x,5,50,50,500,605,\r\n,,,7,3,8,3,x,9,240,210,5600,6059,\r\n,,,3,2,1,7,x,14,20,210,300,544,\r\n,,,5,2,3,6,x,12,60,300,1500,1872,\r\n,,,6,3,6,1,x,3,180,60,3600,3843,\r\n,,,3,8,6,9,x,72,480,270,1800,2622,\r\n,,,5,3,7,7,x,21,210,350,3500,4081,\r\n,,,,,,,,,,,,,",
@@ -38842,7 +38371,7 @@
       "instruct_keyboard": "<!DOCTYPE html>\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\" />\r\n  <meta http-equiv=\"Pragma\" content=\"no-cache\" />\r\n  <meta http-equiv=\"Expires\" content=\"0\" />\r\n  <script src=\"libraries/jquery-3.3.1.min.js\"></script>\r\n</head>\r\n<div id=\"index_div\" style=\"width:100%;height:100%\"></div>\r\n\r\n\r\n<script>\r\ndropbox_developer = false;\r\n$(\"#index_div\").load(\"index.html\");\r\n</script>\r\n",
       "instruct": "<!DOCTYPE html>\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\" />\r\n  <meta http-equiv=\"Pragma\" content=\"no-cache\" />\r\n  <meta http-equiv=\"Expires\" content=\"0\" />\r\n  <script src=\"libraries/jquery-3.3.1.min.js\"></script>\r\n</head>\r\n<div id=\"index_div\" style=\"width:100%;height:100%\"></div>\r\n\r\n\r\n<script>\r\ndropbox_developer = false;\r\n$(\"#index_div\").load(\"index.html\");\r\n</script>\r\n"
     },
-    "trialtype": "create_feedback",
+    "trialtype": "arithmetic",
     "filetype": "",
     "version": 0,
     "user_trialtypes": {
@@ -38856,7 +38385,7 @@
       "card_select2": "<style>\n.update_name:focus{\n  border:0;\n}\n#trial_contents{\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:600;\n  height:600;\n}\nbody{\n  background-color:white;\n}\n#card_A{\n  position:absolute;\n  height:20%;\n  left:12.5%;\n  top:20%;\n  width:15%;\n  z-index:0;\n}\n#card_B{\n  position:absolute;\n  height:20%;\n  left:32.5%;\n  top:20%;\n  width:15%;\n  z-index:0;\n}\n#card_C{\n  position:absolute;\n  height:20%;\n  left:52.5%;\n  top:20%;\n  width:15%;\n  z-index:0;\n}\n#card_D{\n  position:absolute;\n  height:20%;\n  left:72.5%;\n  top:20%;\n  width:15%;\n  z-index:0;\n}\n#outcome{\n  position:absolute;\n  height:20%;\n  width:100%;\n  top:50%;\n  z-index:0;\n  text-align: center\n}\n#chart_container{\n  position:absolute;\n  height:20%;\n  width:100%;\n  top:70%;\n  z-index:0;\n  text-align: center\n}\n\n#chart{\n  height:100%;\n  width:100%;\n  top:70%;\n  z-index:0;\n  text-align: center\n}\n\n</style>\n<input type='hidden' id='keyboard_response' name='keyboard_response'/>\n<div id='trial_contents'>\n  <button id='card_A' value='A' class='image_response update_name' style='padding:0; border:0; background-color:transparent' onclick='card_click(this.value)'><img id='img_A' style='width:100%;height:100%;' src='https://dl.dropbox.com/s/dsujkzmmqz1mau3/card.jpg?dl=0'>A</button>\n  <button id='card_B' value='B' class='image_response update_name' style='padding:0; border:0; background-color:transparent' onclick='card_click(this.value)'><img id='img_B' style='width:100%;height:100%;' src='https://dl.dropbox.com/s/dsujkzmmqz1mau3/card.jpg?dl=0'>B</button>\n  <button id='card_C' value='C' class='image_response update_name' style='padding:0; border:0; background-color:transparent' onclick='card_click(this.value)'><img id='img_C' style='width:100%;height:100%;' src='https://dl.dropbox.com/s/dsujkzmmqz1mau3/card.jpg?dl=0'>C</button>\n  <button id='card_D' value='D' class='image_response update_name' style='padding:0; border:0; background-color:transparent' onclick='card_click(this.value)'><img id='img_D' style='width:100%;height:100%;' src='https://dl.dropbox.com/s/dsujkzmmqz1mau3/card.jpg?dl=0'>D</button>\n</div>\n\n<div id='outcome'></div>\n<div id='chart_container'>\n  <canvas id='chart'></canvas>\n</div>\n\n<input type='hidden' id='trial_data' name='trial_data'/>\n\n\n<script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js'></script>\n\n<script>\n\n\n//task design from this paper: https://www.jneurosci.org/content/jneuro/19/13/5473.full.pdf\n\n// --------TRIALS SETUP---------------\n\n// variables that control and track the number of trials\nvar n_trials = {{n_trials}}\nvar trial_n = 0\n\n// variables that track total earnings and borrowings across trials\nvar earnings = 2000\nvar borrowed = 0\n\n// timer\nvar start_time = 0\n\n// card lists are taken from the PEBL battery version of the task (from tables in Bechara et al. (1994))\nvar card_lists = [{\n    gain: {\n      A: 100,\n      B: 100,\n      C: 50,\n      D: 50\n    },\n    loss: {\n      A: [0,0,150,0,300,0,200,0,250,350,\n          0,350,0,250,200,0,300,150,0,0,\n          0,300,0,350,0,200,250,150,0,0,\n          350,200,250,0,0,0,150,300,0,0],\n      B: [-1,-1,0,-1,0,-1,0,0,1250,0, \n          -1,-1,0,1250,0,-1,-1,0,0,0,\n          1250,0,-1,-1,0,-1,0,-1,0,0,\n          -1,1250,0,-1,0,-1,0,-1,0,0],\n      C: [0,0,50,0,50,0,50,0,50,50, \n               0,25,75,0,0,0,25,75,0,50, \n               0,0,0,50,25,50,0,0,75,50,\n               0,0,0,25,25,0,75,0,50,75],\n      D: [-1,0,-1,0,0,-1,-1,0,0,250,\n               -1,-1,0,0,-1,0,0,0,-1,250,\n               0,-1,0,0,-1,-1,-1,0,250,0,\n               0,-1,0,-1,250,-1,0,0,-1,0] \n    }\n  }]\n  \nvar data_struct = {\n  card_response: [],\n  card_RT: [],\n  gain: [],\n  loss: [],\n  cash: [],\n  borrowed: []\n}\n\n//-------------------DRAW CHART TO TRACK EARNINGS----------------------\nvar ctx = document.getElementById(\"chart\");\nvar chart_data = [earnings, borrowed]\nvar myChart = new Chart(ctx, {\n  type: 'horizontalBar',\n  responsive: false,\n  maintainAspectRatio: false,\n  data: {\n    labels: [\"Cash\", \"Borrowed\"],\n    datasets: [{\n      label: '',\n      data: chart_data,\n      backgroundColor: [\n        'green',\n        'red'\n      ]\n    }]\n  },\n  options: {\n    scales: {\n      xAxes: [{\n        ticks: {\n          min: 0,\n          max: 8000\n        }\n      }]\n    },\n    legend: {\n      display: false\n    }\n  }\n});\n\n\n//-------------------TRIAL FUNCTIONS----------------------------\nfunction updateChart(earnings, borrowed, duration){\n  myChart.data.datasets[0].data = [earnings, borrowed];\n  myChart.update({duration: duration});  \n}\n\n\nvar card_click = function(card){\n  trial_n++; // increase the trial number\n  \n  $(':button').prop('disabled', true); // disable all the cards\n  $('#img_'+card)[0].style.opacity = \"0\"; // remove the card image from the chosen card\n  \n  // determine gain and loss depending on selected card\n  var gain = card_lists[0].gain[card];\n  var loss = card_lists[0].loss[card].shift(); // take the top card from the stack\n  card_lists[0].loss[card].push(loss); // put it back at the bottom\n  // not that this differs from the original experiment - decks could run out\n  \n  // display the outcome and the card reverse\n  $('#outcome')[0].innerHTML = \"You chose: Deck \"+card+\"<br>You have won Â£\"+gain+[\"\",\"<br>But you have also lost Â£\"+loss][+(loss>0)];\n  $('#card_'+card)[0].style.backgroundColor = ['red','black'][+(loss==0)];\n\n  // update the earnings and borrowings\n  earnings += gain;\n  \n  if(loss>0){\n    earnings -= loss;\n    if(earnings<0){\n      earnings += 2000;\n      borrowed += 2000;\n    }\n  }\n  \n  \n  // add data to the \n  data_struct.card_response.push(card);\n  data_struct.card_RT.push(Trial.elapsed()-start_time); // need to sort this out! Set a timer at the start of a new trial when buttons are refreshed.\n  data_struct.gain.push(gain);\n  data_struct.loss.push(loss);\n  data_struct.cash.push(earnings);\n  data_struct.borrowed.push(borrowed);\n  \n  $('#trial_data').val(JSON.stringify(data_struct));\n  \n  // update the chart\n  updateChart(earnings, borrowed, 500);\n\n  setTimeout(function(){\n    if (trial_n < n_trials){\n      // reset trial by enabling buttons, replacing card image, removing outcome text\n      $(':button').prop('disabled', false);\n      $('#img_'+card)[0].style.opacity = \"1\";\n      $('#outcome')[0].innerHTML = \"\";\n      // record the start time for the next trial RT\n      start_time = Trial.elapsed();\n    }else{\n      parent.parent.net_gain = earnings-borrowed;\n      Trial.submit();\n    }\n  }, {{fb_time}})\n}\n\n\n</script>",
       "final": "<!--\n/*  Collector (Garcia, Kornell, Kerr, Blake & Haffey)\n    A program for running experiments on the web\n    Copyright 2012-2016 Mikey Garcia & Nate Kornell\n\n\n    This program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License version 3 as published by\n    the Free Software Foundation.\n\n    This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n\n    You should have received a copy of the GNU General Public License\n    along with this program.  If not, see <http://www.gnu.org/licenses/>\n \t\t\n\t\tKitten release (2019) author: Dr. Anthony Haffey (a.haffey@reading.ac.uk)\t\t\n*/\n-->\n<style>\n#final_text{\n  margin:auto;\n  width:500px;\n  padding:50px;\n  max-height:600px;\n  text-align: center;  \n}\n#proceed_button{\n  position:absolute;\n  right: 20px;\n}\n#trial_contents{\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:600;\n  height:600;\n}\n</style>\n<div id=\"trial_contents\">\n  <div id=\"final_text\"></div> <!-- add total earnings here -->\n  <div>\n    <button class=\"btn btn-primary\" id=\"proceed_button\" onclick=\"Trial.submit()\">Proceed</button>\n  </div>\n  <input type=\"hidden\" name=\"iowa_final_winnings\" id=\"iowa_final_winnings\"/>\n</div>\n\n<script>\nTrial.set_timer(function(){\n  $(\"#final_text\")[0].innerHTML = \"{{text}}\" + parent.parent.net_gain;\n  $(\"#iowa_final_winnings\").val(parent.parent.net_gain);\n},0);\n</script>",
       "pp_id_form": "<h3 class=\"text-danger\">DO NOT CLOSE THIS TAB - Complete the questionnaire below and resume here when you've completed it!</h3>\nOnly press the proceed button when you have completed the survey below: <button class=\"btn btn-primary\" onclick=\"Trial.submit()\" id=\"proceed_btn\" disabled>Proceed</button>\n<h1>You will need to insert the code <span id=\"pp_id\"></span></h1> at the end of the following survey: \n\n<div>\n  <iframe width=\"640px\" \n          height= \"480px\" \n          src= \"https://forms.office.com/Pages/ResponsePage.aspx?id=xDv6T_zswEiQgPXkP_kOX4iwBGRO5-NFl2OBto3gpIBURVlGRFlaNzBHNEFCTVFWQVBYOTZSMEFTMy4u&embed=true\" \n          frameborder= \"0\" \n          marginwidth= \"0\" \n          marginheight= \"0\" \n          style= \"border: none; max-width:100%; max-height:100vh\" \n          allowfullscreen \n          webkitallowfullscreen \n          mozallowfullscreen \n          msallowfullscreen> </iframe>\n</div>\n<input type=\"hidden\" id=\"pp_id_input\" name=\"pp_id_input\"/>\n<script>\nvar participant_code = parent.parent.$(\"#participant_code\").val();\n$(\"#pp_id\").html(participant_code);\n$(\"#pp_id_input\").val(participant_code);\n\nTrial.set_timer(function(){\n  $(\"#proceed_btn\").attr(\"disabled\",false);\n},30000);\n</script>",
-      "arithmetic": "<style>\n.trial_no{\n  width:150px;\n  height:50px;\n}\n#everything{\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:600;\n  height:600;\n}\n#proceed_btn{\n  display:none;\n}\ntd {\n  padding:10px;\n  margin:5px;\n}\ninput{\n  float: right;\n  clear: both;\n  text-align: right;\n  letter-spacing: 1em;\n}\n.form-control {\n  display: inline-block;\n}\n</style>\n\n<div id=\"everything\">\n  <h2 class=\"text-primary\">{{row_1_tens}}{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}{{row_2_units}}</h2>\n\n  <table>\n    <tr>\n      <td>\n        <h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>:</h5>\n      </td>\n      <td>\n        <h5>{{row_1_units}} {{add_sub_mult}} {{row_2_units}}</h5>\n      </td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_1_answer\" class=\"trial_no form-control pull-right\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_1\"></h3>\n      </td>\n    </tr>\n    <tr>\n      <td><h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\n      <td><h5>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}0</h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_2_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_2\"></h3>\n      </td>\n    </tr>\n    \n    <tr>\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>: </h5></td>\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_units}}</h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_3_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_3\"></h3>\n      </td>\n    </tr>\n    \n    <tr>\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_tens}}0 </h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_4_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_4\"></h3>\n      </td>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td><hr></rd>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td>\n        <input type=\"number\" id=\"row_5_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_5\"></h3>\n      </td>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td><hr></rd>\n    </tr>\n  </table>\n  <button class=\"btn btn-large btn-primary\" id=\"check_answers_btn\">Check Answers</button>\n  <button class=\"btn btn-large btn-primary\" onclick=\"Trial.submit()\" id=\"proceed_btn\">Proceed</button>\n</div>\n<script>\n\nvar answer_array = [\n  null,\n  \"{{answer_1}}\",\n  \"{{answer_2}}\",\n  \"{{answer_3}}\",\n  \"{{answer_4}}\",\n  \"{{answer_5}}\"\n];\n$(\"#check_answers_btn\").on(\"click\",function(){\n  for(var i=1; i<5; i++){\n    console.dir(i);\n    console.dir($('#row_' + i + '_answer').val());\n    if($(\"#row_\" + i + \"_answer\").val() == answer_array[i]){\n      $(\"#feedback_\" + i).html(\"<span class='text-success'>Correct</span>\");\n    } else {\n      $(\"#feedback_\" + i).html(\"<span class='text-danger'>Incorrect</span>\");\n    }\n  }\n  if($(\"#row_\" + i + \"_answer\").val() == answer_array[i]){\n    $(\"#feedback_5\").html(\"<span class='text-success'>{{correct_feedback}}</span>\");\n  } else {\n    $(\"#feedback_5\").html(\"<span class='text-danger'>{{incorrect_feedback}}</span>\");\n  }\n  $(\"#proceed_btn\").show();\n});\n</script>",
+      "arithmetic": "<style>\r\n.trial_no{\r\n  width:150px;\r\n  height:50px;\r\n}\r\n#everything{\r\n  position: absolute;\r\n  top:0;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin:auto;\r\n  width:600;\r\n  height:600;\r\n}\r\n#proceed_btn{\r\n  display:none;\r\n}\r\ntd {\r\n  padding:10px;\r\n  margin:5px;\r\n}\r\ninput{\r\n  float: right;\r\n  clear: both;\r\n  text-align: right;\r\n  letter-spacing: 1em;\r\n}\r\n.form-control {\r\n  display: inline-block;\r\n}\r\n</style>\r\n\r\n<div id=\"everything\">\r\n  <h2 class=\"text-primary\">{{row_1_tens}}{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}{{row_2_units}}</h2>\r\n\r\n  <table>\r\n    <tr>\r\n      <td>\r\n        <h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>:</h5>\r\n      </td>\r\n      <td>\r\n        <h5>{{row_1_units}} {{add_sub_mult}} {{row_2_units}}</h5>\r\n      </td>\r\n      <td>=</td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_1_answer\" class=\"trial_no form-control pull-right\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_1\"></h3>\r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td><h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\r\n      <td><h5>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}0</h5></td>\r\n      <td>=</td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_2_answer\" class=\"trial_no\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_2\"></h3>\r\n      </td>\r\n    </tr>\r\n    \r\n    <tr>\r\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>: </h5></td>\r\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_units}}</h5></td>\r\n      <td>=</td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_3_answer\" class=\"trial_no\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_3\"></h3>\r\n      </td>\r\n    </tr>\r\n    \r\n    <tr>\r\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\r\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_tens}}0 </h5></td>\r\n      <td>=</td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_4_answer\" class=\"trial_no\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_4\"></h3>\r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td colspan = \"3\"></td>\r\n      <td><hr></rd>\r\n    </tr>\r\n    <tr>\r\n      <td colspan = \"3\"></td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_5_answer\" class=\"trial_no\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_5\"></h3>\r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td colspan = \"3\"></td>\r\n    </tr>\r\n    <tr>\r\n      <td colspan = \"3\"></td>\r\n      <td><hr></rd>\r\n    </tr>\r\n  </table>\r\n  <button class=\"btn btn-large btn-primary\" id=\"check_answers_btn\">Check Answers</button>\r\n  <button class=\"btn btn-large btn-primary\" onclick=\"Trial.submit()\" id=\"proceed_btn\">Proceed</button>\r\n</div>\r\n<script>\r\n\r\n\r\n/*\r\n* Work out what is going on with your blocks etc.\r\n*/\r\nTrial.set_timer(function(){\r\n  var block_types    = Trial.get(\"feedback_blocks\");\r\n  var block_type     = block_types[0];\r\n  var block_feedback = Trial.get(block_type + \"_feedback\");\r\n  \r\n  if(block_feedback.length == 0){\r\n    block_type = block_types[1];\r\n    block_feedback = Trial.get(block_type + \"_feedback\");\r\n  }\r\n  \r\n  var trial_feedback = block_feedback.pop();\r\n  \r\n  Trial.set(block_type + \"_feedback\", block_feedback);\r\n  \r\n  var answer_array = [\r\n    null,\r\n    \"{{answer_1}}\",\r\n    \"{{answer_2}}\",\r\n    \"{{answer_3}}\",\r\n    \"{{answer_4}}\",\r\n    \"{{answer_5}}\"\r\n  ];\r\n  \r\n  \r\n  $(\"#check_answers_btn\").on(\"click\",function(){\r\n    for(var i=1; i<6; i++){\r\n      console.dir(i);\r\n      console.dir($('#row_' + i + '_answer').val());\r\n      if($(\"#row_\" + i + \"_answer\").val() == answer_array[i]){\r\n        $(\"#feedback_\" + i).html(\"<span class='text-success'>Correct</span>\");\r\n      } else {\r\n        $(\"#feedback_\" + i).html(\"<span class='text-danger'>Incorrect</span>\");\r\n      }\r\n    }\r\n    $(\"#proceed_btn\").show();\r\n  });\r\n},100);\r\n</script>",
       "withdraw_code": "<input type=\"hidden\" id=\"withdrawal_code\" name=\"withdrawal_code\"/>\n<script>\nwithdrawal_code = '';\nvar characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';\nvar charactersLength = characters.length;\nfor ( var i = 0; i < 16; i++ ) {\n  withdrawal_code += characters.charAt(Math.floor(Math.random() * charactersLength));\n}\nTrial.set(\"withdrawal_code\",withdrawal_code);\n$(\"#withdrawal_code\").val(withdrawal_code);\nTrial.set_timer(function(){\n  Trial.submit();\n},100);\n</script>",
       "withdrawal_code_show": "<div>\n  <h1>Important information before you finish</h1>\n  \n  Thank you for participating! If you would like to withdraw, please e-mail the following code to the researcher:\n  \n  <h1 class=\"text-primary\" id=\"withdrawal_code\"></h1>\n  <button class=\"btn btn-primary\" onclick=\"Trial.submit()\">Proceed</button>\n  \n</div>\n\n<script>\n\nTrial.set_timer(function(){\n  $(\"#withdrawal_code\").html(Trial.get(\"withdrawal_code\"));\n},100);\n</script>",
       "cam": "<!--\n-- Once Ant hears from Indu - finalise the stimuli list\n\n-- choose up to three times to unlock a video\n\n-- 1 vs. 1\n-- 1 vs. 2\n-- 1 vs. 3\n-- 2 vs. 2\n-- 2 vs. 3\n-- 3 vs. 3\n\nLocks are counterbalanced between social vs. nonsocial\n\n(look at Indu's matlab script to confirm). \n\n--look through a datasheet after collecting one participant (make sure it's all gdpr)\n\n\n\nDebrief - give the participant a \"withdrawal\" code (e.g. their completion code). Make it clear to them that they can use this to withdraw.\n\n\n\n--ask Indu to send me the info and consent sheets (or the whole ethics; and debrief).\n\nwrite a protocol for Indu and her undergrad\n-->\n\n<style>\n#everything_div{\n  margin:auto;\n  width:725px;\n  /* padding:50px; */\n  height:400px;\n  text-align: center;\n  position:absolute;\n  top:0;\n\tbottom: 0;\n\tleft: 0;\n\tright: 0;\n}\n\n#left_img{\n  position:absolute;\n  left:0px;\n  top:0px;\n}\n\n#right_img{\n  position:absolute;\n  left:400px;\n  top:0px;\n}\n#block_left_lock_1{\n  left:125px;\n}\n#block_left_lock_2{\n  left:0px;\n}\n#block_left_lock_3{\n  left:250px;\n}\n#block_right_lock_1{\n  left:525px;\n}\n#block_right_lock_2{\n  left:400px;\n}\n#block_right_lock_3{\n  left:650px;\n}\n#left_lock_1{\n  left:125px;\n}\n#left_lock_2{\n  left:0px;\n}\n#left_lock_3{\n  left:250px;\n}\n#right_lock_1{\n  left:525px;\n}\n#right_lock_2{\n  left:400px;\n}\n#right_lock_3{\n  left:650px;\n}\n.block_lock{\n  position:absolute;\n  width:50px;\n  height:50px;\n  z-index:2;\n  display:none;\n  top:0px;\n}\n.lock_img{\n  position:absolute;\n  width:50px;\n  height:50px;\n  z-index:2;\n  display:none;\n  top:0px;\n}\n.stim_style{\n  height:325px;\n  width:325px;\n  z-index:1;\n}\n.video_stim{\n  margin:auto;\n  display:none;\n  height:400px;\n  width:600px;\n  text-align: center;\n  position:absolute;\n  top:0;\n\tbottom: 0;\n\tleft: 0;\n\tright: 0;\n\tz-index:5;\n}\n</style>\n<div id=\"everything_div\">\n  <img id='left_img' src=\"{{left_back}}\" class=\"stim_style\" />\n  <video id=\"left_video\" class=\"stim_style video_stim\" muted>\n    <source src=\"{{left_video}}\" type=\"video/mp4\">\n  Your browser does not support the video tag.\n  </video>\n  <img id='right_img' src=\"{{right_back}}\" class=\"stim_style\" />\n  <video id=\"right_video\"  class=\"stim_style video_stim\" muted>\n    <source src=\"{{right_video}}\" type=\"video/mp4\">\n  Your browser does not support the video tag.\n  </video>\n  <img id=\"left_lock_1\"        class=\"lock_img left_lock\"  src=\"{{lock_img}}\"/>\n  <img id=\"left_lock_2\"        class=\"lock_img left_lock\"  src=\"{{lock_img}}\"/>\n  <img id=\"left_lock_3\"        class=\"lock_img left_lock\"  src=\"{{lock_img}}\"/>\n  <img id=\"right_lock_1\"       class=\"lock_img right_lock\" src=\"{{lock_img}}\"/>\n  <img id=\"right_lock_2\"       class=\"lock_img right_lock\" src=\"{{lock_img}}\"/>\n  <img id=\"right_lock_3\"       class=\"lock_img right_lock\" src=\"{{lock_img}}\"/>\n  <img id=\"block_left_lock_1\"  class=\"block_lock\"          src=\"{{block_lock_img}}\"/>\n  <img id=\"block_left_lock_2\"  class=\"block_lock\"          src=\"{{block_lock_img}}\"/>\n  <img id=\"block_left_lock_3\"  class=\"block_lock\"          src=\"{{block_lock_img}}\"/>\n  <img id=\"block_right_lock_1\" class=\"block_lock\"          src=\"{{block_lock_img}}\"/>\n  <img id=\"block_right_lock_2\" class=\"block_lock\"          src=\"{{block_lock_img}}\"/>\n  <img id=\"block_right_lock_3\" class=\"block_lock\"          src=\"{{block_lock_img}}\"/>\n</div>\n<input type=\"hidden\" id=\"left_right_chosen\" name=\"left_right_chosen\">\n<input type=\"hidden\" id=\"social_chosen\"     name=\"social_chosen\">\n<input type=\"hidden\" id=\"lock_1_rt\"         name=\"lock_1_rt\">\n<input type=\"hidden\" id=\"lock_2_rt\"         name=\"lock_2_rt\">\n<input type=\"hidden\" id=\"lock_3_rt\"         name=\"lock_3_rt\">\n<input type=\"hidden\" id=\"vid_rt\"            name=\"vid_rt\">\n\n<script>\nlocks_obj = {\n  left_locks:   \"{{left_locks}}\",\n  right_locks:  \"{{right_locks}}\",\n  left_social:  \"{{left_social}}\",\n  right_social: \"{{right_social}}\",\n  locks_clicked: 0\n}\n$(\"#left_lock_1\").show();\n\nif(locks_obj.left_locks > 1){\n  $(\"#left_lock_2\").show();\n}\nif(locks_obj.left_locks == 3){\n  $(\"#left_lock_3\").show();\n}\n\n\n$(\"#right_lock_1\").show();\nif(locks_obj.right_locks > 1){\n  $(\"#right_lock_2\").show();\n}\nif(locks_obj.right_locks == 3){\n  $(\"#right_lock_3\").show();\n}\n\nfunction lock_click(this_id){\n  $(\".lock_img\").unbind();\n  setTimeout(function(){\n    bind_lock();\n  },{{lock_time}});\n  \n  \n  var left_right_lock = this_id.split(\"_\")[0];\n  \n  var opposite_lock = left_right_lock == \"left\" ? \"right\" : \"left\";\n  \n  $(\".\" + opposite_lock + \"_lock\").hide();\n  \n  //block_left_lock_1\n  var locks_loop = parseFloat(locks_obj[opposite_lock + \"_locks\"]) + 1;\n  console.dir(\"locks_loop\");\n  console.dir(locks_loop);\n  for(var i = 1; i < locks_loop; i++){\n    \n    $(\"#block_\" + opposite_lock + \"_lock_\" + i).show();\n    \n  }\n  \n  \n  locks_obj.locks_clicked++;\n  $(\"#lock_\" + locks_obj.locks_clicked + \"_rt\").val(Trial.elapsed());\n  $(\"#\" + this_id).fadeOut({{lock_time}});\n  $(\".lock_img\").unbind();\n  if($(\".\" + left_right_lock + \"_lock:visible\").length == 1){\n    $(\"#left_right_chosen\").val(left_right_lock);\n    $(\"#social_chosen\").val(locks_obj[left_right_lock + \"_social\"]);\n    $(\".block_lock\").hide();\n    setTimeout(function(){\n      $(\"#\" + left_right_lock + \"_img\").css(\"z-index\",3);\n      $(\"#\" + left_right_lock + \"_img\").animate({\n        left :  \"0px\",\n        top  :  \"0px\",\n        width:  \"100%\",\n        height: \"100%\"\n      },function(){\n        $(\"#\" + left_right_lock + \"_video\").show();\n        $(\"#\" + left_right_lock + \"_video\")[0].play();\n        $(\"#\" + left_right_lock  +\"_video\").on('ended',function(){\n          $(\"#vid_rt\").val(Trial.elapsed());\n          Trial.submit();\n        });    \n      });\n    },\"{{lock_time}}\");    \n  }\n}\n\nfunction bind_lock(){\n  $(\".lock_img\").on(\"click\",function(){\n    this_id = $(this)[0].id;\n    lock_click(this_id);\n  });\n}\nbind_lock()\n</script>",
@@ -38865,7 +38394,8 @@
       "approach": "<style>\n#show_image_btn{\n  display:none;\n  position: absolute;\n  top:500;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:150px;\n  height:50px;\n  display:none;\n}\n#trial_image{\n  display:none;\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:400px;\n  height:400px;\n}\n</style>\n\n<img src=\"{{image}}\" id=\"trial_image\"/>\n<button class=\"btn btn-primary\" id=\"show_image_btn\">Show Image</button>\n<input type=\"hidden\" id=\"approach_clicks\" name=\"approach_clicks\"/>\n<script>\ntotal_approach_clicks = 0;\n\nTrial.set_timer(function(){\n  $(\"#trial_image\").show();\n  setTimeout(function(){\n    $(\"#trial_image\").hide();\n    $(\"#show_image_btn\").show();\n    setTimeout(function(){\n      Trial.submit();\n    },5200);\n  },800);\n},1000);\n\n$(\"#show_image_btn\").on(\"click\",function(){\n  $(\"#trial_image\").show();\n  if(typeof(hide_timer) == \"undefined\"){\n    hide_timer = new Trial.timer(function(){\n      $(\"#trial_image\").hide();\n      delete(hide_timer);\n    },{{hide_show_duration}});\n  } else {\n    hide_timer.add({{hide_show_duration}});\n  }\n});\n  \n\n/* in case I've misunderstood\nfunction bind_show_button(){\n  $(\"#show_image_btn\").on(\"click\",function(){\n    $(\"#trial_image\").show();\n    setTimeout(function(){\n      $(\"#trial_image\").hide();\n      $(\"#show_image_btn\").unbind();\n      total_approach_clicks++;\n      $(\"#approach_clicks\").val(total_approach_clicks)\n      setTimeout(function(){\n        bind_show_button();\n      },33);\n    },33);\n  });\n}\nbind_show_button();\n*/\n\n  \n  \n</script>",
       "avoidance": "<style>\n#hide_image_btn{\n  display:none;\n  position: absolute;\n  top:500;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:150px;\n  height:50px;\n  display:none;\n}\n#trial_image{\n  display:none;\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:400px;\n  height:400px;\n}\nbody{\n  background-color: black;\n}\n</style>\n\n<img src=\"{{image}}\" id=\"trial_image\"/>\n<button class=\"btn btn-primary\" id=\"hide_image_btn\">Hide Image</button>\n<input type=\"hidden\" id=\"approach_clicks\" name=\"approach_clicks\"/>\n<script>\ntotal_approach_clicks = 0;\n\nTrial.set_timer(function(){\n  $(\"#trial_image\").show();\n  setTimeout(function(){\n    $(\"#hide_image_btn\").show();\n    setTimeout(function(){\n      Trial.submit();\n    },5200);\n  },800);\n},1000)\n\n\n$(\"#hide_image_btn\").on(\"click\",function(){\n  $(\"#trial_image\").hide();\n  if(typeof(hide_timer) == \"undefined\"){\n    hide_timer = new Trial.timer(function(){\n      $(\"#trial_image\").show();\n      delete(hide_timer);\n    },{{hide_show_duration}});\n  } else {\n    hide_timer.add({{hide_show_duration}});\n  }\n});\n  \n\n/*\nfunction bind_hide_button(){\n  $(\"#hide_image_btn\").on(\"click\",function(){\n    $(\"#trial_image\").hide();\n    setTimeout(function(){\n      $(\"#trial_image\").show();\n      $(\"#hide_image_btn\").unbind();\n      total_approach_clicks++;\n      $(\"#approach_clicks\").val(total_approach_clicks)\n      setTimeout(function(){\n        bind_hide_button();\n      },33);\n    },33);\n  });\n}\nbind_hide_button();\n*/\n  \n  \n</script>",
       "asdf": "a = 5\n",
-      "create_feedback": "<script>\r\nTrial.set(\"growth_feedback\",[{\r\n  \"correct\":   \"Correct: Apply that effort to the next one too\",\r\n  \"incorrect\": \"Incorrect: You need to apply more effort to the next one\"\r\n},{\r\n  \"correct\": \"Correct: Your work paid off\",\r\n  \"incorrect\": \"Incorrect: If you work harder it'll pay off\"\r\n},{\r\n  \"correct\": \"Correct: You must have tried hard on that one\",\r\n  \"incorrect\": \"Incorrect: You must try harder next time\"\r\n},{\r\n  \"correct\": \"Correct: I can see you have put in effort to get that right\",\r\n  \"incorrect\": \"Incorrect: You didn't put in enough effort\"\r\n},{\r\n  \"correct\": \"Correct: If you keep this up you'll be able to do even harder ones\",\r\n  \"incorrect\": \"Incorrect: Keep trying and you'll get there\" \r\n},{\r\n  \"correct\": \"Correct: The more you do the better you'll get\",\r\n  \"incorrect\": \"Incorrect: But you'll get better the more you do\"\r\n},{\r\n  \"correct\": \"Correct: Hard work is needed to do well on this\",\r\n  \"incorrect\": \"Incorrect: Hard work is needed to do well on this\"\r\n},{\r\n  \"correct\": \"Correct: You clearly worked hard\",\r\n  \"incorrect\": \"Incorrect: You needed to work harder\"\r\n},{\r\n  \"correct\": \"Correct: Practice makes perfect\",\r\n  \"incorrect\": \"Incorrect: But practice makes perfect\"\r\n},{\r\n  \"correct\": \"Correct: Keep up the good work\",\r\n  \"incorrect\": \"Incorrect: With a bit more work you'll get the next one\"\r\n}]);\r\n\r\nTrial.set(\"fixed_feedback\",[{\r\n  \"correct\": \"Correct: You must be really smart\",\r\n  \"incorrect\": \"Incorrect: That was probably too difficult\"\r\n},{\r\n  \"correct\": \"Correct: You're really good at this\",\r\n  \"incorrect\": \"Incorrect: Hopefully the next one will be easier\"\r\n},{\r\n  \"correct\": \"Correct: You're a natural at this\",\r\n  \"incorrect\": \"Incorrect: This seems beyond your ability\"\r\n},{\r\n  \"correct\": \"Correct: You must be good at maths\",\r\n  \"incorrect\": \"Incorrect: It is hard for some people to grasp this\"\r\n},{\r\n  \"correct\": \"Correct: This must be your strength\",\r\n  \"incorrect\": \"Incorrect: Maths might not be one of your strengths\"\r\n},{\r\n  \"correct\": \"Correct: Well done, you made that look easy\",\r\n  \"incorrect\": \"Incorrect: That wasn't an easy one\"\r\n},{\r\n  \"correct\": \"Correct: You are clearly very gifted at this\",\r\n  \"incorrect\": \"Incorrect: You might be gifted at something else\"\r\n},{\r\n  \"correct\": \"Correct: Intelligent people find these easy\",\r\n  \"incorrect\": \"Incorrect: Intelligent people find these easy\"\r\n},{\r\n  \"correct\": \"Correct: You're an arithmetic genius\",\r\n  \"incorrect\": \"Incorrect: Arithmetic isn't for everyone\"\r\n},{\r\n  \"correct\": \"Correct: Some people are talented at this\",\r\n  \"incorrect\": \"Incorrect: Some people are talented at this\"\r\n}]);\r\nTrial.submit();\r\n</script>"
+      "create_feedback": "<script>\r\n\r\n// based on https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array\r\nfunction shuffle(array) {\r\n  var currentIndex = array.length, temporaryValue, randomIndex;\r\n\r\n  // While there remain elements to shuffle...\r\n  while (0 !== currentIndex) {\r\n\r\n    // Pick a remaining element...\r\n    randomIndex = Math.floor(Math.random() * currentIndex);\r\n    currentIndex -= 1;\r\n\r\n    // And swap it with the current element.\r\n    temporaryValue = array[currentIndex];\r\n    array[currentIndex] = array[randomIndex];\r\n    array[randomIndex] = temporaryValue;\r\n  }\r\n\r\n  return array;\r\n}\r\n\r\nvar growth_feedback = [{\r\n  \"correct\":   \"Correct: Apply that effort to the next one too\",\r\n  \"incorrect\": \"Incorrect: You need to apply more effort to the next one\"\r\n},{\r\n  \"correct\": \"Correct: Your work paid off\",\r\n  \"incorrect\": \"Incorrect: If you work harder it'll pay off\"\r\n},{\r\n  \"correct\": \"Correct: You must have tried hard on that one\",\r\n  \"incorrect\": \"Incorrect: You must try harder next time\"\r\n},{\r\n  \"correct\": \"Correct: I can see you have put in effort to get that right\",\r\n  \"incorrect\": \"Incorrect: You didn't put in enough effort\"\r\n},{\r\n  \"correct\": \"Correct: If you keep this up you'll be able to do even harder ones\",\r\n  \"incorrect\": \"Incorrect: Keep trying and you'll get there\" \r\n},{\r\n  \"correct\": \"Correct: The more you do the better you'll get\",\r\n  \"incorrect\": \"Incorrect: But you'll get better the more you do\"\r\n},{\r\n  \"correct\": \"Correct: Hard work is needed to do well on this\",\r\n  \"incorrect\": \"Incorrect: Hard work is needed to do well on this\"\r\n},{\r\n  \"correct\": \"Correct: You clearly worked hard\",\r\n  \"incorrect\": \"Incorrect: You needed to work harder\"\r\n},{\r\n  \"correct\": \"Correct: Practice makes perfect\",\r\n  \"incorrect\": \"Incorrect: But practice makes perfect\"\r\n},{\r\n  \"correct\": \"Correct: Keep up the good work\",\r\n  \"incorrect\": \"Incorrect: With a bit more work you'll get the next one\"\r\n}];\r\n\r\nvar fixed_feedback = [{\r\n  \"correct\": \"Correct: You must be really smart\",\r\n  \"incorrect\": \"Incorrect: That was probably too difficult\"\r\n},{\r\n  \"correct\": \"Correct: You're really good at this\",\r\n  \"incorrect\": \"Incorrect: Hopefully the next one will be easier\"\r\n},{\r\n  \"correct\": \"Correct: You're a natural at this\",\r\n  \"incorrect\": \"Incorrect: This seems beyond your ability\"\r\n},{\r\n  \"correct\": \"Correct: You must be good at maths\",\r\n  \"incorrect\": \"Incorrect: It is hard for some people to grasp this\"\r\n},{\r\n  \"correct\": \"Correct: This must be your strength\",\r\n  \"incorrect\": \"Incorrect: Maths might not be one of your strengths\"\r\n},{\r\n  \"correct\": \"Correct: Well done, you made that look easy\",\r\n  \"incorrect\": \"Incorrect: That wasn't an easy one\"\r\n},{\r\n  \"correct\": \"Correct: You are clearly very gifted at this\",\r\n  \"incorrect\": \"Incorrect: You might be gifted at something else\"\r\n},{\r\n  \"correct\": \"Correct: Intelligent people find these easy\",\r\n  \"incorrect\": \"Incorrect: Intelligent people find these easy\"\r\n},{\r\n  \"correct\": \"Correct: You're an arithmetic genius\",\r\n  \"incorrect\": \"Incorrect: Arithmetic isn't for everyone\"\r\n},{\r\n  \"correct\": \"Correct: Some people are talented at this\",\r\n  \"incorrect\": \"Incorrect: Some people are talented at this\"\r\n}];\r\n\r\nvar feedback_blocks = [\"fixed\", \"growth\"];\r\n\r\n/*\r\n* Shuffle the above arrays\r\n*/\r\n\r\nshuffle(feedback_blocks);\r\nshuffle(fixed_feedback);\r\nshuffle(growth_feedback);\r\nTrial.set(\"feedback_blocks\", feedback_blocks);\r\nTrial.set(\"fixed_feedback\",  fixed_feedback);\r\nTrial.set(\"growth_feedback\", growth_feedback);\r\n\r\nTrial.set_timer(function(){\r\n  Trial.submit();\r\n},100);\r\n\r\n\r\n\r\n\r\n\r\n</script>",
+      "arithmetic_feedback": "<style>\r\n.trial_no{\r\n  width:150px;\r\n  height:50px;\r\n}\r\n#everything{\r\n  position: absolute;\r\n  top:0;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin:auto;\r\n  width:600;\r\n  height:600;\r\n}\r\n#proceed_btn{\r\n  display:none;\r\n}\r\ntd {\r\n  padding:10px;\r\n  margin:5px;\r\n}\r\ninput{\r\n  float: right;\r\n  clear: both;\r\n  text-align: right;\r\n  letter-spacing: 1em;\r\n}\r\n.form-control {\r\n  display: inline-block;\r\n}\r\n</style>\r\n\r\n<div id=\"everything\">\r\n  <h2 class=\"text-primary\">{{row_1_tens}}{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}{{row_2_units}}</h2>\r\n\r\n  <table>\r\n    <tr>\r\n      <td>\r\n        <h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>:</h5>\r\n      </td>\r\n      <td>\r\n        <h5>{{row_1_units}} {{add_sub_mult}} {{row_2_units}}</h5>\r\n      </td>\r\n      <td>=</td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_1_answer\" class=\"trial_no form-control pull-right\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_1\"></h3>\r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td><h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\r\n      <td><h5>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}0</h5></td>\r\n      <td>=</td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_2_answer\" class=\"trial_no\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_2\"></h3>\r\n      </td>\r\n    </tr>\r\n    \r\n    <tr>\r\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>: </h5></td>\r\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_units}}</h5></td>\r\n      <td>=</td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_3_answer\" class=\"trial_no\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_3\"></h3>\r\n      </td>\r\n    </tr>\r\n    \r\n    <tr>\r\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\r\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_tens}}0 </h5></td>\r\n      <td>=</td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_4_answer\" class=\"trial_no\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_4\"></h3>\r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td colspan = \"3\"></td>\r\n      <td><hr></rd>\r\n    </tr>\r\n    <tr>\r\n      <td colspan = \"3\"></td>\r\n      <td>\r\n        <input type=\"number\" id=\"row_5_answer\" class=\"trial_no\"/>\r\n      </td>\r\n      <td>\r\n        <h3 id=\"feedback_5\"></h3>\r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td colspan = \"3\"></td>\r\n    </tr>\r\n    <tr>\r\n      <td colspan = \"3\"></td>\r\n      <td><hr></rd>\r\n    </tr>\r\n  </table>\r\n  <button class=\"btn btn-large btn-primary\" id=\"check_answers_btn\">Check Answers</button>\r\n  <button class=\"btn btn-large btn-primary\" onclick=\"Trial.submit()\" id=\"proceed_btn\">Proceed</button>\r\n</div>\r\n<script>\r\n\r\n\r\n/*\r\n* Work out what is going on with your blocks etc.\r\n*/\r\nTrial.set_timer(function(){\r\n  var block_types    = Trial.get(\"feedback_blocks\");\r\n  var block_type     = block_types[0];\r\n  var block_feedback = Trial.get(block_type + \"_feedback\");\r\n  \r\n  if(block_feedback.length == 0){\r\n    block_type = block_types[1];\r\n    block_feedback = Trial.get(block_type + \"_feedback\");\r\n  }\r\n  \r\n  var trial_feedback = block_feedback.pop();\r\n  \r\n  Trial.set(block_type + \"_feedback\", block_feedback);\r\n  \r\n  var answer_array = [\r\n    null,\r\n    \"{{answer_1}}\",\r\n    \"{{answer_2}}\",\r\n    \"{{answer_3}}\",\r\n    \"{{answer_4}}\",\r\n    \"{{answer_5}}\"\r\n  ];\r\n  \r\n  \r\n  $(\"#check_answers_btn\").on(\"click\",function(){\r\n    for(var i=1; i<5; i++){\r\n      console.dir(i);\r\n      console.dir($('#row_' + i + '_answer').val());\r\n      if($(\"#row_\" + i + \"_answer\").val() == answer_array[i]){\r\n        $(\"#feedback_\" + i).html(\"<span class='text-success'>Correct</span>\");\r\n      } else {\r\n        $(\"#feedback_\" + i).html(\"<span class='text-danger'>Incorrect</span>\");\r\n      }\r\n    }\r\n    if($(\"#row_\" + i + \"_answer\").val() == answer_array[i]){\r\n      $(\"#feedback_5\").html(\"<span class='text-success'>\" + trial_feedback.correct + \"</span>\");\r\n    } else {\r\n      $(\"#feedback_5\").html(\"<span class='text-danger'>\" + trial_feedback.incorrect + \"</span>\");\r\n    }\r\n    $(\"#proceed_btn\").show();\r\n  });\r\n},100);\r\n</script>"
     },
     "graphic": {
       "trialtype": "",

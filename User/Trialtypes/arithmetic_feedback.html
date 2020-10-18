@@ -140,7 +140,7 @@ Trial.set_timer(function(){
   
   
   $("#check_answers_btn").on("click",function(){
-    for(var i=1; i<6; i++){
+    for(var i=1; i<5; i++){
       console.dir(i);
       console.dir($('#row_' + i + '_answer').val());
       if($("#row_" + i + "_answer").val() == answer_array[i]){
@@ -148,6 +148,11 @@ Trial.set_timer(function(){
       } else {
         $("#feedback_" + i).html("<span class='text-danger'>Incorrect</span>");
       }
+    }
+    if($("#row_" + i + "_answer").val() == answer_array[i]){
+      $("#feedback_5").html("<span class='text-success'>" + trial_feedback.correct + "</span>");
+    } else {
+      $("#feedback_5").html("<span class='text-danger'>" + trial_feedback.incorrect + "</span>");
     }
     $("#proceed_btn").show();
   });
