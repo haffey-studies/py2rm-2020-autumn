@@ -173,8 +173,8 @@ locks_obj = {
   right_social: "{{right_social}}",
   locks_clicked: 0
 }
-$("#left_lock_1").show();
 
+$("#left_lock_1").show();
 if(locks_obj.left_locks > 1){
   $("#left_lock_2").show();
 }
@@ -213,49 +213,55 @@ function lock_click(this_id){
   }
   
   
-  locks_obj.locks_clicked++;
-  $("#lock_" + locks_obj.locks_clicked + "_rt").val(Trial.elapsed());
-  $("#" + this_id).fadeOut({{lock_time}});
-  $(".lock_img").unbind();
-  if($("." + left_right_lock + "_lock:visible").length == 1){
-    $("#left_right_chosen").val(left_right_lock);
-    $("#social_chosen").val(locks_obj[left_right_lock + "_social"]);
-    $(".block_lock").hide();
-    setTimeout(function(){
-      $("#" + left_right_lock + "_img").css("z-index",3);
-      $("#" + left_right_lock + "_img").animate({
-        left :  "0px",
-        top  :  "0px",
-        width:  "100%",
-        height: "100%"
-      },function(){
-        
-        
-        if(left_right_lock == "left"){
-          var countdown = "{{left_timer}}";
-        } else {
-          var countdown = "{{right_timer}}";
-        }
-        // add countdown here
-        $("#countdown_div").show();
-        $("#countdown_div").html(countdown);
-        var countdown_interval = setInterval(function(){
-          countdown--;
-          $("#countdown_div").html(countdown);
-          if(countdown < 0){
-            $("#countdown_div").hide();
-            clearInterval(countdown_interval);
-            $("#" + left_right_lock + "_video").show();
-            $("#" + left_right_lock + "_video")[0].play();
-            $("#" + left_right_lock  +"_video").on('ended',function(){
-              $("#vid_rt").val(Trial.elapsed());
-              Trial.submit();
-            });    
+  
+  
+  
+  
+  locks_obj.locks_clicked++;                                                    // identify which lock has just been clicked          
+  $("#lock_" + locks_obj.locks_clicked + "_rt").val(Trial.elapsed());           // store the time since the trial started as a response time in relation to this lock number (1 or 2 or 3)
+  $("#" + this_id).fadeOut({{lock_time}}, function(){                           // hide the current lock; lock_time is how long the user needs to wait before doing the following:
+    if($("." + left_right_lock + "_lock:visible").length == 0){                 // if there are now no visible locks, it's time to show the video:
+      $(".lock_img").unbind();
+    
+      $("#left_right_chosen").val(left_right_lock);
+      $("#social_chosen").val(locks_obj[left_right_lock + "_social"]);
+      $(".block_lock").hide();
+      setTimeout(function(){
+        $("#" + left_right_lock + "_img").css("z-index",3);
+        $("#" + left_right_lock + "_img").animate({
+          left :  "0px",
+          top  :  "0px",
+          width:  "100%",
+          height: "100%"
+        },function(){
+          
+          
+          if(left_right_lock == "left"){
+            var countdown = "{{left_timer}}";
+          } else {
+            var countdown = "{{right_timer}}";
           }
-        },1000);
-      });
-    },"{{lock_time}}");    
-  }
+          // add countdown here
+          $("#countdown_div").show();
+          $("#countdown_div").html(countdown);
+          var countdown_interval = setInterval(function(){
+            countdown--;
+            $("#countdown_div").html(countdown);
+            if(countdown < 0){
+              $("#countdown_div").hide();
+              clearInterval(countdown_interval);
+              $("#" + left_right_lock + "_video").show();
+              $("#" + left_right_lock + "_video")[0].play();
+              $("#" + left_right_lock  +"_video").on('ended',function(){
+                $("#vid_rt").val(Trial.elapsed());
+                Trial.submit();
+              });    
+            }
+          },1000);
+        });
+      },0);    //"{{lock_time}}" 
+    }
+  });
 }
 
 function bind_lock(){
