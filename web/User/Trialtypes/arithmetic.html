@@ -110,6 +110,7 @@ input{
   <button class="btn btn-large btn-primary" onclick="Trial.submit()" id="proceed_btn">Proceed</button>
 </div>
 <script>
+
 var answer_array = [
   null,
   "{{answer_1}}",
@@ -119,14 +120,19 @@ var answer_array = [
   "{{answer_5}}"
 ];
 $("#check_answers_btn").on("click",function(){
-  for(var i=1; i<6; i++){
+  for(var i=1; i<5; i++){
     console.dir(i);
     console.dir($('#row_' + i + '_answer').val());
     if($("#row_" + i + "_answer").val() == answer_array[i]){
-      $("#feedback_" + i).html("<span class='text-success'>{{correct_feedback}}</span>");
+      $("#feedback_" + i).html("<span class='text-success'>Correct</span>");
     } else {
-      $("#feedback_" + i).html("<span class='text-danger'>{{incorrect_feedback}}</span>");
+      $("#feedback_" + i).html("<span class='text-danger'>Incorrect</span>");
     }
+  }
+  if($("#row_" + i + "_answer").val() == answer_array[i]){
+    $("#feedback_5").html("<span class='text-success'>{{correct_feedback}}</span>");
+  } else {
+    $("#feedback_5").html("<span class='text-danger'>{{incorrect_feedback}}</span>");
   }
   $("#proceed_btn").show();
 });

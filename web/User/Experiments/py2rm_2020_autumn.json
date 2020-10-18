@@ -72,56 +72,6 @@
         ""
       ],
       [
-        "7",
-        "arithmetic",
-        "user",
-        "",
-        "neutral",
-        "Correct",
-        "Incorrect",
-        ""
-      ],
-      [
-        "8",
-        "arithmetic",
-        "user",
-        "",
-        "neutral",
-        "Correct",
-        "Incorrect",
-        ""
-      ],
-      [
-        "9",
-        "arithmetic",
-        "user",
-        "",
-        "neutral",
-        "Correct",
-        "Incorrect",
-        ""
-      ],
-      [
-        "10",
-        "arithmetic",
-        "user",
-        "",
-        "neutral",
-        "Correct",
-        "Incorrect",
-        ""
-      ],
-      [
-        "11",
-        "arithmetic",
-        "user",
-        "",
-        "neutral",
-        "Correct",
-        "Incorrect",
-        ""
-      ],
-      [
         "0",
         "instruct",
         "user",
@@ -137,8 +87,8 @@
         "user",
         "",
         "growth",
-        "Correct: Your work paid off!",
-        "Incorrect: maybe try  a little harder next time",
+        "Correct: Apply that effort to the next one too",
+        "Incorrect: You need to apply more effort to the next one",
         ""
       ],
       [
@@ -147,8 +97,8 @@
         "user",
         "",
         "growth",
-        "Correct: Your work paid off!",
-        "Incorrect: maybe try  a little harder next time",
+        "Correct: Your work paid off",
+        "Incorrect: If you work harder it'll pay off",
         ""
       ],
       [
@@ -157,8 +107,8 @@
         "user",
         "",
         "growth",
-        "Correct: Your work paid off!",
-        "Incorrect: maybe try  a little harder next time",
+        "Correct: You must have tried hard on that one",
+        "Incorrect: You must try harder next time",
         ""
       ],
       [
@@ -167,8 +117,8 @@
         "user",
         "",
         "growth",
-        "Correct: Your work paid off!",
-        "Incorrect: maybe try  a little harder next time",
+        "Correct: I can see you have put in effort to get that right",
+        "Incorrect: You didn't put in enough effort",
         ""
       ],
       [
@@ -177,8 +127,8 @@
         "user",
         "",
         "growth",
-        "Correct: Your work paid off!",
-        "Incorrect: maybe try  a little harder next time",
+        "Correct: If you keep this up you'll be able to do even harder ones",
+        "Incorrect: Keep trying and you'll get there",
         ""
       ],
       [
@@ -187,8 +137,8 @@
         "user",
         "",
         "growth",
-        "Correct: Your work paid off!",
-        "Incorrect: maybe try  a little harder next time",
+        "Correct: The more you do the better you'll get",
+        "Incorrect: But you'll get better the more you do",
         ""
       ],
       [
@@ -197,8 +147,8 @@
         "user",
         "",
         "growth",
-        "Correct: Your work paid off!",
-        "Incorrect: maybe try  a little harder next time",
+        "Correct: Hard work is needed to do well on this",
+        "Incorrect: Hard work is needed to do well on this",
         ""
       ],
       [
@@ -207,8 +157,8 @@
         "user",
         "",
         "growth",
-        "Correct: Your work paid off!",
-        "Incorrect: maybe try  a little harder next time",
+        "Correct: You clearly worked hard",
+        "Incorrect: You needed to work harder",
         ""
       ],
       [
@@ -217,8 +167,8 @@
         "user",
         "",
         "growth",
-        "Correct: Your work paid off!",
-        "Incorrect: maybe try  a little harder next time",
+        "Correct: Practice makes perfect",
+        "Incorrect: But practice makes perfect",
         ""
       ],
       [
@@ -227,8 +177,8 @@
         "user",
         "",
         "growth",
-        "Correct: Your work paid off!",
-        "Incorrect: maybe try  a little harder next time",
+        "Correct: Keep up the good work",
+        "Incorrect: With a bit more work you'll get the next one",
         ""
       ],
       [
@@ -248,7 +198,7 @@
         "",
         "fixed",
         "Correct: You must be really smart",
-        "Incorrect: that was probably too difficult",
+        "Incorrect: That was probably too difficult",
         ""
       ],
       [
@@ -257,8 +207,8 @@
         "user",
         "",
         "fixed",
-        "Correct: You must be really smart",
-        "Incorrect: that was probably too difficult",
+        "Correct: You're really good at this",
+        "Incorrect: Hopefully the next one will be easier",
         ""
       ],
       [
@@ -267,8 +217,8 @@
         "user",
         "",
         "fixed",
-        "Correct: You must be really smart",
-        "Incorrect: that was probably too difficult",
+        "Correct: You're a natural at this",
+        "Incorrect: This seems beyond your ability",
         ""
       ],
       [
@@ -277,8 +227,8 @@
         "user",
         "",
         "fixed",
-        "Correct: You must be really smart",
-        "Incorrect: that was probably too difficult",
+        "Correct: You must be good at maths",
+        "Incorrect: It is hard for some people to grasp this",
         ""
       ],
       [
@@ -287,8 +237,8 @@
         "user",
         "",
         "fixed",
-        "Correct: You must be really smart",
-        "Incorrect: that was probably too difficult",
+        "Correct: This must be your strength",
+        "Incorrect: Maths might not be one of your strengths",
         ""
       ],
       [
@@ -297,8 +247,8 @@
         "user",
         "",
         "fixed",
-        "Correct: You must be really smart",
-        "Incorrect: that was probably too difficult",
+        "Correct: Well done, you made that look easy",
+        "Incorrect: That wasn't an easy one",
         ""
       ],
       [
@@ -307,8 +257,8 @@
         "user",
         "",
         "fixed",
-        "Correct: You must be really smart",
-        "Incorrect: that was probably too difficult",
+        "Correct: You are clearly very gifted at this",
+        "Incorrect: You might be gifted at something else",
         ""
       ],
       [
@@ -317,8 +267,8 @@
         "user",
         "",
         "fixed",
-        "Correct: You must be really smart",
-        "Incorrect: that was probably too difficult",
+        "Correct: Intelligent people find these easy",
+        "Incorrect: Intelligent people find these easy",
         ""
       ],
       [
@@ -327,8 +277,8 @@
         "user",
         "",
         "fixed",
-        "Correct: You must be really smart",
-        "Incorrect: that was probably too difficult",
+        "Correct: You're an arithmetic genius",
+        "Incorrect: Arithmetic isn't for everyone ",
         ""
       ],
       [
@@ -337,8 +287,8 @@
         "user",
         "",
         "fixed",
-        "Correct: You must be really smart",
-        "Incorrect: that was probably too difficult",
+        "Correct: Some people are talented at this",
+        "Incorrect: Some people are talented at this",
         ""
       ],
       [
@@ -963,7 +913,7 @@
       ]
     ]
   },
-  "public_key": "o1MdjqkGllwCzH2nivg4Rnts94GQSmQRkHZc+7P4fi4=",
+  "public_key": "Gag8f89c30cdKRaw8rhOKGiAdSY4iEVqzyl0kc91LGk=",
   "parsed_procs": {
     "procedure_1.csv": [
       {
@@ -1027,56 +977,6 @@
         "shuffle 1": "neutral"
       },
       {
-        "item": "7",
-        "trial type": "arithmetic",
-        "max time": "user",
-        "text": "",
-        "correct_feedback": "Correct",
-        "incorrect_feedback": "Incorrect",
-        "": "",
-        "shuffle 1": "neutral"
-      },
-      {
-        "item": "8",
-        "trial type": "arithmetic",
-        "max time": "user",
-        "text": "",
-        "correct_feedback": "Correct",
-        "incorrect_feedback": "Incorrect",
-        "": "",
-        "shuffle 1": "neutral"
-      },
-      {
-        "item": "9",
-        "trial type": "arithmetic",
-        "max time": "user",
-        "text": "",
-        "correct_feedback": "Correct",
-        "incorrect_feedback": "Incorrect",
-        "": "",
-        "shuffle 1": "neutral"
-      },
-      {
-        "item": "10",
-        "trial type": "arithmetic",
-        "max time": "user",
-        "text": "",
-        "correct_feedback": "Correct",
-        "incorrect_feedback": "Incorrect",
-        "": "",
-        "shuffle 1": "neutral"
-      },
-      {
-        "item": "11",
-        "trial type": "arithmetic",
-        "max time": "user",
-        "text": "",
-        "correct_feedback": "Correct",
-        "incorrect_feedback": "Incorrect",
-        "": "",
-        "shuffle 1": "neutral"
-      },
-      {
         "item": "0",
         "trial type": "instruct",
         "max time": "user",
@@ -1091,8 +991,8 @@
         "trial type": "arithmetic",
         "max time": "user",
         "text": "",
-        "correct_feedback": "Correct: Your work paid off!",
-        "incorrect_feedback": "Incorrect: maybe try  a little harder next time",
+        "correct_feedback": "Correct: Apply that effort to the next one too",
+        "incorrect_feedback": "Incorrect: You need to apply more effort to the next one",
         "": "",
         "shuffle 1": "growth"
       },
@@ -1101,8 +1001,8 @@
         "trial type": "arithmetic",
         "max time": "user",
         "text": "",
-        "correct_feedback": "Correct: Your work paid off!",
-        "incorrect_feedback": "Incorrect: maybe try  a little harder next time",
+        "correct_feedback": "Correct: Your work paid off",
+        "incorrect_feedback": "Incorrect: If you work harder it'll pay off",
         "": "",
         "shuffle 1": "growth"
       },
@@ -1111,8 +1011,8 @@
         "trial type": "arithmetic",
         "max time": "user",
         "text": "",
-        "correct_feedback": "Correct: Your work paid off!",
-        "incorrect_feedback": "Incorrect: maybe try  a little harder next time",
+        "correct_feedback": "Correct: You must have tried hard on that one",
+        "incorrect_feedback": "Incorrect: You must try harder next time",
         "": "",
         "shuffle 1": "growth"
       },
@@ -1121,8 +1021,8 @@
         "trial type": "arithmetic",
         "max time": "user",
         "text": "",
-        "correct_feedback": "Correct: Your work paid off!",
-        "incorrect_feedback": "Incorrect: maybe try  a little harder next time",
+        "correct_feedback": "Correct: I can see you have put in effort to get that right",
+        "incorrect_feedback": "Incorrect: You didn't put in enough effort",
         "": "",
         "shuffle 1": "growth"
       },
@@ -1131,8 +1031,8 @@
         "trial type": "arithmetic",
         "max time": "user",
         "text": "",
-        "correct_feedback": "Correct: Your work paid off!",
-        "incorrect_feedback": "Incorrect: maybe try  a little harder next time",
+        "correct_feedback": "Correct: If you keep this up you'll be able to do even harder ones",
+        "incorrect_feedback": "Incorrect: Keep trying and you'll get there",
         "": "",
         "shuffle 1": "growth"
       },
@@ -1141,8 +1041,8 @@
         "trial type": "arithmetic",
         "max time": "user",
         "text": "",
-        "correct_feedback": "Correct: Your work paid off!",
-        "incorrect_feedback": "Incorrect: maybe try  a little harder next time",
+        "correct_feedback": "Correct: The more you do the better you'll get",
+        "incorrect_feedback": "Incorrect: But you'll get better the more you do",
         "": "",
         "shuffle 1": "growth"
       },
@@ -1151,8 +1051,8 @@
         "trial type": "arithmetic",
         "max time": "user",
         "text": "",
-        "correct_feedback": "Correct: Your work paid off!",
-        "incorrect_feedback": "Incorrect: maybe try  a little harder next time",
+        "correct_feedback": "Correct: Hard work is needed to do well on this",
+        "incorrect_feedback": "Incorrect: Hard work is needed to do well on this",
         "": "",
         "shuffle 1": "growth"
       },
@@ -1161,8 +1061,8 @@
         "trial type": "arithmetic",
         "max time": "user",
         "text": "",
-        "correct_feedback": "Correct: Your work paid off!",
-        "incorrect_feedback": "Incorrect: maybe try  a little harder next time",
+        "correct_feedback": "Correct: You clearly worked hard",
+        "incorrect_feedback": "Incorrect: You needed to work harder",
         "": "",
         "shuffle 1": "growth"
       },
@@ -1171,8 +1071,8 @@
         "trial type": "arithmetic",
         "max time": "user",
         "text": "",
-        "correct_feedback": "Correct: Your work paid off!",
-        "incorrect_feedback": "Incorrect: maybe try  a little harder next time",
+        "correct_feedback": "Correct: Practice makes perfect",
+        "incorrect_feedback": "Incorrect: But practice makes perfect",
         "": "",
         "shuffle 1": "growth"
       },
@@ -1181,8 +1081,8 @@
         "trial type": "arithmetic",
         "max time": "user",
         "text": "",
-        "correct_feedback": "Correct: Your work paid off!",
-        "incorrect_feedback": "Incorrect: maybe try  a little harder next time",
+        "correct_feedback": "Correct: Keep up the good work",
+        "incorrect_feedback": "Incorrect: With a bit more work you'll get the next one",
         "": "",
         "shuffle 1": "growth"
       },
@@ -1202,7 +1102,7 @@
         "max time": "user",
         "text": "",
         "correct_feedback": "Correct: You must be really smart",
-        "incorrect_feedback": "Incorrect: that was probably too difficult",
+        "incorrect_feedback": "Incorrect: That was probably too difficult",
         "": "",
         "shuffle 1": "fixed"
       },
@@ -1211,8 +1111,8 @@
         "trial type": "arithmetic",
         "max time": "user",
         "text": "",
-        "correct_feedback": "Correct: You must be really smart",
-        "incorrect_feedback": "Incorrect: that was probably too difficult",
+        "correct_feedback": "Correct: You're really good at this",
+        "incorrect_feedback": "Incorrect: Hopefully the next one will be easier",
         "": "",
         "shuffle 1": "fixed"
       },
@@ -1221,8 +1121,8 @@
         "trial type": "arithmetic",
         "max time": "user",
         "text": "",
-        "correct_feedback": "Correct: You must be really smart",
-        "incorrect_feedback": "Incorrect: that was probably too difficult",
+        "correct_feedback": "Correct: You're a natural at this",
+        "incorrect_feedback": "Incorrect: This seems beyond your ability",
         "": "",
         "shuffle 1": "fixed"
       },
@@ -1231,8 +1131,8 @@
         "trial type": "arithmetic",
         "max time": "user",
         "text": "",
-        "correct_feedback": "Correct: You must be really smart",
-        "incorrect_feedback": "Incorrect: that was probably too difficult",
+        "correct_feedback": "Correct: You must be good at maths",
+        "incorrect_feedback": "Incorrect: It is hard for some people to grasp this",
         "": "",
         "shuffle 1": "fixed"
       },
@@ -1241,8 +1141,8 @@
         "trial type": "arithmetic",
         "max time": "user",
         "text": "",
-        "correct_feedback": "Correct: You must be really smart",
-        "incorrect_feedback": "Incorrect: that was probably too difficult",
+        "correct_feedback": "Correct: This must be your strength",
+        "incorrect_feedback": "Incorrect: Maths might not be one of your strengths",
         "": "",
         "shuffle 1": "fixed"
       },
@@ -1251,8 +1151,8 @@
         "trial type": "arithmetic",
         "max time": "user",
         "text": "",
-        "correct_feedback": "Correct: You must be really smart",
-        "incorrect_feedback": "Incorrect: that was probably too difficult",
+        "correct_feedback": "Correct: Well done, you made that look easy",
+        "incorrect_feedback": "Incorrect: That wasn't an easy one",
         "": "",
         "shuffle 1": "fixed"
       },
@@ -1261,8 +1161,8 @@
         "trial type": "arithmetic",
         "max time": "user",
         "text": "",
-        "correct_feedback": "Correct: You must be really smart",
-        "incorrect_feedback": "Incorrect: that was probably too difficult",
+        "correct_feedback": "Correct: You are clearly very gifted at this",
+        "incorrect_feedback": "Incorrect: You might be gifted at something else",
         "": "",
         "shuffle 1": "fixed"
       },
@@ -1271,8 +1171,8 @@
         "trial type": "arithmetic",
         "max time": "user",
         "text": "",
-        "correct_feedback": "Correct: You must be really smart",
-        "incorrect_feedback": "Incorrect: that was probably too difficult",
+        "correct_feedback": "Correct: Intelligent people find these easy",
+        "incorrect_feedback": "Incorrect: Intelligent people find these easy",
         "": "",
         "shuffle 1": "fixed"
       },
@@ -1281,8 +1181,8 @@
         "trial type": "arithmetic",
         "max time": "user",
         "text": "",
-        "correct_feedback": "Correct: You must be really smart",
-        "incorrect_feedback": "Incorrect: that was probably too difficult",
+        "correct_feedback": "Correct: You're an arithmetic genius",
+        "incorrect_feedback": "Incorrect: Arithmetic isn't for everyone ",
         "": "",
         "shuffle 1": "fixed"
       },
@@ -1291,8 +1191,8 @@
         "trial type": "arithmetic",
         "max time": "user",
         "text": "",
-        "correct_feedback": "Correct: You must be really smart",
-        "incorrect_feedback": "Incorrect: that was probably too difficult",
+        "correct_feedback": "Correct: Some people are talented at this",
+        "incorrect_feedback": "Incorrect: Some people are talented at this",
         "": "",
         "shuffle 1": "fixed"
       }
@@ -1301,10 +1201,10 @@
   "surveys": {},
   "trialtypes": {
     "instruct": "<!--\n/*  Collector (Garcia, Kornell, Kerr, Blake & Haffey)\n    A program for running experiments on the web\n    Copyright 2012-2016 Mikey Garcia & Nate Kornell\n\n\n    This program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License version 3 as published by\n    the Free Software Foundation.\n\n    This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n\n    You should have received a copy of the GNU General Public License\n    along with this program.  If not, see <http://www.gnu.org/licenses/>\n \t\t\n\t\tKitten release (2019) author: Dr. Anthony Haffey (team@someopen.solutions)\t\t\n*/\n-->\n<style>\n#instruct_text{\n  margin:auto;\n  width:500px;\n  padding:50px;\n  max-height:600px;\n  text-align: center;  \n}\n#proceed_button{\n  position:absolute;\n  right: 20px;\n}\n#trial_contents{\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:600;\n  height:600;\n}\n</style>\n<div id=\"trial_contents\">\n  <div id=\"instruct_text\">{{text}}</div>\n  <div>\n    <button class=\"btn btn-primary\" id=\"proceed_button\" onclick=\"Trial.submit()\">Proceed</button>\n  </div>\n</div>",
-    "arithmetic": "<style>\n.trial_no{\n  width:150px;\n  height:50px;\n}\n#everything{\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:600;\n  height:600;\n}\n#proceed_btn{\n  display:none;\n}\ntd {\n  padding:10px;\n  margin:5px;\n}\ninput{\n  float: right;\n  clear: both;\n  text-align: right;\n  letter-spacing: 1em;\n}\n.form-control {\n  display: inline-block;\n}\n</style>\n\n<div id=\"everything\">\n  <h2 class=\"text-primary\">{{row_1_tens}}{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}{{row_2_units}}</h2>\n\n  <table>\n    <tr>\n      <td>\n        <h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>:</h5>\n      </td>\n      <td>\n        <h5>{{row_1_units}} {{add_sub_mult}} {{row_2_units}}</h5>\n      </td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_1_answer\" class=\"trial_no form-control pull-right\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_1\"></h3>\n      </td>\n    </tr>\n    <tr>\n      <td><h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\n      <td><h5>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}0</h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_2_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_2\"></h3>\n      </td>\n    </tr>\n    \n    <tr>\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>: </h5></td>\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_units}}</h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_3_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_3\"></h3>\n      </td>\n    </tr>\n    \n    <tr>\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_tens}}0 </h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_4_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_4\"></h3>\n      </td>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td><hr></rd>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td>\n        <input type=\"number\" id=\"row_5_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_5\"></h3>\n      </td>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td><hr></rd>\n    </tr>\n  </table>\n  <button class=\"btn btn-large btn-primary\" id=\"check_answers_btn\">Check Answers</button>\n  <button class=\"btn btn-large btn-primary\" onclick=\"Trial.submit()\" id=\"proceed_btn\">Proceed</button>\n</div>\n<script>\nvar answer_array = [\n  null,\n  \"{{answer_1}}\",\n  \"{{answer_2}}\",\n  \"{{answer_3}}\",\n  \"{{answer_4}}\",\n  \"{{answer_5}}\"\n];\n$(\"#check_answers_btn\").on(\"click\",function(){\n  for(var i=1; i<6; i++){\n    console.dir(i);\n    console.dir($('#row_' + i + '_answer').val());\n    if($(\"#row_\" + i + \"_answer\").val() == answer_array[i]){\n      $(\"#feedback_\" + i).html(\"<span class='text-success'>{{correct_feedback}}</span>\");\n    } else {\n      $(\"#feedback_\" + i).html(\"<span class='text-danger'>{{incorrect_feedback}}</span>\");\n    }\n  }\n  $(\"#proceed_btn\").show();\n});\n</script>"
+    "arithmetic": "<style>\n.trial_no{\n  width:150px;\n  height:50px;\n}\n#everything{\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:600;\n  height:600;\n}\n#proceed_btn{\n  display:none;\n}\ntd {\n  padding:10px;\n  margin:5px;\n}\ninput{\n  float: right;\n  clear: both;\n  text-align: right;\n  letter-spacing: 1em;\n}\n.form-control {\n  display: inline-block;\n}\n</style>\n\n<div id=\"everything\">\n  <h2 class=\"text-primary\">{{row_1_tens}}{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}{{row_2_units}}</h2>\n\n  <table>\n    <tr>\n      <td>\n        <h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>:</h5>\n      </td>\n      <td>\n        <h5>{{row_1_units}} {{add_sub_mult}} {{row_2_units}}</h5>\n      </td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_1_answer\" class=\"trial_no form-control pull-right\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_1\"></h3>\n      </td>\n    </tr>\n    <tr>\n      <td><h5>{{row_1_tens}}<u>{{row_1_units}}</u> {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\n      <td><h5>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}0</h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_2_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_2\"></h3>\n      </td>\n    </tr>\n    \n    <tr>\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} {{row_2_tens}}<u>{{row_2_units}}</u>: </h5></td>\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_units}}</h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_3_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_3\"></h3>\n      </td>\n    </tr>\n    \n    <tr>\n      <td><h5><u>{{row_1_tens}}</u>{{row_1_units}} {{add_sub_mult}} <u>{{row_2_tens}}</u>{{row_2_units}}: </h5></td>\n      <td><h5>{{row_1_tens}}0 {{add_sub_mult}} {{row_2_tens}}0 </h5></td>\n      <td>=</td>\n      <td>\n        <input type=\"number\" id=\"row_4_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_4\"></h3>\n      </td>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td><hr></rd>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td>\n        <input type=\"number\" id=\"row_5_answer\" class=\"trial_no\"/>\n      </td>\n      <td>\n        <h3 id=\"feedback_5\"></h3>\n      </td>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n    </tr>\n    <tr>\n      <td colspan = \"3\"></td>\n      <td><hr></rd>\n    </tr>\n  </table>\n  <button class=\"btn btn-large btn-primary\" id=\"check_answers_btn\">Check Answers</button>\n  <button class=\"btn btn-large btn-primary\" onclick=\"Trial.submit()\" id=\"proceed_btn\">Proceed</button>\n</div>\n<script>\n\nvar answer_array = [\n  null,\n  \"{{answer_1}}\",\n  \"{{answer_2}}\",\n  \"{{answer_3}}\",\n  \"{{answer_4}}\",\n  \"{{answer_5}}\"\n];\n$(\"#check_answers_btn\").on(\"click\",function(){\n  for(var i=1; i<5; i++){\n    console.dir(i);\n    console.dir($('#row_' + i + '_answer').val());\n    if($(\"#row_\" + i + \"_answer\").val() == answer_array[i]){\n      $(\"#feedback_\" + i).html(\"<span class='text-success'>Correct</span>\");\n    } else {\n      $(\"#feedback_\" + i).html(\"<span class='text-danger'>Incorrect</span>\");\n    }\n  }\n  if($(\"#row_\" + i + \"_answer\").val() == answer_array[i]){\n    $(\"#feedback_5\").html(\"<span class='text-success'>{{correct_feedback}}</span>\");\n  } else {\n    $(\"#feedback_5\").html(\"<span class='text-danger'>{{incorrect_feedback}}</span>\");\n  }\n  $(\"#proceed_btn\").show();\n});\n</script>"
   },
   "procs_csv": {
-    "procedure_1.csv": "item,trial type,max time,text,Shuffle 1,correct_feedback,incorrect_feedback,\r\n0,instruct,user,You will be given some arithmetic to do. Please complete in your own time,off,,,\r\n2,arithmetic,user,,neutral,Correct,Incorrect,\r\n3,arithmetic,user,,neutral,Correct,Incorrect,\r\n4,arithmetic,user,,neutral,Correct,Incorrect,\r\n5,arithmetic,user,,neutral,Correct,Incorrect,\r\n6,arithmetic,user,,neutral,Correct,Incorrect,\r\n7,arithmetic,user,,neutral,Correct,Incorrect,\r\n8,arithmetic,user,,neutral,Correct,Incorrect,\r\n9,arithmetic,user,,neutral,Correct,Incorrect,\r\n10,arithmetic,user,,neutral,Correct,Incorrect,\r\n11,arithmetic,user,,neutral,Correct,Incorrect,\r\n0,instruct,user,Please take a break and start the next block when you're ready,,,,\r\n12,arithmetic,user,,growth,Correct: Your work paid off!,Incorrect: maybe try  a little harder next time,\r\n13,arithmetic,user,,growth,Correct: Your work paid off!,Incorrect: maybe try  a little harder next time,\r\n14,arithmetic,user,,growth,Correct: Your work paid off!,Incorrect: maybe try  a little harder next time,\r\n15,arithmetic,user,,growth,Correct: Your work paid off!,Incorrect: maybe try  a little harder next time,\r\n16,arithmetic,user,,growth,Correct: Your work paid off!,Incorrect: maybe try  a little harder next time,\r\n17,arithmetic,user,,growth,Correct: Your work paid off!,Incorrect: maybe try  a little harder next time,\r\n18,arithmetic,user,,growth,Correct: Your work paid off!,Incorrect: maybe try  a little harder next time,\r\n19,arithmetic,user,,growth,Correct: Your work paid off!,Incorrect: maybe try  a little harder next time,\r\n20,arithmetic,user,,growth,Correct: Your work paid off!,Incorrect: maybe try  a little harder next time,\r\n21,arithmetic,user,,growth,Correct: Your work paid off!,Incorrect: maybe try  a little harder next time,\r\n0,instruct,user,Please take a break and start the next block when you're ready,,,,\r\n22,arithmetic,user,,fixed,Correct: You must be really smart,Incorrect: that was probably too difficult,\r\n23,arithmetic,user,,fixed,Correct: You must be really smart,Incorrect: that was probably too difficult,\r\n24,arithmetic,user,,fixed,Correct: You must be really smart,Incorrect: that was probably too difficult,\r\n25,arithmetic,user,,fixed,Correct: You must be really smart,Incorrect: that was probably too difficult,\r\n26,arithmetic,user,,fixed,Correct: You must be really smart,Incorrect: that was probably too difficult,\r\n27,arithmetic,user,,fixed,Correct: You must be really smart,Incorrect: that was probably too difficult,\r\n28,arithmetic,user,,fixed,Correct: You must be really smart,Incorrect: that was probably too difficult,\r\n30,arithmetic,user,,fixed,Correct: You must be really smart,Incorrect: that was probably too difficult,\r\n31,arithmetic,user,,fixed,Correct: You must be really smart,Incorrect: that was probably too difficult,\r\n32,arithmetic,user,,fixed,Correct: You must be really smart,Incorrect: that was probably too difficult,\r\n,,,,,,,"
+    "procedure_1.csv": "item,trial type,max time,text,Shuffle 1,correct_feedback,incorrect_feedback,\r\n0,instruct,user,You will be given some arithmetic to do. Please complete in your own time,off,,,\r\n2,arithmetic,user,,neutral,Correct,Incorrect,\r\n3,arithmetic,user,,neutral,Correct,Incorrect,\r\n4,arithmetic,user,,neutral,Correct,Incorrect,\r\n5,arithmetic,user,,neutral,Correct,Incorrect,\r\n6,arithmetic,user,,neutral,Correct,Incorrect,\r\n0,instruct,user,Please take a break and start the next block when you're ready,,,,\r\n12,arithmetic,user,,growth,Correct: Apply that effort to the next one too,Incorrect: You need to apply more effort to the next one,\r\n13,arithmetic,user,,growth,Correct: Your work paid off,Incorrect: If you work harder it'll pay off,\r\n14,arithmetic,user,,growth,Correct: You must have tried hard on that one,Incorrect: You must try harder next time,\r\n15,arithmetic,user,,growth,Correct: I can see you have put in effort to get that right,Incorrect: You didn't put in enough effort,\r\n16,arithmetic,user,,growth,Correct: If you keep this up you'll be able to do even harder ones,Incorrect: Keep trying and you'll get there,\r\n17,arithmetic,user,,growth,Correct: The more you do the better you'll get,Incorrect: But you'll get better the more you do,\r\n18,arithmetic,user,,growth,Correct: Hard work is needed to do well on this,Incorrect: Hard work is needed to do well on this,\r\n19,arithmetic,user,,growth,Correct: You clearly worked hard,Incorrect: You needed to work harder,\r\n20,arithmetic,user,,growth,Correct: Practice makes perfect,Incorrect: But practice makes perfect,\r\n21,arithmetic,user,,growth,Correct: Keep up the good work,Incorrect: With a bit more work you'll get the next one,\r\n0,instruct,user,Please take a break and start the next block when you're ready,,,,\r\n22,arithmetic,user,,fixed,Correct: You must be really smart,Incorrect: That was probably too difficult,\r\n23,arithmetic,user,,fixed,Correct: You're really good at this,Incorrect: Hopefully the next one will be easier,\r\n24,arithmetic,user,,fixed,Correct: You're a natural at this,Incorrect: This seems beyond your ability,\r\n25,arithmetic,user,,fixed,Correct: You must be good at maths,Incorrect: It is hard for some people to grasp this,\r\n26,arithmetic,user,,fixed,Correct: This must be your strength,Incorrect: Maths might not be one of your strengths,\r\n27,arithmetic,user,,fixed,\"Correct: Well done, you made that look easy\",Incorrect: That wasn't an easy one,\r\n28,arithmetic,user,,fixed,Correct: You are clearly very gifted at this,Incorrect: You might be gifted at something else,\r\n30,arithmetic,user,,fixed,Correct: Intelligent people find these easy,Incorrect: Intelligent people find these easy,\r\n31,arithmetic,user,,fixed,Correct: You're an arithmetic genius,\"Incorrect: Arithmetic isn't for everyone \",\r\n32,arithmetic,user,,fixed,Correct: Some people are talented at this,Incorrect: Some people are talented at this,\r\n,,,,,,,"
   },
   "stims_csv": {
     "arithmetic_questions.csv": "cue,answer,time_limit,row_1_tens,row_1_units,row_2_tens,row_2_units,add_sub_mult,answer_1,answer_2,answer_3,answer_4,answer_5,\r\nA,Apple,10000,8,8,2,5,x,40,160,400,1600,2200,\r\nB,Banana,10000,3,8,5,8,x,64,400,240,1500,2204,\r\n,,,5,8,2,8,x,64,160,400,1000,1624,\r\n,,,3,3,6,7,x,21,180,210,1800,2211,\r\n,,,3,1,6,3,x,3,60,90,1800,1953,\r\n,,,8,2,2,3,x,6,40,240,1600,1886,\r\n,,,4,9,7,2,x,18,630,80,2800,3528,\r\n,,,7,9,5,2,x,18,450,140,3500,4108,\r\n,,,4,8,8,5,x,40,640,200,3200,4080,\r\n,,,8,3,5,1,x,3,150,80,4000,4233,\r\n,,,6,9,3,1,x,9,270,60,1800,2139,\r\n,,,9,8,6,1,x,8,480,90,5400,5978,\r\n,,,1,2,8,4,x,8,160,40,800,1008,\r\n,,,4,9,7,4,x,36,630,160,2800,3626,\r\n,,,7,4,8,5,x,20,320,350,5600,6290,\r\n,,,4,7,8,6,x,42,560,240,3200,4042,\r\n,,,7,2,5,1,x,2,100,70,3500,3672,\r\n,,,6,9,1,7,x,63,90,420,600,1173,\r\n,,,5,7,3,2,x,14,210,100,1500,1824,\r\n,,,3,8,6,8,x,64,480,240,1800,2584,\r\n,,,6,3,3,3,x,9,90,180,1800,2079,\r\n,,,5,2,2,9,x,18,40,450,1000,1508,\r\n,,,4,8,5,5,x,40,400,200,2000,2640,\r\n,,,1,1,5,5,x,5,50,50,500,605,\r\n,,,7,3,8,3,x,9,240,210,5600,6059,\r\n,,,3,2,1,7,x,14,20,210,300,544,\r\n,,,5,2,3,6,x,12,60,300,1500,1872,\r\n,,,6,3,6,1,x,3,180,60,3600,3843,\r\n,,,3,8,6,9,x,72,480,270,1800,2622,\r\n,,,5,3,7,7,x,21,210,350,3500,4081,\r\n,,,,,,,,,,,,,",
@@ -1319,7 +1219,7 @@
       "procedure": "procedure_1.csv",
       "fullscreen": "off",
       "welcome": "",
-      "participant_id": "on",
+      "participant_id": "random",
       "end_message": "",
       "start_message": "",
       "buffer": "5",
@@ -1333,7 +1233,7 @@
       "procedure": "procedure_1.csv",
       "fullscreen": "off",
       "welcome": "",
-      "participant_id": "on",
+      "participant_id": "random",
       "end_message": "",
       "start_message": "",
       "buffer": "5",
@@ -1347,7 +1247,7 @@
       "procedure": "procedure_1.csv",
       "fullscreen": "off",
       "welcome": "",
-      "participant_id": "on",
+      "participant_id": "random",
       "end_message": "",
       "start_message": "",
       "buffer": "5",
