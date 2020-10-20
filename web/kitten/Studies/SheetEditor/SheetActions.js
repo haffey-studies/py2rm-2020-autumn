@@ -101,7 +101,7 @@ $("#new_experiment_button").on("click",function(){
 });
 
 $("#new_proc_button").on("click",function(){
-  var proc_template = new_experiment_data.all_procs["procedure_1.csv"];
+  var proc_template = default_experiment.all_procs["procedure_1.csv"];
 	bootbox.prompt("What would you like the name of the new procedure sheet to be?",function(new_proc_name){
 		var experiment = $("#experiment_list").val();
 		var this_exp   = master_json.exp_mgmt.experiments[experiment];
@@ -122,7 +122,7 @@ $("#new_proc_button").on("click",function(){
 });
 
 $("#new_stim_button").on("click",function(){
-	var stim_template = new_experiment_data.all_stims["stimuli_1.csv"];
+	var stim_template = default_experiment.all_stims["stimuli_1.csv"];
 	bootbox.prompt("What would you like the name of the new <b>Stimuli</b> sheet to be?",function(new_sheet_name){
 		var experiment = $("#experiment_list").val();
 		var this_exp   = master_json.exp_mgmt.experiments[experiment];
@@ -317,22 +317,6 @@ $("#run_btn").on("click",function(){
 													"dropbox="  + exp_json.location,"_blank");
 						}
 					},
-					preview:{
-						label: "Preview",
-						className: 'btn-primary',
-						callback: function(){
-							master_json.exp_mgmt.exp_condition = $("#select_condition").val();
-
-							var this_url = window.location.href.split("/" + Collector.version)[0] +
-																												"/" + Collector.version + "/";
-																"/";
-							window.open(this_url  	+ "RunStudy.html?platform=preview&" +
-													"location=" + $("#experiment_list").val() + "&" +
-													"name="     + master_json.exp_mgmt.exp_condition + "&" +
-													"dropbox="  + exp_json.location,"_blank");
-
-						}
-					},
 					publish: {
 						label: "Publish",
 						className: 'btn-primary',
@@ -380,30 +364,16 @@ $("#run_btn").on("click",function(){
 
 			bootbox.dialog({
 				title:"Select a Condition",
-				message: "Which condition would you like to run? <br><br>" + select_html + "<br> Online link (make sure you've pushed the latest changes and waited 5+ minutes): <input class='form-control' value='" + github_url + "' onfocus='this.select();'>",
+				message: "Which condition would you like to run? <br><br>" + select_html + "<br><br> Online link copy the following into a browser:<br>(make sure you've pushed the latest changes and waited 5+ minutes) <input class='form-control' value='" + github_url + "' onfocus='this.select();'>",
 				buttons: {
 					local:{
-						label: "Localhost",
+						label: "Run (will save data)",
 						className: 'btn-primary',
 						callback: function(){
               window.open("RunStudy.html?platform=localhost&" +
 													"location=" + $("#experiment_list").val() + "&" +
 													"name=" + $("#select_condition").val(),
                           "_blank");
-						}
-					},
-					online: {
-						label: "Online",
-						className: 'btn-primary',
-						callback: function(){
-              master_json.exp_mgmt.exp_condition = $("#select_condition").val();
-							bootbox.confirm("This will go to the link you should send your participants. However, it can take 5+ minutes for this link to update from the moment you push the updates to github",function(result){
-								if(result){
-
-
-									window.open(github_url,"_blank");
-								}
-							});
 						}
 					},
 					preview:{
