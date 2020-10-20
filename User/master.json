@@ -22400,7 +22400,8 @@
               "max time",
               "text",
               "Shuffle 1",
-              ""
+              "weight",
+              null
             ],
             [
               "0",
@@ -22408,7 +22409,8 @@
               "user",
               "In the following trials you will need to click a button to show an image",
               "off",
-              ""
+              "",
+              null
             ],
             [
               "2 to 3",
@@ -22416,7 +22418,8 @@
               "user",
               "This is the start of a new experiment.",
               "off",
-              ""
+              "0",
+              null
             ],
             [
               "0",
@@ -22424,7 +22427,8 @@
               "user",
               "In the following trials you will need to click the button to hide the image",
               "off",
-              ""
+              "0",
+              null
             ],
             [
               "4 to 6",
@@ -22432,7 +22436,8 @@
               "user",
               "",
               "off",
-              ""
+              "0",
+              null
             ],
             [
               "",
@@ -22440,7 +22445,8 @@
               "",
               "",
               "",
-              ""
+              "",
+              null
             ]
           ]
         },
@@ -22495,49 +22501,49 @@
               "answer",
               "image",
               "hide_show_duration",
-              null
+              ""
             ],
             [
               "A",
               "Apple",
               "../User/Stimuli/cam/blue.jpg",
               "200",
-              null
+              ""
             ],
             [
               "B",
               "Banana",
               "../User/Stimuli/cam/green.jpg",
               "200",
-              null
+              ""
             ],
             [
               "",
               "",
               "../User/Stimuli/cam/maroon.jpg",
               "200",
-              null
+              ""
             ],
             [
               "",
               "",
               "../User/Stimuli/cam/orange.jpg",
               "200",
-              null
+              ""
             ],
             [
               "",
               "",
               "../User/Stimuli/cam/pink.jpg",
               "200",
-              null
+              ""
             ],
             [
-              null,
-              null,
-              null,
-              null,
-              null
+              "",
+              "",
+              "",
+              "",
+              ""
             ]
           ]
         },
@@ -22549,6 +22555,7 @@
               "trial type": "instruct",
               "max time": "user",
               "text": "In the following trials you will need to click a button to show an image",
+              "weight": "",
               "": "",
               "shuffle 1": "off"
             },
@@ -22557,6 +22564,7 @@
               "trial type": "approach",
               "max time": "user",
               "text": "This is the start of a new experiment.",
+              "weight": "0",
               "": "",
               "shuffle 1": "off"
             },
@@ -22565,6 +22573,7 @@
               "trial type": "instruct",
               "max time": "user",
               "text": "In the following trials you will need to click the button to hide the image",
+              "weight": "0",
               "": "",
               "shuffle 1": "off"
             },
@@ -22573,6 +22582,7 @@
               "trial type": "avoidance",
               "max time": "user",
               "text": "",
+              "weight": "0",
               "": "",
               "shuffle 1": "off"
             }
@@ -22585,7 +22595,7 @@
           "avoidance": "<style>\n#hide_image_btn{\n  display:none;\n  position: absolute;\n  top:500;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:150px;\n  height:50px;\n  display:none;\n}\n#trial_image{\n  display:none;\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:400px;\n  height:400px;\n}\nbody{\n  background-color: black;\n}\n</style>\n\n<img src=\"{{image}}\" id=\"trial_image\"/>\n<button class=\"btn btn-primary\" id=\"hide_image_btn\">Hide Image</button>\n<input type=\"hidden\" id=\"approach_clicks\" name=\"approach_clicks\"/>\n<script>\ntotal_approach_clicks = 0;\n\nTrial.set_timer(function(){\n  $(\"#trial_image\").show();\n  setTimeout(function(){\n    $(\"#hide_image_btn\").show();\n    setTimeout(function(){\n      Trial.submit();\n    },5200);\n  },800);\n},1000)\n\n\n$(\"#hide_image_btn\").on(\"click\",function(){\n  $(\"#trial_image\").hide();\n  if(typeof(hide_timer) == \"undefined\"){\n    hide_timer = new Trial.timer(function(){\n      $(\"#trial_image\").show();\n      delete(hide_timer);\n    },{{hide_show_duration}});\n  } else {\n    hide_timer.add({{hide_show_duration}});\n  }\n});\n  \n\n/*\nfunction bind_hide_button(){\n  $(\"#hide_image_btn\").on(\"click\",function(){\n    $(\"#trial_image\").hide();\n    setTimeout(function(){\n      $(\"#trial_image\").show();\n      $(\"#hide_image_btn\").unbind();\n      total_approach_clicks++;\n      $(\"#approach_clicks\").val(total_approach_clicks)\n      setTimeout(function(){\n        bind_hide_button();\n      },33);\n    },33);\n  });\n}\nbind_hide_button();\n*/\n  \n  \n</script>"
         },
         "procs_csv": {
-          "procedure_1.csv": "item,trial type,max time,text,Shuffle 1,\r\n0,instruct,user,In the following trials you will need to click a button to show an image,off,\r\n2 to 3,approach,user,This is the start of a new experiment.,off,\r\n0,instruct,user,In the following trials you will need to click the button to hide the image,off,\r\n4 to 6,avoidance,user,,off,\r\n,,,,,"
+          "procedure_1.csv": "item,trial type,max time,text,Shuffle 1,weight,\r\n0,instruct,user,In the following trials you will need to click a button to show an image,off,,\r\n2 to 3,approach,user,This is the start of a new experiment.,off,0,\r\n0,instruct,user,In the following trials you will need to click the button to hide the image,off,0,\r\n4 to 6,avoidance,user,,off,0,\r\n,,,,,,"
         },
         "stims_csv": {
           "stimuli_1.csv": "cue,answer,image,hide_show_duration,\r\nA,Apple,../User/Stimuli/cam/blue.jpg,200,\r\nB,Banana,../User/Stimuli/cam/green.jpg,200,\r\n,,../User/Stimuli/cam/maroon.jpg,200,\r\n,,../User/Stimuli/cam/orange.jpg,200,\r\n,,../User/Stimuli/cam/pink.jpg,200,\r\n,,,,"
@@ -29326,6 +29336,129 @@
         "storage_scripts": {
           "ocollector.org": "https://ocollector.org/StoreData10_aodirnkcu73hsjd8.php"
         }
+      },
+      "asdf": "<!DOCTYPE html>\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\" />\r\n  <meta http-equiv=\"Pragma\" content=\"no-cache\" />\r\n  <meta http-equiv=\"Expires\" content=\"0\" />\r\n  <script src=\"libraries/jquery-3.3.1.min.js\"></script>\r\n</head>\r\n<div id=\"index_div\" style=\"width:100%;height:100%\"></div>\r\n\r\n\r\n<script>\r\ndropbox_developer = false;\r\n$(\"#index_div\").load(\"index.html\");\r\n</script>\r\n",
+      "beepbop": {
+        "all_procs": {
+          "procedure_1.csv": [
+            [
+              "item",
+              "trial type",
+              "max time",
+              "text",
+              "Shuffle 1",
+              null
+            ],
+            [
+              "2",
+              "instruct",
+              "user",
+              "This is the start of a new experiment.",
+              "off",
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        },
+        "cond_array": [
+          [
+            "name",
+            "notes",
+            "stimuli",
+            "procedure",
+            "fullscreen",
+            "welcome",
+            "participant_id",
+            "end_message",
+            "start_message",
+            "buffer",
+            "scripts",
+            null
+          ],
+          [
+            "condition_1",
+            "You can put more detailed notes in this field",
+            "stimuli_1.csv",
+            "procedure_1.csv",
+            "off",
+            "",
+            "on",
+            "",
+            "",
+            "5",
+            "",
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ],
+        "all_stims": {
+          "stimuli_1.csv": [
+            [
+              "cue",
+              "answer",
+              null
+            ],
+            [
+              "A",
+              "Apple",
+              null
+            ],
+            [
+              "B",
+              "Banana",
+              null
+            ],
+            [
+              null,
+              null,
+              null
+            ]
+          ]
+        },
+        "public_key": "Gag8f89c30cdKRaw8rhOKGiAdSY4iEVqzyl0kc91LGk=",
+        "parsed_procs": {
+          "procedure_1.csv": [
+            {
+              "item": "2",
+              "trial type": "instruct",
+              "max time": "user",
+              "text": "This is the start of a new experiment.",
+              "": "",
+              "shuffle 1": "off"
+            }
+          ]
+        },
+        "surveys": {},
+        "trialtypes": {
+          "instruct": "<!--\n/*  Collector (Garcia, Kornell, Kerr, Blake & Haffey)\n    A program for running experiments on the web\n    Copyright 2012-2016 Mikey Garcia & Nate Kornell\n\n\n    This program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License version 3 as published by\n    the Free Software Foundation.\n\n    This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n\n    You should have received a copy of the GNU General Public License\n    along with this program.  If not, see <http://www.gnu.org/licenses/>\n \t\t\n\t\tKitten release (2019) author: Dr. Anthony Haffey (team@someopen.solutions)\t\t\n*/\n-->\n<style>\n#instruct_text{\n  margin:auto;\n  width:500px;\n  padding:50px;\n  max-height:600px;\n  text-align: center;  \n}\n#proceed_button{\n  position:absolute;\n  right: 20px;\n}\n#trial_contents{\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:600;\n  height:600;\n}\n</style>\n<div id=\"trial_contents\">\n  <div id=\"instruct_text\">{{text}}</div>\n  <div>\n    <button class=\"btn btn-primary\" id=\"proceed_button\" onclick=\"Trial.submit()\">Proceed</button>\n  </div>\n</div>"
+        },
+        "procs_csv": {
+          "procedure_1.csv": "item,trial type,max time,text,Shuffle 1,\r\n2,instruct,user,This is the start of a new experiment.,off,\r\n,,,,,"
+        },
+        "stims_csv": {
+          "stimuli_1.csv": "cue,answer,\r\nA,Apple,\r\nB,Banana,\r\n,,"
+        },
+        "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,\r\n,,,,,,,,,,,"
       }
     },
     "incomp_process": false,

@@ -7,7 +7,8 @@
         "max time",
         "text",
         "Shuffle 1",
-        ""
+        "weight",
+        null
       ],
       [
         "0",
@@ -15,7 +16,8 @@
         "user",
         "In the following trials you will need to click a button to show an image",
         "off",
-        ""
+        "",
+        null
       ],
       [
         "2 to 3",
@@ -23,7 +25,8 @@
         "user",
         "This is the start of a new experiment.",
         "off",
-        ""
+        "0",
+        null
       ],
       [
         "0",
@@ -31,7 +34,8 @@
         "user",
         "In the following trials you will need to click the button to hide the image",
         "off",
-        ""
+        "0",
+        null
       ],
       [
         "4 to 6",
@@ -39,7 +43,8 @@
         "user",
         "",
         "off",
-        ""
+        "0",
+        null
       ],
       [
         "",
@@ -47,7 +52,8 @@
         "",
         "",
         "",
-        ""
+        "",
+        null
       ]
     ]
   },
@@ -102,49 +108,49 @@
         "answer",
         "image",
         "hide_show_duration",
-        null
+        ""
       ],
       [
         "A",
         "Apple",
         "../User/Stimuli/cam/blue.jpg",
         "200",
-        null
+        ""
       ],
       [
         "B",
         "Banana",
         "../User/Stimuli/cam/green.jpg",
         "200",
-        null
+        ""
       ],
       [
         "",
         "",
         "../User/Stimuli/cam/maroon.jpg",
         "200",
-        null
+        ""
       ],
       [
         "",
         "",
         "../User/Stimuli/cam/orange.jpg",
         "200",
-        null
+        ""
       ],
       [
         "",
         "",
         "../User/Stimuli/cam/pink.jpg",
         "200",
-        null
+        ""
       ],
       [
-        null,
-        null,
-        null,
-        null,
-        null
+        "",
+        "",
+        "",
+        "",
+        ""
       ]
     ]
   },
@@ -156,6 +162,7 @@
         "trial type": "instruct",
         "max time": "user",
         "text": "In the following trials you will need to click a button to show an image",
+        "weight": "",
         "": "",
         "shuffle 1": "off"
       },
@@ -164,6 +171,7 @@
         "trial type": "approach",
         "max time": "user",
         "text": "This is the start of a new experiment.",
+        "weight": "0",
         "": "",
         "shuffle 1": "off"
       },
@@ -172,6 +180,7 @@
         "trial type": "instruct",
         "max time": "user",
         "text": "In the following trials you will need to click the button to hide the image",
+        "weight": "0",
         "": "",
         "shuffle 1": "off"
       },
@@ -180,6 +189,7 @@
         "trial type": "avoidance",
         "max time": "user",
         "text": "",
+        "weight": "0",
         "": "",
         "shuffle 1": "off"
       }
@@ -192,7 +202,7 @@
     "avoidance": "<style>\n#hide_image_btn{\n  display:none;\n  position: absolute;\n  top:500;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:150px;\n  height:50px;\n  display:none;\n}\n#trial_image{\n  display:none;\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:400px;\n  height:400px;\n}\nbody{\n  background-color: black;\n}\n</style>\n\n<img src=\"{{image}}\" id=\"trial_image\"/>\n<button class=\"btn btn-primary\" id=\"hide_image_btn\">Hide Image</button>\n<input type=\"hidden\" id=\"approach_clicks\" name=\"approach_clicks\"/>\n<script>\ntotal_approach_clicks = 0;\n\nTrial.set_timer(function(){\n  $(\"#trial_image\").show();\n  setTimeout(function(){\n    $(\"#hide_image_btn\").show();\n    setTimeout(function(){\n      Trial.submit();\n    },5200);\n  },800);\n},1000)\n\n\n$(\"#hide_image_btn\").on(\"click\",function(){\n  $(\"#trial_image\").hide();\n  if(typeof(hide_timer) == \"undefined\"){\n    hide_timer = new Trial.timer(function(){\n      $(\"#trial_image\").show();\n      delete(hide_timer);\n    },{{hide_show_duration}});\n  } else {\n    hide_timer.add({{hide_show_duration}});\n  }\n});\n  \n\n/*\nfunction bind_hide_button(){\n  $(\"#hide_image_btn\").on(\"click\",function(){\n    $(\"#trial_image\").hide();\n    setTimeout(function(){\n      $(\"#trial_image\").show();\n      $(\"#hide_image_btn\").unbind();\n      total_approach_clicks++;\n      $(\"#approach_clicks\").val(total_approach_clicks)\n      setTimeout(function(){\n        bind_hide_button();\n      },33);\n    },33);\n  });\n}\nbind_hide_button();\n*/\n  \n  \n</script>"
   },
   "procs_csv": {
-    "procedure_1.csv": "item,trial type,max time,text,Shuffle 1,\r\n0,instruct,user,In the following trials you will need to click a button to show an image,off,\r\n2 to 3,approach,user,This is the start of a new experiment.,off,\r\n0,instruct,user,In the following trials you will need to click the button to hide the image,off,\r\n4 to 6,avoidance,user,,off,\r\n,,,,,"
+    "procedure_1.csv": "item,trial type,max time,text,Shuffle 1,weight,\r\n0,instruct,user,In the following trials you will need to click a button to show an image,off,,\r\n2 to 3,approach,user,This is the start of a new experiment.,off,0,\r\n0,instruct,user,In the following trials you will need to click the button to hide the image,off,0,\r\n4 to 6,avoidance,user,,off,0,\r\n,,,,,,"
   },
   "stims_csv": {
     "stimuli_1.csv": "cue,answer,image,hide_show_duration,\r\nA,Apple,../User/Stimuli/cam/blue.jpg,200,\r\nB,Banana,../User/Stimuli/cam/green.jpg,200,\r\n,,../User/Stimuli/cam/maroon.jpg,200,\r\n,,../User/Stimuli/cam/orange.jpg,200,\r\n,,../User/Stimuli/cam/pink.jpg,200,\r\n,,,,"
