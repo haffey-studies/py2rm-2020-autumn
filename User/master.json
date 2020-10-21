@@ -31635,7 +31635,7 @@
             ],
             [
               "AQ_attention_check_instruct",
-              "In this study we would like you to say how much you agree with a series of statements, and how much you've been stigmatised for how you've behaved.<br>\n<br>\nTo be stigmatised means that you are negatively judged or given some form of negative treatment for a behaviour or trait.<br>\n<br>\n<b>Importantly - whilst you may have received stigma for the behaviours below, none of them should be perceived as shameful, just ways in which people differ from each other.</b>\n<br>\n<br>\nWhen you are rating the stigma, you need to take into account whether you agreed or disagreed with a statement. For example, if you agreed with a statement \"I like to eat carrots\", then you would need to say how shamed/stigmatised you have been for eating carrots. However, if you disagreed with the statement \"I like to eat carrots\" you would need to say how much you've been stigmatised for NOT eating carrots. <br><br> \n\n<h2 class=\"text-primary\">To help you understand this task, please answer the following question as if you never sing in the rain, and are stigmatised for not singing in the rain.</h2><br>",
+              "Everybody has individual differences in their personality traits and ways they behave. Sometimes, people may feel they have experienced stigma, i.e. being shamed or negatively judged, for some of their traits or behaviours.\n<br>\n <br>\nIn this study we would like you to say how much you agree with a series of statements about traits/behaviours, and then how much you feel you have or have not been stigmatised for these traits/behaviours.\n<br>\n<br>\nWhen you are rating the stigma, you need to take into account whether you agreed or disagreed with a statement. For example, if you agreed with a statement \"I like to eat carrots\", then you would need to say how shamed/stigmatised you have been for eating carrots. However, if you disagreed with the statement \"I like to eat carrots\" you would need to say how much you've been stigmatised for NOT eating carrots. <br><br> \n\n<h3 class=\"text-primary\">To help you understand this task, please answer the following question <u>as if</u> you never sing in the rain, and are stigmatised for not singing in the rain.</h3><br>",
               "instruct",
               "",
               "",
@@ -31669,7 +31669,7 @@
             ],
             [
               "AQ_attention_check_1",
-              "How strongly does this statement apply to you",
+              "How strongly does this statement apply to you?",
               "likert",
               "Definitely disagree|Slightly disagree|Slightly agree|Definitely agree",
               "0|0|1|1",
@@ -31720,7 +31720,7 @@
             ],
             [
               "AQ_attention_check_1",
-              "How strongly does this statement apply to you",
+              "How strongly does this statement apply to you?",
               "likert",
               "Definitely disagree|Slightly disagree|Slightly agree|Definitely agree",
               "0|0|1|1",
@@ -44639,7 +44639,7 @@
         ],
         [
           "AQ_attention_check_instruct",
-          "In this study we would like you to say how much you agree with a series of statements, and how much you've been stigmatised for how you've behaved.<br>\n<br>\nTo be stigmatised means that you are negatively judged or given some form of negative treatment for a behaviour or trait.<br>\n<br>\n<b>Importantly - whilst you may have received stigma for the behaviours below, none of them should be perceived as shameful, just ways in which people differ from each other.</b>\n<br>\n<br>\nWhen you are rating the stigma, you need to take into account whether you agreed or disagreed with a statement. For example, if you agreed with a statement \"I like to eat carrots\", then you would need to say how shamed/stigmatised you have been for eating carrots. However, if you disagreed with the statement \"I like to eat carrots\" you would need to say how much you've been stigmatised for NOT eating carrots. <br><br> \n\n<h2 class=\"text-primary\">To help you understand this task, please answer the following question as if you never sing in the rain, and are stigmatised for not singing in the rain.</h2><br>",
+          "Everybody has individual differences in their personality traits and ways they behave. Sometimes, people may feel they have experienced stigma, i.e. being shamed or negatively judged, for some of their traits or behaviours.\n<br>\n <br>\nIn this study we would like you to say how much you agree with a series of statements about traits/behaviours, and then how much you feel you have or have not been stigmatised for these traits/behaviours.\n<br>\n<br>\nWhen you are rating the stigma, you need to take into account whether you agreed or disagreed with a statement. For example, if you agreed with a statement \"I like to eat carrots\", then you would need to say how shamed/stigmatised you have been for eating carrots. However, if you disagreed with the statement \"I like to eat carrots\" you would need to say how much you've been stigmatised for NOT eating carrots. <br><br> \n\n<h3 class=\"text-primary\">To help you understand this task, please answer the following question <u>as if</u> you never sing in the rain, and are stigmatised for not singing in the rain.</h3><br>",
           "instruct",
           "",
           "",
@@ -44673,7 +44673,7 @@
         ],
         [
           "AQ_attention_check_1",
-          "How strongly does this statement apply to you",
+          "How strongly does this statement apply to you?",
           "likert",
           "Definitely disagree|Slightly disagree|Slightly agree|Definitely agree",
           "0|0|1|1",
@@ -44724,7 +44724,7 @@
         ],
         [
           "AQ_attention_check_1",
-          "How strongly does this statement apply to you",
+          "How strongly does this statement apply to you?",
           "likert",
           "Definitely disagree|Slightly disagree|Slightly agree|Definitely agree",
           "0|0|1|1",
