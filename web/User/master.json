@@ -31631,11 +31631,11 @@
               "Optional",
               "btn_width",
               "side_text",
-              null
+              ""
             ],
             [
               "AQ_attention_check_instruct",
-              "When you are rating the stigma, you need to take into account whether you agreed or disagreed with a statement. For example, if you agreed with a statement \"I like to eat carrots\", then you would need to say how shamed/stigmatised you have been for eating carrots. However, if you disagreed with the statement \"I like to eat carrots\" you would need to say how much you've been stigmatised for NOT eating carrots. <br><br> \n\n<h2 class=\"text-primary\">To help you understand this task, please answer the following question as if you never sing in the rain, and are stigmatised for not singing in the rain.</h2>",
+              "In this study we would like you to say how much you agree with a series of statements, and how much you've been stigmatised for how you've behaved.<br>\n<br>\nTo be stigmatised means that you are negatively judged or given some form of negative treatment for a behaviour or trait.<br>\n<br>\n<b>Importantly - whilst you may have received stigma for the behaviours below, none of them should be perceived as shameful, just ways in which people differ from each other.</b>\n<br>\n<br>\nWhen you are rating the stigma, you need to take into account whether you agreed or disagreed with a statement. For example, if you agreed with a statement \"I like to eat carrots\", then you would need to say how shamed/stigmatised you have been for eating carrots. However, if you disagreed with the statement \"I like to eat carrots\" you would need to say how much you've been stigmatised for NOT eating carrots. <br><br> \n\n<h2 class=\"text-primary\">To help you understand this task, please answer the following question as if you never sing in the rain, and are stigmatised for not singing in the rain.</h2><br>",
               "instruct",
               "",
               "",
@@ -31648,10 +31648,10 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
-              "AQ_attention_check_instruct",
+              "AQ_attention_check_instruct1",
               "<span style='font-size:30'><b>I like to sing in the rain</b></span>",
               "instruct",
               "",
@@ -31665,10 +31665,10 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
-              "AQ_attention_check_instruct",
+              "AQ_attention_check_1",
               "How strongly does this statement apply to you",
               "likert",
               "Definitely disagree|Slightly disagree|Slightly agree|Definitely agree",
@@ -31682,10 +31682,10 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
-              "AQ_attention_check_instruct",
+              "AQ_attention_check_stigma_1",
               "How much do you feel you have been shamed/stigmatised for this behaviour?",
               "likert",
               "1|2|3|4|5|6|7",
@@ -31698,12 +31698,63 @@
               "",
               "",
               "",
+              "Not at all stigmatised|Extremely Stigmatised",
+              ""
+            ],
+            [
+              "AQ_attention_check_instruct1",
+              "<h3 class=\"text-primary\">For the following question, imagine that you like to walk barefoot, and are stigmatised for this.</h3><br>\n<br>\n<span style='font-size:30'><b>I like to walk barefoot</b></span>",
+              "instruct",
               "",
+              "",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "AQ_attention_check_1",
+              "How strongly does this statement apply to you",
+              "likert",
+              "Definitely disagree|Slightly disagree|Slightly agree|Definitely agree",
+              "0|0|1|1",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "AQ_attention_check_stigma_1",
+              "How much do you feel you have been shamed/stigmatised for this behaviour?",
+              "likert",
+              "1|2|3|4|5|6|7",
+              "1|2|3|4|5|6|7",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              "Not at all stigmatised|Extremely Stigmatised",
               null
             ],
             [
               "AQ_start",
-              "<h2 class=\"text-primary\">Now complete the following questions to reflect your own behaviour and feelings as accurately as possible:</h2>",
+              "<h3 class=\"text-primary\">Now complete the following questions to reflect your own behaviour and feelings as accurately as possible. <br><br>If you don't think it makes sense to rate stigma for your behaviour, just use the \"1\" value on the stigma scales </h3>",
               "instruct",
               "",
               "",
@@ -31716,7 +31767,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQinstruct1",
@@ -31733,7 +31784,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ1",
@@ -31750,7 +31801,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS1",
@@ -31767,7 +31818,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct2",
@@ -31784,7 +31835,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ2",
@@ -31801,7 +31852,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS2",
@@ -31818,7 +31869,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct3",
@@ -31835,7 +31886,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ3",
@@ -31852,7 +31903,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS3",
@@ -31869,7 +31920,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct4",
@@ -31886,7 +31937,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ4",
@@ -31903,7 +31954,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS4",
@@ -31920,7 +31971,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct5",
@@ -31937,7 +31988,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ5",
@@ -31954,7 +32005,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS5",
@@ -31971,7 +32022,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct6",
@@ -31988,7 +32039,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ6",
@@ -32005,7 +32056,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS6",
@@ -32022,7 +32073,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct7",
@@ -32039,7 +32090,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ7",
@@ -32056,7 +32107,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS7",
@@ -32073,7 +32124,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct8",
@@ -32090,7 +32141,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ8",
@@ -32107,7 +32158,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS8",
@@ -32124,7 +32175,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct9",
@@ -32141,7 +32192,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ9",
@@ -32158,7 +32209,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS9",
@@ -32175,7 +32226,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct10",
@@ -32192,7 +32243,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ10",
@@ -32209,7 +32260,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS10",
@@ -32226,7 +32277,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct11",
@@ -32243,7 +32294,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ11",
@@ -32260,7 +32311,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS11",
@@ -32277,7 +32328,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct12",
@@ -32294,7 +32345,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ12",
@@ -32311,7 +32362,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS12",
@@ -32328,7 +32379,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct13",
@@ -32345,7 +32396,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ13",
@@ -32362,7 +32413,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS13",
@@ -32379,7 +32430,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct14",
@@ -32396,7 +32447,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ14",
@@ -32413,7 +32464,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS14",
@@ -32430,7 +32481,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct15",
@@ -32447,7 +32498,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ15",
@@ -32464,7 +32515,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS15",
@@ -32481,7 +32532,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct16",
@@ -32498,7 +32549,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ16",
@@ -32515,7 +32566,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS16",
@@ -32532,7 +32583,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct17",
@@ -32549,7 +32600,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ17",
@@ -32566,7 +32617,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS17",
@@ -32583,7 +32634,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct18",
@@ -32600,7 +32651,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ18",
@@ -32617,7 +32668,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS18",
@@ -32634,7 +32685,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct19",
@@ -32651,7 +32702,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ19",
@@ -32668,7 +32719,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS19",
@@ -32685,7 +32736,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct20",
@@ -32702,7 +32753,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ20",
@@ -32719,7 +32770,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS20",
@@ -32736,7 +32787,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct21",
@@ -32753,7 +32804,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ21",
@@ -32770,7 +32821,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS21",
@@ -32787,7 +32838,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct22",
@@ -32804,7 +32855,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ22",
@@ -32821,7 +32872,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS22",
@@ -32838,7 +32889,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct23",
@@ -32855,7 +32906,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ23",
@@ -32872,7 +32923,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS23",
@@ -32889,7 +32940,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct24",
@@ -32906,7 +32957,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ24",
@@ -32923,7 +32974,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS24",
@@ -32940,7 +32991,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct25",
@@ -32957,7 +33008,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ25",
@@ -32974,7 +33025,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS25",
@@ -32991,7 +33042,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct26",
@@ -33008,7 +33059,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ26",
@@ -33025,7 +33076,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS26",
@@ -33042,7 +33093,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct27",
@@ -33059,7 +33110,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ27",
@@ -33076,7 +33127,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS27",
@@ -33093,7 +33144,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct28",
@@ -33110,7 +33161,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ28",
@@ -33127,7 +33178,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS28",
@@ -33144,7 +33195,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct29",
@@ -33161,7 +33212,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ29",
@@ -33178,7 +33229,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS29",
@@ -33195,7 +33246,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct30",
@@ -33212,7 +33263,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ30",
@@ -33229,7 +33280,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS30",
@@ -33246,7 +33297,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct31",
@@ -33263,7 +33314,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ31",
@@ -33280,7 +33331,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS31",
@@ -33297,7 +33348,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct32",
@@ -33314,7 +33365,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ32",
@@ -33331,7 +33382,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS32",
@@ -33348,7 +33399,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct33",
@@ -33365,7 +33416,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ33",
@@ -33382,7 +33433,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS33",
@@ -33399,7 +33450,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct34",
@@ -33416,7 +33467,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ34",
@@ -33433,7 +33484,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS34",
@@ -33450,7 +33501,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct35",
@@ -33467,7 +33518,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ35",
@@ -33484,7 +33535,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS35",
@@ -33501,7 +33552,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct36",
@@ -33518,7 +33569,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ36",
@@ -33535,7 +33586,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS36",
@@ -33552,7 +33603,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct37",
@@ -33569,7 +33620,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ37",
@@ -33586,7 +33637,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS37",
@@ -33603,7 +33654,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct38",
@@ -33620,7 +33671,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ38",
@@ -33637,7 +33688,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS38",
@@ -33654,7 +33705,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct39",
@@ -33671,7 +33722,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ39",
@@ -33688,7 +33739,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS39",
@@ -33705,7 +33756,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct40",
@@ -33722,7 +33773,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ40",
@@ -33739,7 +33790,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS40",
@@ -33756,7 +33807,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct41",
@@ -33773,7 +33824,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ41",
@@ -33790,7 +33841,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS41",
@@ -33807,7 +33858,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct42",
@@ -33824,7 +33875,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ42",
@@ -33841,7 +33892,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS42",
@@ -33858,7 +33909,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct43",
@@ -33875,7 +33926,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ43",
@@ -33892,7 +33943,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS43",
@@ -33909,7 +33960,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct44",
@@ -33926,7 +33977,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ44",
@@ -33943,7 +33994,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS44",
@@ -33960,7 +34011,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct45",
@@ -33977,7 +34028,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ45",
@@ -33994,7 +34045,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS45",
@@ -34011,7 +34062,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct46",
@@ -34028,7 +34079,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ46",
@@ -34045,7 +34096,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS46",
@@ -34062,7 +34113,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct47",
@@ -34079,7 +34130,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ47",
@@ -34096,7 +34147,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS47",
@@ -34113,7 +34164,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct48",
@@ -34130,7 +34181,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ48",
@@ -34147,7 +34198,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS48",
@@ -34164,7 +34215,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct49",
@@ -34181,7 +34232,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ49",
@@ -34198,7 +34249,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS49",
@@ -34215,7 +34266,7 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
               "AQinstruct50",
@@ -34232,7 +34283,7 @@
               "",
               "",
               "",
-              null
+              ""
             ],
             [
               "AQ50",
@@ -34249,7 +34300,7 @@
               "No",
               "100px",
               "",
-              null
+              ""
             ],
             [
               "AQS50",
@@ -34266,24 +34317,24 @@
               "",
               "",
               "Not at all stigmatised|Extremely Stigmatised",
-              null
+              ""
             ],
             [
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null,
-              null
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
             ]
           ]
         },
@@ -44584,11 +44635,11 @@
           "Optional",
           "btn_width",
           "side_text",
-          null
+          ""
         ],
         [
           "AQ_attention_check_instruct",
-          "When you are rating the stigma, you need to take into account whether you agreed or disagreed with a statement. For example, if you agreed with a statement \"I like to eat carrots\", then you would need to say how shamed/stigmatised you have been for eating carrots. However, if you disagreed with the statement \"I like to eat carrots\" you would need to say how much you've been stigmatised for NOT eating carrots. <br><br> \n\n<h2 class=\"text-primary\">To help you understand this task, please answer the following question as if you never sing in the rain, and are stigmatised for not singing in the rain.</h2>",
+          "In this study we would like you to say how much you agree with a series of statements, and how much you've been stigmatised for how you've behaved.<br>\n<br>\nTo be stigmatised means that you are negatively judged or given some form of negative treatment for a behaviour or trait.<br>\n<br>\n<b>Importantly - whilst you may have received stigma for the behaviours below, none of them should be perceived as shameful, just ways in which people differ from each other.</b>\n<br>\n<br>\nWhen you are rating the stigma, you need to take into account whether you agreed or disagreed with a statement. For example, if you agreed with a statement \"I like to eat carrots\", then you would need to say how shamed/stigmatised you have been for eating carrots. However, if you disagreed with the statement \"I like to eat carrots\" you would need to say how much you've been stigmatised for NOT eating carrots. <br><br> \n\n<h2 class=\"text-primary\">To help you understand this task, please answer the following question as if you never sing in the rain, and are stigmatised for not singing in the rain.</h2><br>",
           "instruct",
           "",
           "",
@@ -44601,10 +44652,10 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
-          "AQ_attention_check_instruct",
+          "AQ_attention_check_instruct1",
           "<span style='font-size:30'><b>I like to sing in the rain</b></span>",
           "instruct",
           "",
@@ -44618,10 +44669,10 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
-          "AQ_attention_check_instruct",
+          "AQ_attention_check_1",
           "How strongly does this statement apply to you",
           "likert",
           "Definitely disagree|Slightly disagree|Slightly agree|Definitely agree",
@@ -44635,10 +44686,10 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
-          "AQ_attention_check_instruct",
+          "AQ_attention_check_stigma_1",
           "How much do you feel you have been shamed/stigmatised for this behaviour?",
           "likert",
           "1|2|3|4|5|6|7",
@@ -44651,12 +44702,63 @@
           "",
           "",
           "",
+          "Not at all stigmatised|Extremely Stigmatised",
+          ""
+        ],
+        [
+          "AQ_attention_check_instruct1",
+          "<h3 class=\"text-primary\">For the following question, imagine that you like to walk barefoot, and are stigmatised for this.</h3><br>\n<br>\n<span style='font-size:30'><b>I like to walk barefoot</b></span>",
+          "instruct",
           "",
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "AQ_attention_check_1",
+          "How strongly does this statement apply to you",
+          "likert",
+          "Definitely disagree|Slightly disagree|Slightly agree|Definitely agree",
+          "0|0|1|1",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "AQ_attention_check_stigma_1",
+          "How much do you feel you have been shamed/stigmatised for this behaviour?",
+          "likert",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "Not at all stigmatised|Extremely Stigmatised",
           null
         ],
         [
           "AQ_start",
-          "<h2 class=\"text-primary\">Now complete the following questions to reflect your own behaviour and feelings as accurately as possible:</h2>",
+          "<h3 class=\"text-primary\">Now complete the following questions to reflect your own behaviour and feelings as accurately as possible. <br><br>If you don't think it makes sense to rate stigma for your behaviour, just use the \"1\" value on the stigma scales </h3>",
           "instruct",
           "",
           "",
@@ -44669,7 +44771,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQinstruct1",
@@ -44686,7 +44788,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ1",
@@ -44703,7 +44805,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS1",
@@ -44720,7 +44822,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct2",
@@ -44737,7 +44839,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ2",
@@ -44754,7 +44856,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS2",
@@ -44771,7 +44873,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct3",
@@ -44788,7 +44890,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ3",
@@ -44805,7 +44907,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS3",
@@ -44822,7 +44924,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct4",
@@ -44839,7 +44941,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ4",
@@ -44856,7 +44958,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS4",
@@ -44873,7 +44975,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct5",
@@ -44890,7 +44992,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ5",
@@ -44907,7 +45009,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS5",
@@ -44924,7 +45026,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct6",
@@ -44941,7 +45043,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ6",
@@ -44958,7 +45060,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS6",
@@ -44975,7 +45077,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct7",
@@ -44992,7 +45094,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ7",
@@ -45009,7 +45111,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS7",
@@ -45026,7 +45128,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct8",
@@ -45043,7 +45145,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ8",
@@ -45060,7 +45162,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS8",
@@ -45077,7 +45179,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct9",
@@ -45094,7 +45196,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ9",
@@ -45111,7 +45213,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS9",
@@ -45128,7 +45230,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct10",
@@ -45145,7 +45247,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ10",
@@ -45162,7 +45264,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS10",
@@ -45179,7 +45281,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct11",
@@ -45196,7 +45298,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ11",
@@ -45213,7 +45315,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS11",
@@ -45230,7 +45332,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct12",
@@ -45247,7 +45349,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ12",
@@ -45264,7 +45366,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS12",
@@ -45281,7 +45383,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct13",
@@ -45298,7 +45400,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ13",
@@ -45315,7 +45417,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS13",
@@ -45332,7 +45434,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct14",
@@ -45349,7 +45451,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ14",
@@ -45366,7 +45468,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS14",
@@ -45383,7 +45485,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct15",
@@ -45400,7 +45502,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ15",
@@ -45417,7 +45519,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS15",
@@ -45434,7 +45536,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct16",
@@ -45451,7 +45553,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ16",
@@ -45468,7 +45570,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS16",
@@ -45485,7 +45587,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct17",
@@ -45502,7 +45604,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ17",
@@ -45519,7 +45621,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS17",
@@ -45536,7 +45638,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct18",
@@ -45553,7 +45655,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ18",
@@ -45570,7 +45672,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS18",
@@ -45587,7 +45689,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct19",
@@ -45604,7 +45706,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ19",
@@ -45621,7 +45723,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS19",
@@ -45638,7 +45740,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct20",
@@ -45655,7 +45757,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ20",
@@ -45672,7 +45774,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS20",
@@ -45689,7 +45791,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct21",
@@ -45706,7 +45808,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ21",
@@ -45723,7 +45825,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS21",
@@ -45740,7 +45842,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct22",
@@ -45757,7 +45859,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ22",
@@ -45774,7 +45876,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS22",
@@ -45791,7 +45893,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct23",
@@ -45808,7 +45910,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ23",
@@ -45825,7 +45927,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS23",
@@ -45842,7 +45944,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct24",
@@ -45859,7 +45961,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ24",
@@ -45876,7 +45978,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS24",
@@ -45893,7 +45995,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct25",
@@ -45910,7 +46012,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ25",
@@ -45927,7 +46029,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS25",
@@ -45944,7 +46046,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct26",
@@ -45961,7 +46063,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ26",
@@ -45978,7 +46080,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS26",
@@ -45995,7 +46097,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct27",
@@ -46012,7 +46114,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ27",
@@ -46029,7 +46131,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS27",
@@ -46046,7 +46148,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct28",
@@ -46063,7 +46165,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ28",
@@ -46080,7 +46182,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS28",
@@ -46097,7 +46199,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct29",
@@ -46114,7 +46216,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ29",
@@ -46131,7 +46233,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS29",
@@ -46148,7 +46250,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct30",
@@ -46165,7 +46267,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ30",
@@ -46182,7 +46284,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS30",
@@ -46199,7 +46301,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct31",
@@ -46216,7 +46318,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ31",
@@ -46233,7 +46335,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS31",
@@ -46250,7 +46352,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct32",
@@ -46267,7 +46369,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ32",
@@ -46284,7 +46386,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS32",
@@ -46301,7 +46403,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct33",
@@ -46318,7 +46420,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ33",
@@ -46335,7 +46437,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS33",
@@ -46352,7 +46454,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct34",
@@ -46369,7 +46471,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ34",
@@ -46386,7 +46488,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS34",
@@ -46403,7 +46505,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct35",
@@ -46420,7 +46522,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ35",
@@ -46437,7 +46539,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS35",
@@ -46454,7 +46556,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct36",
@@ -46471,7 +46573,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ36",
@@ -46488,7 +46590,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS36",
@@ -46505,7 +46607,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct37",
@@ -46522,7 +46624,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ37",
@@ -46539,7 +46641,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS37",
@@ -46556,7 +46658,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct38",
@@ -46573,7 +46675,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ38",
@@ -46590,7 +46692,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS38",
@@ -46607,7 +46709,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct39",
@@ -46624,7 +46726,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ39",
@@ -46641,7 +46743,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS39",
@@ -46658,7 +46760,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct40",
@@ -46675,7 +46777,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ40",
@@ -46692,7 +46794,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS40",
@@ -46709,7 +46811,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct41",
@@ -46726,7 +46828,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ41",
@@ -46743,7 +46845,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS41",
@@ -46760,7 +46862,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct42",
@@ -46777,7 +46879,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ42",
@@ -46794,7 +46896,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS42",
@@ -46811,7 +46913,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct43",
@@ -46828,7 +46930,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ43",
@@ -46845,7 +46947,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS43",
@@ -46862,7 +46964,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct44",
@@ -46879,7 +46981,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ44",
@@ -46896,7 +46998,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS44",
@@ -46913,7 +47015,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct45",
@@ -46930,7 +47032,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ45",
@@ -46947,7 +47049,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS45",
@@ -46964,7 +47066,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct46",
@@ -46981,7 +47083,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ46",
@@ -46998,7 +47100,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS46",
@@ -47015,7 +47117,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct47",
@@ -47032,7 +47134,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ47",
@@ -47049,7 +47151,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS47",
@@ -47066,7 +47168,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct48",
@@ -47083,7 +47185,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ48",
@@ -47100,7 +47202,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS48",
@@ -47117,7 +47219,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct49",
@@ -47134,7 +47236,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ49",
@@ -47151,7 +47253,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS49",
@@ -47168,7 +47270,7 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
           "AQinstruct50",
@@ -47185,7 +47287,7 @@
           "",
           "",
           "",
-          null
+          ""
         ],
         [
           "AQ50",
@@ -47202,7 +47304,7 @@
           "No",
           "100px",
           "",
-          null
+          ""
         ],
         [
           "AQS50",
@@ -47219,24 +47321,24 @@
           "",
           "",
           "Not at all stigmatised|Extremely Stigmatised",
-          null
+          ""
         ],
         [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
         ]
       ]
     },
