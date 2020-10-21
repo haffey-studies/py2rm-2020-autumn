@@ -1,11 +1,23 @@
 item_name,text,Type,Answers,Values,Score: AQ_total,Score: Social_Skill,Score: Attention_switching,Score: Communication,Score: Imagination,Score: Attention_to_detail,Optional,btn_width,side_text,
-AQ_attention_check_instruct,"When you are rating the stigma, you need to take into account whether you agreed or disagreed with a statement. For example, if you agreed with a statement ""I like to eat carrots"", then you would need to say how shamed/stigmatised you have been for eating carrots. However, if you disagreed with the statement ""I like to eat carrots"" you would need to say how much you've been stigmatised for NOT eating carrots. <br><br> 
+AQ_attention_check_instruct,"In this study we would like you to say how much you agree with a series of statements, and how much you've been stigmatised for how you've behaved.<br>
+<br>
+To be stigmatised means that you are negatively judged or given some form of negative treatment for a behaviour or trait.<br>
+<br>
+<b>Importantly - whilst you may have received stigma for the behaviours below, none of them should be perceived as shameful, just ways in which people differ from each other.</b>
+<br>
+<br>
+When you are rating the stigma, you need to take into account whether you agreed or disagreed with a statement. For example, if you agreed with a statement ""I like to eat carrots"", then you would need to say how shamed/stigmatised you have been for eating carrots. However, if you disagreed with the statement ""I like to eat carrots"" you would need to say how much you've been stigmatised for NOT eating carrots. <br><br> 
 
-<h2 class=""text-primary"">To help you understand this task, please answer the following question as if you never sing in the rain, and are stigmatised for not singing in the rain.</h2>",instruct,,,,,,,,,,,,
-AQ_attention_check_instruct,<span style='font-size:30'><b>I like to sing in the rain</b></span>,instruct,,,,,,,,,,,,
-AQ_attention_check_instruct,How strongly does this statement apply to you,likert,Definitely disagree|Slightly disagree|Slightly agree|Definitely agree,0|0|1|1,,,,,,,,,,
-AQ_attention_check_instruct,How much do you feel you have been shamed/stigmatised for this behaviour?,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,,,,,,,,
-AQ_start,"<h2 class=""text-primary"">Now complete the following questions to reflect your own behaviour and feelings as accurately as possible:</h2>",instruct,,,,,,,,,,,,
+<h2 class=""text-primary"">To help you understand this task, please answer the following question as if you never sing in the rain, and are stigmatised for not singing in the rain.</h2><br>",instruct,,,,,,,,,,,,
+AQ_attention_check_instruct1,<span style='font-size:30'><b>I like to sing in the rain</b></span>,instruct,,,,,,,,,,,,
+AQ_attention_check_1,How strongly does this statement apply to you,likert,Definitely disagree|Slightly disagree|Slightly agree|Definitely agree,0|0|1|1,,,,,,,,,,
+AQ_attention_check_stigma_1,How much do you feel you have been shamed/stigmatised for this behaviour?,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,,,,,,,Not at all stigmatised|Extremely Stigmatised,
+AQ_attention_check_instruct1,"<h3 class=""text-primary"">For the following question, imagine that you like to walk barefoot, and are stigmatised for this.</h3><br>
+<br>
+<span style='font-size:30'><b>I like to walk barefoot</b></span>",instruct,,,,,,,,,,,,
+AQ_attention_check_1,How strongly does this statement apply to you,likert,Definitely disagree|Slightly disagree|Slightly agree|Definitely agree,0|0|1|1,,,,,,,,,,
+AQ_attention_check_stigma_1,How much do you feel you have been shamed/stigmatised for this behaviour?,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,,,,,,,Not at all stigmatised|Extremely Stigmatised,
+AQ_start,"<h3 class=""text-primary"">Now complete the following questions to reflect your own behaviour and feelings as accurately as possible. <br><br>If you don't think it makes sense to rate stigma for your behaviour, just use the ""1"" value on the stigma scales </h3>",instruct,,,,,,,,,,,,
 AQinstruct1,<span style='font-size:30'><b>I prefer to do things with others rather than on my own.</b></span>,instruct,,,,,,,,,,,,
 AQ1,How strongly does this statement apply to you?,likert,Definitely disagree|Slightly disagree|Slightly agree|Definitely agree,0|0|1|1,1,1,,,,,No,100px,,
 AQS1,How much do you feel you have been shamed/stigmatised for this behaviour?,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,,,,,,,Not at all stigmatised|Extremely Stigmatised,
