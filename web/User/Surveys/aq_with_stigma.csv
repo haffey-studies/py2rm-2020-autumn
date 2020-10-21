@@ -1,0 +1,5 @@
+item_name,text,Type,Answers,Values,Score: AQ_Test,Score: Social_Skill,Score: Attention_switching,Score: Communication,Score: Imagination,Score: Attention_to_detail,Optional,btn_width,side_text,
+Instructions1,<span style='color:#006699'><span style='font-size:20px'>Choose one response that best describes how strongly each item applies to you:</span></span>,Instruct,,,,,,,,,,,,
+AQ1,I prefer to do things on my own rather than with others.,likert,Definitely disagree|Slightly disagree|Slightly agree|Definitely agree,0|0|1|1,1,1,,,,,No,100px,,
+AQS1,To what extent have you been shamed/stigmatised for preferring to do things alone rather than with other people?,likert,1|2|3|4|5|6|7,1|2|3|4|5|6|7,,,,,,,,,Not at all stigmatised|Extremely Stigmatised,
+,,,,,,,,,,,,,,
