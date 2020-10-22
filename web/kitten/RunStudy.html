@@ -456,7 +456,7 @@ Study = {
             this_iframe_style.transformOrigin = "left top"
           } else {
             this_iframe_style.width  = "100%";
-            this_iframe_style.height = "100%";            
+            this_iframe_style.height = "100%";
           }
 
 
@@ -1455,10 +1455,27 @@ function start_study(){
 						Study.activate_pipe();
 					});
 				} else {
-					$.get("../User/Experiments/" + Study.get_vars.location + ".json",function(result){
-						exp_json = result;
-						Study.activate_pipe();
-					});
+          /*
+          * wrap into function that will automatically keep trying until you have succesfully loaded the experiment!
+          */
+          function recursive_load_experiment(random_code){
+            if(typeof(random_code) == "undefined"){
+              random_code = "";
+            }
+            $.get("../User/Experiments/" + Study.get_vars.location + ".json?randomcode=" + random_code,function(result){
+              exp_json = result;
+              Study.activate_pipe();
+            })
+            .catch(function(error){
+              bootbox.confirm("It looks like the experiment you're trying to load isn't there (yet) - click OK if you'd like to try to load the experiment again (clicking OK can be quicker than constantly refreshing the page)?", function(result){
+                if(result){
+                  recursive_load_experiment(Collector.makeid(5));
+                }
+              });
+              console.dir(error);
+            });
+          }
+          recursive_load_experiment();
 				}
 				break;
 			default:
