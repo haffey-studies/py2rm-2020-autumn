@@ -1,5 +1,3 @@
 name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,
 condition_1,You can put more detailed notes in this field,arithmetic_questions.csv,procedure_1.csv,off,,random,,,5,,
-growth_first_2,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,random,,,5,,
-growth_first_3,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,random,,,5,,
 ,,,,,,,,,,,
