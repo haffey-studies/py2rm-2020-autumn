@@ -109,9 +109,14 @@ input{
   <button class="btn btn-large btn-primary" id="check_answers_btn">Check Answers</button>
   <button class="btn btn-large btn-primary" onclick="Trial.submit()" id="proceed_btn">Proceed</button>
 </div>
+
+<input type="hidden" id="question_1_attempts" name="question_1_attempts"/>
+<input type="hidden" id="question_2_attempts" name="question_2_attempts"/>
+<input type="hidden" id="question_3_attempts" name="question_3_attempts"/>
+<input type="hidden" id="question_4_attempts" name="question_4_attempts"/>
+<input type="hidden" id="question_5_attempts" name="question_5_attempts"/>
+
 <script>
-
-
 /*
 * Work out what is going on with your blocks etc.
 */
@@ -128,8 +133,9 @@ var answer_array = [
 
 $("#check_answers_btn").on("click",function(){
   for(var i=1; i<6; i++){
-    console.dir(i);
-    console.dir($('#row_' + i + '_answer').val());
+    var attempts_so_far = $("#question_" +i  + "_attempts").val();
+        attempts_so_far += ";" + $("#row_" + i + "_answer").val();
+        $("#question_" +i  + "_attempts").val(attempts_so_far);
     if($("#row_" + i + "_answer").val() == answer_array[i]){
       $("#feedback_" + i).html("<span class='text-success'>Correct</span>");
     } else {
