@@ -929,7 +929,7 @@
       ],
       [
         "Instructions1",
-        "Answer each question according to the way you personally feel, using the following scale:<br><br>\n\n1=Not at All<br>\n6=Moderately<br>\n11=Extremely",
+        "Answer each question according to the way you personally feel, using the following scales:<br><br>",
         "Instruct",
         "",
         "",
@@ -939,37 +939,37 @@
         ""
       ],
       [
-        "arith_confidence",
-        "How confident are you in your ability to do arithmetic?",
-        "likert",
-        "1|2|3|4|5|6|7|8|9|10|11",
-        "1|2|3|4|5|6|7|8|9|10|11",
+        "arith_conf_numeric",
+        "How confident are you in your ability to do arithmetic? <br>(0 = not at all, 100 = extremely)",
+        "number",
+        null,
+        null,
         "No",
-        "50px",
-        "Not at All|Extremely",
-        ""
+        null,
+        null,
+        null
       ],
       [
-        "arith_enjoyment",
-        "How much do you enjoy arithmetic?",
-        "likert",
-        "1|2|3|4|5|6|7|8|9|10|11",
-        "1|2|3|4|5|6|7|8|9|10|11",
+        "arith_enj_numeric",
+        "How much do you enjoy arithmetic? <br>(0 = not at all, 100 = extremely)",
+        "number",
+        null,
+        null,
         "No",
-        "50px",
-        "Not at All|Extremely",
-        ""
+        null,
+        null,
+        null
       ],
       [
-        "mood_today",
-        "How happy or sad are you feeling?",
-        "likert",
-        "1|2|3|4|5|6|7|8|9|10|11",
-        "1|2|3|4|5|6|7|8|9|10|11",
+        "current_mood",
+        "How happy or sad are you feeling? <br> (0 = extremely sad, 50 = neutral, 100 = extremley happy)",
+        "number",
+        null,
+        null,
         "No",
-        "50px",
-        "Extremely Sad|Extremely Happy",
-        ""
+        null,
+        null,
+        null
       ],
       [
         null,
