@@ -1,7 +1,17 @@
 item,trial type,max time,text,Shuffle 1,survey,
 0,create_feedback,user,,off,,
-0,instruct,user,information sheet will go here,off,,
-0,instruct,user,You will be given some arithmetic to do. Please complete in your own time,off,,
+0,survey,user,,off,py2rm_autumn_2020_info.csv,
+0,instruct,user,"You will be given some arithmetic to do. <br>
+<br>
+Please complete them in your own time<br>
+<br>
+Once you have attempted a question <b>you will have the opportunity to try again</b>. <br>
+<br>
+<b>Feel free to take another go to correct any mistakes before proceeding.</b> <br>
+<br>
+<b>You may also choose to proceed without correcting mistakes</b><br>
+<br>
+Click Proceed to start the arithmetic tasks",off,,
 0,survey,user,,off,arithmetic_feelings.csv,
 2 to 11,arithmetic,user,,practice,,
 0,survey,user,,off,arithmetic_feelings.csv,
@@ -15,5 +25,5 @@ item,trial type,max time,text,Shuffle 1,survey,
 0,survey,user,,off,bfi.csv,
 0,survey,user,,off,py2rm_2020_single_items.csv,
 0,survey,user,,off,demographics.csv,
-0,instruct,user,debrief form will go here,off,,
+0,survey,user,,off,py2rm_autumn_2020_debrief.csv,
 ,,,,,,

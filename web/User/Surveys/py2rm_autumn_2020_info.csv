@@ -1,0 +1,28 @@
+item_name,text,Type,Answers,Values,Optional,side_by_side,
+Instructions1,"<h1>PARTICIPANT INFORMATION SHEET </h1>
+
+<h2>Title of Project: What influences responses to arithmetic tasks?.</h2>
+
+<h2>Information and consent sheet</h2>
+
+<h3>Researchers:  Dr Anthony Haffey <br>
+contact: a.haffey@reading.ac.uk<br>
+University of Reading</h3>
+This is a project taking place at the Psychology and Clinical Language department of the University of Reading, as part of a compulsory 2nd year BSc module on Research Methods and Data Analysis. If you have any questions about this project, please contact the project supervisor, or the module convenor (below).
+<br>
+<br>
+
+Your data will be kept confidential and securely stored, with only an anonymous number identifying it.  As data will be entirely anonymous and contains no personally identifying information we will keep it and may release it along with any publications that come from this research in the future. Taking part in this study is completely voluntary; you may withdraw at any time, even when you’re part way through, without having to give any reason. After reading and considering this form, your continued participation indicates you have given informed consent. 
+<br><br>
+
+<i>This application has been reviewed by the University Research Ethics Committee and has been given a favourable ethical opinion for conduct</i>
+<br>
+<br>
+Thank you, <br>
+<br>
+Project Supervisor: Anthony Haffey<br>
+<br>
+Module convenor: Eugene McSorley  (e.mcsorley@reading.ac.uk)
+",Instruct,,,,,
+Info_Accept,I understand these instructions and am happy to continue,likert,Agree,1,No,yes,
+,
