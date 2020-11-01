@@ -9,5 +9,4 @@ emotional_sensitivity,How much are your emotions influenced by other people?,lik
 resilience_item,"How much do you agree with the statement: ""Making mistakes really hurts my confidence""?",likert,1|2|3|4|5|6|7|8|9|10|11,1|2|3|4|5|6|7|8|9|10|11,No,Not at all true of me|Extremely true of me,
 optmism_pessimism,How optimistic/pessimistic are you?,likert,1|2|3|4|5|6|7|8|9|10|11,1|2|3|4|5|6|7|8|9|10|11,No,Extremely Pessimistic|Extremely Optimistic,
 narcissism_item,"To what extent do you agree with this statement: I am a narcissist. (Note: The word ‘narcissist’ means egotistical, self-focused, and vain.)” (1 == not true of me, 11 == very true of me)",likert,1|2|3|4|5|6|7|8|9|10|11,1|2|3|4|5|6|7|8|9|10|11,No,Not at all true of me|Extremely true of me,
-mood_today,How happy or sad are you feeling today?,likert,1|2|3|4|5|6|7|8|9|10|11,1|2|3|4|5|6|7|8|9|10|11,No,Extremely Sad|Extremely Happy,
 ,,,,,,,

@@ -109,6 +109,11 @@ input{
   <button class="btn btn-large btn-primary" id="check_answers_btn">Check Answers</button>
   <button class="btn btn-large btn-primary" onclick="Trial.submit()" id="proceed_btn">Proceed</button>
 </div>
+
+
+<input type="hidden" id="feedback_type" name="feedback_type"/>
+<input type="hidden" id="feedback_pos" name="feedback_pos"/>
+<input type="hidden" id="feedback_neg" name="feedback_neg"/>
 <script>
 
 
@@ -128,6 +133,10 @@ Trial.set_timer(function(){
   var trial_feedback = block_feedback.pop();
   
   Trial.set(block_type + "_feedback", block_feedback);
+  
+  $("#feedback_type").val(block_type);
+  $("#feedback_pos").val(trial_feedback.correct);
+  $("#feedback_neg").val(trial_feedback.incorrect);
   
   var answer_array = [
     null,
