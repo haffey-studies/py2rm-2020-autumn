@@ -962,7 +962,7 @@
       ],
       [
         "current_mood",
-        "How happy or sad are you feeling? <br> (0 = extremely sad, 50 = neutral, 100 = extremley happy)",
+        "How happy or sad are you feeling? <br> (0 = extremely sad, 50 = neutral, 100 = extremely happy)",
         "number",
         null,
         null,
