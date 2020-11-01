@@ -8246,7 +8246,7 @@
             ],
             [
               "Instructions1",
-              "Answer each question according to the way you personally feel, using the following scale:<br>\n1=Not at All<br>\n4=Moderately<br>\n7=Extremely",
+              "Answer each question according to the way you personally feel, using the following scale:<br><br>\n\n1=Not at All<br>\n6=Moderately<br>\n11=Extremely",
               "Instruct",
               "",
               "",
@@ -43963,7 +43963,7 @@
         ],
         [
           "Instructions1",
-          "Answer each question according to the way you personally feel, using the following scale:<br>\n1=Not at All<br>\n4=Moderately<br>\n7=Extremely",
+          "Answer each question according to the way you personally feel, using the following scale:<br><br>\n\n1=Not at All<br>\n6=Moderately<br>\n11=Extremely",
           "Instruct",
           "",
           "",
