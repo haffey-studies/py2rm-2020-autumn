@@ -339,7 +339,7 @@ function update_handsontables(){
 
   switch(Collector.detect_context()){
       case "localhost":
-				var conditions_sheet = Collector.electron.read_file(
+				var conditions_sheet = Collector.electron.fs.read_file(
           "Experiments/"  + $("#experiment_list").val(),
 				  "conditions.csv"
         )
@@ -359,7 +359,7 @@ function update_handsontables(){
 											 "cond_array",
 										   conditions_sheet);
 
-	    var stim_sheet = Collector.electron.read_file(
+	    var stim_sheet = Collector.electron.fs.read_file(
         "Experiments/" + $("#experiment_list").val(),
 				stim_file
       );
@@ -380,7 +380,7 @@ function update_handsontables(){
 				 stim_sheet
        );
 
-       var proc_sheet = Collector.electron.read_file(
+       var proc_sheet = Collector.electron.fs.read_file(
          "Experiments/"  + $("#experiment_list").val(),
        	 proc_file
        );
