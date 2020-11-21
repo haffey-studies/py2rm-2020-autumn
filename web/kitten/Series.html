@@ -99,7 +99,7 @@ function get_gets() {
         if(typeof(Collector.electron) !== "undefined"){
           clearInterval(lazy_electron_wait);
           var series = JSON.parse(
-            Collector.electron.read_file(
+            Collector.electron.fs.read_file(
               "Series",
               Series.get_vars.series + ".json"
             )

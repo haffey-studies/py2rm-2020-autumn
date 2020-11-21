@@ -44,6 +44,7 @@
 <script src="Code/OnlineTriggers.js"></script>
 <script src="Code/CollectorEncrypt.js"></script>
 <script src="Code/BrowserCheck.js"></script>
+<script src="Code/MobileCheck.js"></script>
 
 <div id="welcome_html"></div>
 <script>
@@ -288,7 +289,7 @@ Study = {
 
     switch(Study.get_vars.platform){
       case "localhost":
-        var data_response = Collector.electron.write_data(
+        var data_response = Collector.electron.fs.write_data(
           Study.get_vars.location,
             $("#participant_code").val() + "_" +
             $("#completion_code").val()  + ".csv",
@@ -892,12 +893,12 @@ function parse_sheets(){
     case "preview":
       var folder = "Experiments/"+ Study.get_vars.location;
 
-      var proc_sheet_content = Collector.electron.read_file(
+      var proc_sheet_content = Collector.electron.fs.read_file(
         folder,
         proc_sheet_name
       );
 
-      var stim_sheet_content = Collector.electron.read_file(
+      var stim_sheet_content = Collector.electron.fs.read_file(
         folder,
         stim_sheet_name
       );
@@ -1201,13 +1202,24 @@ function requestFullScreen(element) {
 }
 
 function select_condition(){
-	exp_json.conditions = Collector.PapaParsed(exp_json.cond_array);
+  exp_json.conditions = Collector.PapaParsed(exp_json.cond_array);
 
   exp_json.this_condition = exp_json.conditions.filter(function(row){
     return row.name == Study.get_vars.name;
   })[0];
 
-  Study.activate_pipe();
+  /*
+  * Check if use of mobile devices is off
+  */
+  if(
+    typeof(exp_json.this_condition.mobile) !== "undefined" &&
+    exp_json.this_condition.mobile.toLowerCase() == "no" &&
+    window.mobilecheck()
+  ){
+    alert("This experiment will not run on a mobile device. Please complete it on a laptop or desktop (using google chrome if possible).");
+  } else{
+    Study.activate_pipe();
+  }
 }
 
 //by Laurens Holst on https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
@@ -1431,11 +1443,12 @@ function start_study(){
 			case "localhost":
       case "preview":
         electron_wait = setInterval(function(){
-          if(typeof(Collector.electron.read_file) !== "undefined"){
+          if(typeof(Collector.electron.fs.read_file) !== "undefined"){
             clearInterval(electron_wait);
             exp_json = JSON.parse(
               Collector
                 .electron
+                .fs
                 .read_file(
                   "Experiments",
                   Study
@@ -1603,16 +1616,21 @@ $(window).bind('keydown', function(event) {
 
 //prevent closing without warning
 window.onbeforeunload = function() {
+  switch(Study.get_vars.platform){
+    case "localhost":
+      break;
+    default:
+      if(online_data_obj.finished_and_stored == false){
+        bootbox.confirm("Would you like to leave the experiment early? If you didn't just download your data there's a risk of you losing your progress.",function(result){
+          if(result){
+            online_data_obj.finished_and_stored = true; //even though it's not
+          }
+        });
+        precrypted_data(exp_json,"It looks like you're trying to leave the experiment before you're finished (or at least before the data has been e-mailed to the researcher. Please choose a filename to save your data as and e-mail it to the researcher. It should appear in your downloads folder.");
 
-  if(online_data_obj.finished_and_stored == false){
-    bootbox.confirm("Would you like to leave the experiment early? If you didn't just download your data there's a risk of you losing your progress.",function(result){
-      if(result){
-        online_data_obj.finished_and_stored = true; //even though it's not
+        return "Please do not try to refresh - you will have to restart if you do so.";
       }
-    });
-    precrypted_data(exp_json,"It looks like you're trying to leave the experiment before you're finished (or at least before the data has been e-mailed to the researcher. Please choose a filename to save your data as and e-mail it to the researcher. It should appear in your downloads folder.");
-
-    return "Please do not try to refresh - you will have to restart if you do so.";
+      break;
   }
 };
 $("body").css("text-align","center");

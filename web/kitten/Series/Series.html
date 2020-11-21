@@ -129,9 +129,9 @@ $("#run_series_btn").on("click", function(){
   var series = $("#series_select").val();
 
   var series_url =  "https://" +
-                      master_json.github.organisation +
+                      github_json.organization +
                       ".github.io/"                   +
-                      master_json.github.repository   + "/" +
+                      github_json.repository   + "/" +
                       "kitten/Series.html"            + "?" +
                       "series="                       +
                       master_json.series_mgmt.current + "&" +
@@ -163,7 +163,7 @@ $("#run_series_btn").on("click", function(){
 $("#save_series_btn").on("click", function(){
   switch(Collector.detect_context()){
     case "localhost":
-      Collector.electron.write_file(
+      Collector.electron.fs.write_file(
         "Series",
         $("#series_select").val()
                            .toLowerCase()
